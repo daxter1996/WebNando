@@ -10,15 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <header>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="index.php" class="brand-logo center"><img src="img/logoh.jpg" width="30%"></a>
-            <ul id="nav-mobile" class="right ">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-            </ul>
-        </div>
-    </nav>
+   <?php include_once "header.html"; ?>
 </header>
 <body>
 
