@@ -25,7 +25,7 @@
             wifi gratis, caja fuerte gratuita, piscina comunitaria con ducha y tumbonas.
         </p>
         <p>
-            <a href="#" class="waves-effect waves-light btn blue">Reserva <i class="material-icons right">drafts</i></a>
+            <a href="form.php" class="waves-effect waves-light btn blue">Reserva <i class="material-icons right">drafts</i></a>
             <a href="galeriab1.php" class="waves-effect waves-light btn blue">Galeria<i class="material-icons right">insert_photo</i></a>
         </p>
     </div>

@@ -13,6 +13,7 @@
    <?php include_once "header.html"; ?>
 </header>
 <body>
+    <img class="materialboxed" width="650" src="img/blue_beach/galeria1.jpg">
 
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
