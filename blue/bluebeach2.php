@@ -26,6 +26,7 @@
         </p>
         <p>
             <a class="waves-effect waves-light btn blue">Reserva <i class="material-icons right">book</i></a>
+            <a href="galeriab2.php" class="waves-effect waves-light btn blue">Galeria<i class="material-icons right">insert_photo</i></a>
         </p>
     </div>
 </div>
