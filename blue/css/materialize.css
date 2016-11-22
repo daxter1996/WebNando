@@ -4058,13 +4058,13 @@ nav .button-collapse {
   float: left;
   position: relative;
   z-index: 1;
-  height: 100px;
+  height: 70px;
   margin: 0 18px;
 }
 
 nav .button-collapse i {
-  height: 100px;
-  line-height: 100px;
+  height: 70px;
+  line-height: 70px;
 }
 
 nav .brand-logo {
@@ -4074,6 +4074,7 @@ nav .brand-logo {
   font-size: 2.1rem;
   padding: 0;
   white-space: nowrap;
+  height:70px;
 
 }
 
@@ -4204,11 +4205,11 @@ nav .input-field label.active {
 
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 100px;
-    line-height: 100px;
+    height: 70px;
+    line-height: 70px;
   }
   .navbar-fixed {
-    height: 100px;
+    height: 70px;
   }
 }
 
