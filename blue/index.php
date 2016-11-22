@@ -1,9 +1,4 @@
 <?php
-if (!empty($_GET["lang"])) {
-    setcookie("langcookie",$_GET["lang"]);
-    echo $_GET["lang"];
-    echo $_COOKIE["langcookie"];
-}
 if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 }
 

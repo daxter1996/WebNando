@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <header>
-    <?php include_once "header.html"; ?>
+    <?php include_once "header.php"; ?>
 </header>
 <body>
 <br/>
