@@ -17,7 +17,7 @@
     <div class="row">
         <br/>
         <?php
-            foreach (glob("img/blue_beach/g*.jpg") as $item){
+            foreach (glob("img/blue_beach/galeria/*.jpg") as $item){
                 echo "<img class='materialboxed col m3 s12' style='margin-top: 10px' src=".$item.">";
             }
         ?>

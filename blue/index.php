@@ -26,7 +26,40 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
    <?php include_once "header.php"; ?>
 </header>
 <body>
-<?php echo $_COOKIE["langcookie"];?>
+
+<div class="row">
+    <div class="col s12 m6">
+        <div class="card">
+            <div class="card-image">
+                <img src="img/blue_beach/principal.png">
+                <span class="card-title">Blue Beach</span>
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+                <a href="bluebeach.php">Mas Informacion</a>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m6">
+        <div class="card">
+            <div class="card-image">
+                <img src="img/blue_beach_2/principal.jpg">
+                <span class="card-title">Blue Beach 2</span>
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+                <a href="bluebeach2.php">Mas Informacion</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
