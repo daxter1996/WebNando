@@ -26,7 +26,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
    <?php include_once "header.php"; ?>
 </header>
 <body>
-
+<br/>
 <div class="row">
     <div class="col s12 m6">
         <div class="card">
