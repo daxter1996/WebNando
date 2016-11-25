@@ -288,7 +288,7 @@
       <workItem from="1480083383175" duration="2825000" />
       <workItem from="1480089481681" duration="14000" />
       <workItem from="1480091329163" duration="325000" />
-      <workItem from="1480091681333" duration="1904000" />
+      <workItem from="1480091681333" duration="1929000" />
     </task>
     <task id="LOCAL-00001" summary="Banderetes a nes header, footer i classe nova a css.">
       <created>1479801046097</created>
@@ -360,11 +360,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480093582714</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Homepage">
+      <created>1480093589040</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1480093589040</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30343000" />
+    <option name="totallyTimeSpent" value="30368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
