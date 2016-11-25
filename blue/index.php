@@ -28,7 +28,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 <body>
 <br/>
 <div class="row">
-    <div class="col s12 m6">
+    <div class="col s12 m5 offset-m1">
         <div class="card">
             <div class="card-image">
                 <img src="img/blue_beach/principal.png">
@@ -43,7 +43,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
             </div>
         </div>
     </div>
-    <div class="col s12 m6">
+    <div class="col s12 m5">
         <div class="card">
             <div class="card-image">
                 <img src="img/blue_beach_2/principal.jpg">
