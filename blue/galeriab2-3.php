@@ -4,7 +4,7 @@
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
@@ -13,13 +13,14 @@
 </header>
 <body>
 <div class="container center">
-    <h2>Galeria Blue Beach</h2>
+    <h2>Galeria Blue Beach 2</h2>
+    <strong>Tres Habitaciones</strong>
     <div class="row">
         <br/>
         <?php
-            foreach (glob("img/blue_beach/galeria/*.jpg") as $item){
-                echo "<img class='materialboxed col m3 s12' style='margin-top: 10px' src=".$item.">";
-            }
+        foreach (glob("img/blue_beach/g*.jpg") as $item){
+            echo "<img class='materialboxed col m3 s12' style='margin-top: 10px' src=".$item.">";
+        }
         ?>
     </div>
 </div>

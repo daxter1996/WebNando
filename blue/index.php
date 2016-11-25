@@ -27,9 +27,9 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
         <div class="card">
             <div class="card-image">
                 <img src="img/blue_beach/principal.png">
-                <span class="card-title">Blue Beach</span>
             </div>
             <div class="card-content">
+                <h4>Blue Beach</h4>
                 <p>I am a very simple card. I am good at containing small bits of information.
                     I am convenient because I require little markup to use effectively.</p>
             </div>
@@ -42,9 +42,9 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
         <div class="card">
             <div class="card-image">
                 <img src="img/blue_beach_2/principal.jpg">
-                <span class="card-title">Blue Beach 2</span>
             </div>
             <div class="card-content">
+                <h4>Blue Beach 2</h4>
                 <p>I am a very simple card. I am good at containing small bits of information.
                     I am convenient because I require little markup to use effectively.</p>
             </div>

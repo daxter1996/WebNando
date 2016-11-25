@@ -38,45 +38,49 @@
 
 <div class="section white">
     <div class="row container">
-        <h3 class="header">Descripcción</h3>
-        <p class="grey-text text-darken-3 lighten-3">
-            <ul class="tabs">
-                <li class="tab col s3"><a href="#habitacion">Habitaciones</a></li>
-                <li class="tab col s3"><a href="#cocina">Cocina</a></li>
-                <li class="tab col s3"><a href="#baño">Baño</a></li>
-            </ul>
-            <div id="habitacion" class="col s12">
-                <p>
-                    <ul>
-                        <li>Una habitacion</li>
-                        <li>Cama de 160cm con colchón de gran calidad</li>
-                        <li>Cuna opcional</li>
-                        <li>Sofá cama en sala para una persona</li>
-                    </ul>
-                </p>
-            </div>
-            <div id="cocina" class="col s12">
-                <p>
-                    <ul>
-                        <li>Cocina eléctrica completa con menaje</li>
-                        <li>Frigorífico</li>
-                        <li>Tostadora</li>
-                        <li>Microondas</li>
-                        <li>Cafetera</li>
-                        <li>Hervidor de Agua</li>
-                    </ul>
-                </p>
-            </div>
-            <div id="baño" class="col s12">
-                <p>
-                    <ul>
-                        <li>Secador de Pelo</li>
-                        <li>Espejo de Maquillage</li>
-                        <li>Bañera</li>
-                    </ul>
-                </p>
-            </div>
-        </p>
+        <h2 class="header">Descripcion</h2>
+        <div class="col m12">
+            <p class="grey-text text-darken-3 lighten-3">
+                <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">hotel</i>Habitaciones</div>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>Una habitacion</li>
+                                <li>Cama de 160cm con colchón de gran calidad</li>
+                                <li>Cuna opcional</li>
+                                <li>Sofá cama en sala para una persona</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">kitchen</i>Cocina</div>
+                        <div class="collapsible-body">
+                            <p>
+                                <ul>
+                                    <li>Cocina eléctrica completa con menaje</li>
+                                    <li>Frigorífico</li>
+                                    <li>Tostadora</li>
+                                    <li>Microondas</li>
+                                    <li>Cafetera</li>
+                                    <li>Hervidor de Agua</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">hot_tub</i>Baño</div>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>Secador de Pelo</li>
+                                <li>Espejo de Maquillage</li>
+                                <li>Bañera</li>
+                            </ul>
+                        </div>
+                     </li>
+                </ul>
+            </p>
+        </div>
     </div>
 </div>
 
