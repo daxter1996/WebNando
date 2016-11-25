@@ -38,7 +38,7 @@
 <div class="section white">
     <div class="row container">
         <h2 class="header">Dos habitaciones </h2>
-        <div class="col m12">
+        <div class="col m12 s12">
             <p class="grey-text text-darken-3 lighten-3">
                 <ul class="collapsible popout" data-collapsible="accordion">
                     <li>
@@ -91,7 +91,7 @@
 <div class="section white">
     <div class="row container">
         <h2 class="header">Tres habitaciones</h2>
-        <div class="col m12">
+        <div class="col m12 s12">
             <p class="grey-text text-darken-3 lighten-3">
                 <ul class="collapsible popout" data-collapsible="accordion">
                     <li>
