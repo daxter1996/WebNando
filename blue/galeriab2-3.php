@@ -1,3 +1,9 @@
+<?php
+if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
+}
+
+?>
+<?php $thispage="index.php";?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
 <head>
