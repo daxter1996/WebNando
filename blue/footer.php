@@ -10,8 +10,6 @@
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="bluebeach.php">Blue Beach</a></li>
                     <li><a class="grey-text text-lighten-3" href="bluebeach2.php">Blue Beach 2</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#">Link 3</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#">Link 4</a></li>
                 </ul>
             </div>
         </div>

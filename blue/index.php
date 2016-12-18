@@ -7,6 +7,8 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <title>Blue Beach</title>
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -23,38 +25,43 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 <body>
 <br/>
 <div class="row">
-    <div class="col s12 m5 offset-m1">
-        <div class="card">
-            <div class="card-image">
-                <img src="img/blue_beach/principal.png">
-            </div>
-            <div class="card-content">
-                <h4>Blue Beach</h4>
-                <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-                <a href="bluebeach.php">Mas Informacion</a>
-            </div>
-        </div>
+    <div class="col s12 m0">
+        <img src="img/logo-grande.png" class="responsive-img" style="border-radius: 3px">
     </div>
-    <div class="col s12 m5">
-        <div class="card">
-            <div class="card-image">
-                <img src="img/blue_beach_2/principal.jpg">
-            </div>
-            <div class="card-content">
-                <h4>Blue Beach 2</h4>
-                <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-                <a href="bluebeach2.php">Mas Informacion</a>
-            </div>
-        </div>
+    <div class="col s12 m4 offset-l1m" style="padding: 10px;" >
+        <h4>Blue Beach</h4>
+        <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+        <p>I am a very simple card. I am good at containing small bits of information.
+            am convenient because I require little markup to use effectively.</p>
+        <hr>
+        <strong><a href="bluebeach.php" class="bold">MAS INFORMACIÓN</a></strong>
+    </div>
+
+    <div class="col s0 m3">
+        <img src="img/logo-grande.png" class="responsive-img" style="border-radius: 3px">
+    </div>
+
+    <div class="col s12 m4 " style="padding: 10px;">
+        <h4>Blue Beach 2</h4>
+        <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+        <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+        <hr>
+        <strong><a href="bluebeach2.php" class="bold">MAS INFORMACIÓN</a></strong>
     </div>
 </div>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>

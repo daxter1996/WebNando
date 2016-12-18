@@ -8,6 +8,21 @@
   height: 30px;
   border-radius: 5px;
 }
+
+
+body {
+  background-image: url("../img/fondo2.jpg");
+  background-size: cover;
+  min-height: 800px;
+}
+
+.card-transparency{
+  background: rgba(255, 255, 255, 0.6); !important;
+  border-radius: 4px;
+}
+
+
+
 /*Css materialize*/
 
 .materialize-red {
@@ -3420,6 +3435,14 @@ input[type=range] + .thumb {
   position: relative;
 }
 
+
+.row .col.s0 {
+  width: 0%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
 .row .col.s1 {
   width: 8.3333333333%;
   margin-left: auto;
@@ -3649,6 +3672,13 @@ input[type=range] + .thumb {
 }
 
 @media only screen and (min-width: 601px) {
+  .row .col.m0 {
+    width: 0%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+
   .row .col.m1 {
     width: 8.3333333333%;
     margin-left: auto;
@@ -3904,6 +3934,13 @@ input[type=range] + .thumb {
     left: auto;
     right: auto;
   }
+
+  /*--------Meua--------*/
+  .row .col.offset-l1m {
+    margin-left: 4.3333333333%;
+  }
+  /*---------------*/
+
   .row .col.offset-l1 {
     margin-left: 8.3333333333%;
   }
