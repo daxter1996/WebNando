@@ -11,8 +11,17 @@
     </div>
     <script>
         function updatecookie(lang) {
-            if(lang=="es") document.cookie="langcookie=es";
-            else document.cookie="langcookie=en";
+            switch (lang){
+                case "es": document.cookie="langcookie=es";
+                    break;
+                case "en": document.cookie="langcookie=en";
+                    break;
+                case "fr": document.cookie="langcookie=fr";
+                    break;
+                case "it": document.cookie="langcookie=it";
+                    break;
+            }
+
         }
     </script>
 </nav>
