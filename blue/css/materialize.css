@@ -4,16 +4,26 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
+.transparenciaFons{
+  background: rgba(255, 255, 255, 0.6);
+}
+
 .img-navegacio{
   height: 30px;
   border-radius: 5px;
 }
-/*
-.imageFons{
-  background-image: url("../img/IMG_9268.jpg");
-  background-size: cover;
+.blue-text{
+  color: #1565c0;
 }
-*/
+
+.blueDarken-text{
+  color: #0d47a1;
+}
+
+.ocult{
+  display: none;
+}
+
 body {
   /**/
   min-height: 800px;
@@ -3675,11 +3685,22 @@ input[type=range] + .thumb {
 }
 
 @media only screen and (min-width: 601px) {
-  /*Imatge de fons nomes per mig tamany*/
+  /*Imatge de fons nomes per mig tamany------------------------------------------------------------------------------------------*/
   .imageFons{
     background-image: url("../img/IMG_9268.jpg");
     background-size: cover;
   }
+
+  .degradatPrincipal{
+    box-shadow: 0px 5px 14px 9px rgba(255,255,255,0.6);
+  }
+
+  .text-shadow{
+    text-shadow: 2px 2px 2px #90a4ae;
+  }
+
+
+  /*Materialize*/
 
   .row .col.m0 {
     width: 0%;

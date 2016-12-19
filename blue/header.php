@@ -5,6 +5,8 @@
         <ul id="nav-mobile" class="right ">
             <li><a href="<?php echo $thispage?>" target="_self" onclick="updatecookie('es')"><img class="img-navegacio" src="img/esp.png"/> </a></li>
             <li><a href="<?php echo $thispage?>" target="_self" onclick="updatecookie('en')"><img class="img-navegacio" src="img/eng.jpg"/></a></li>
+            <li><a href="<?php echo $thispage?>" target="_self" onclick="updatecookie('fr')"><img class="img-navegacio" src="img/fr.jpg"/></a></li>
+            <li><a href="<?php echo $thispage?>" target="_self" onclick="updatecookie('it')"><img class="img-navegacio" src="img/it.png"/></a></li>
         </ul>
     </div>
     <script>

@@ -15,7 +15,7 @@
 <body>
 
 <div class="parallax-container">
-    <div class="parallax"><img src="img/blue_beach/parallax1.jpg" ></div>
+    <div class="parallax "><img src="img/blue_beach/parallax1.jpg"></div>
 </div>
 
 <div class="section white">
@@ -33,7 +33,7 @@
 </div>
 
 <div class="parallax-container">
-    <div class="parallax"><img src="img/blue_beach/parallax2.jpg"></div>
+    <div class="parallax"><img class="ocult" src="img/blue_beach/parallax2.jpg"></div>
 </div>
 
 <div class="section white">
@@ -45,12 +45,7 @@
                     <li>
                         <div class="collapsible-header"><i class="material-icons">hotel</i>Habitaciones</div>
                         <div class="collapsible-body">
-                            <ul>
-                                <li>Una habitacion</li>
-                                <li>Cama de 160cm con colchón de gran calidad</li>
-                                <li>Cuna opcional</li>
-                                <li>Sofá cama en sala para una persona</li>
-                            </ul>
+                            <p>Exemple de Text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
                         </div>
                     </li>
                     <li>
