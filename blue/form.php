@@ -33,9 +33,15 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
             </div>
         </div>
         <div class="row">
-            <div class="input-field col s12 m12">
+            <div class="input-field col s12 m6">
                 <input id="email" type="email" class="validate">
                 <label for="email">Email</label>
+            </div>
+
+
+            <div class="input-field col s12 m6">
+                <input id="telf" type="tel" class="validate">
+                <label for="telf">Telefono</label>
             </div>
         </div>
         <div class="row">
@@ -46,6 +52,20 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
             <div class="input-field col m6 s12">
                 <input id="entrada" type="date" class="datepicker">
                 <label for="entrada">Dia de entrada</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12 m4">
+                <input id="adultos" type="number" class="validate">
+                <label for="adultos">Adultos</label>
+            </div>
+            <div class="input-field col s12 m4">
+                <input id="inf" type="number" class="validate">
+                <label for="inf">Bebe (0-3 años)</label>
+            </div>
+            <div class="input-field col s12 m4">
+                <input id="inf" type="number" class="validate">
+                <label for="inf">Habitaciones</label>
             </div>
         </div>
         <div class="row">
