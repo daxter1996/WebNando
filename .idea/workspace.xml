@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abc4b3f3-2c2a-4e56-bea5-dff44f724fd7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/img/IMG_9268.jpg" afterPath="$PROJECT_DIR$/blue/img/IMG_9268.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/bluebeach.php" afterPath="$PROJECT_DIR$/blue/bluebeach.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/css/materialize.css" afterPath="$PROJECT_DIR$/blue/css/materialize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/header.php" afterPath="$PROJECT_DIR$/blue/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/index.php" afterPath="$PROJECT_DIR$/blue/index.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,8 +37,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blue/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="135" selection-start-line="8" selection-start-column="135" selection-end-line="8" selection-end-column="135" />
+            <state relative-caret-position="238">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -297,7 +292,7 @@
       <workItem from="1480093725852" duration="509000" />
       <workItem from="1480321279586" duration="116000" />
       <workItem from="1482050970699" duration="9700000" />
-      <workItem from="1482165345356" duration="6703000" />
+      <workItem from="1482165345356" duration="6985000" />
     </task>
     <task id="LOCAL-00001" summary="Banderetes a nes header, footer i classe nova a css.">
       <created>1479801046097</created>
@@ -397,11 +392,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482166528066</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Homepage">
+      <created>1482175933405</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1482175933405</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47400000" />
+    <option name="totallyTimeSpent" value="47682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -862,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blue/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="135" selection-start-line="8" selection-start-column="135" selection-end-line="8" selection-end-column="135" />
+        <state relative-caret-position="238">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding />
         </state>
       </provider>
