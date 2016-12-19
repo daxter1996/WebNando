@@ -11,7 +11,7 @@
 
 
 body {
-  background-image: url("../img/fondo2.jpg");
+  background-image: url("../img/fondo3.jpg");
   background-size: cover;
   min-height: 800px;
 }
@@ -3937,7 +3937,7 @@ input[type=range] + .thumb {
 
   /*--------Meua--------*/
   .row .col.offset-l1m {
-    margin-left: 4.3333333333%;
+    margin-left: 2%;
   }
   /*---------------*/
 
