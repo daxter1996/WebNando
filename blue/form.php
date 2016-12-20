@@ -20,7 +20,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 </header>
 <body>
 <br/>
-<div class="container">
+<div class="container main">
     <form class="col">
         <div class="row">
             <div class="input-field col s12 m6">
@@ -64,8 +64,13 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
                 <label for="inf">Bebe (0-3 años)</label>
             </div>
             <div class="input-field col s12 m4">
-                <input id="inf" type="number" class="validate">
-                <label for="inf">Habitaciones</label>
+                <select class="validate">
+                    <option value="" disabled selected>Numero de habitaciones</option>
+                    <option value="1">1 habitacion</option>
+                    <option value="2">2 habitaciones</option>
+                    <option value="3">3 habitaciones</option>
+                </select>
+                <label>Numero de habitaciones</label>
             </div>
         </div>
         <div class="row">
@@ -84,6 +89,9 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
     $('.datepicker').pickadate({
         selectMonths: true, // Creates a dropdown to control month
         selectYears: 15 // Creates a dropdown of 15 years to control year
+    });
+    $(document).ready(function() {
+        $('select').material_select();
     });
 </script>
 </body>
