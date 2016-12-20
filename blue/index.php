@@ -22,14 +22,13 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
    <?php include_once "header.php"; ?>
 </header>
 <body>
-<br/>
-<div class="imageFons" style="min-height: 800px">
+<div class="imageFons" style="min-height: 800px; height: 100%;">
     <div class="row transparenciaFons degradatPrincipal">
         <div class="col s12 m0">
             <img src="img/logo-grande.png" class="responsive-img" style="border-radius: 3px">
         </div>
         <div class="col s12 m4 offset-l1m flow-text" style="padding: 10px; font-weight: 500" >
-            <h4><strong class="blue-text text-shadow">Apartamentos Blue Beach</strong></h4>
+            <h4><strong class="blueLogo-text text-shadow">Apartamentos Blue Beach</strong></h4>
             <p>I am a very simple card. I am good at containing small bits of information.
                 I am convenient because I require little markup to use effectively.</p>
             <hr>
@@ -41,7 +40,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
         </div>
 
         <div class="col s12 m4 flow-text" style="padding: 10px;font-weight: 500">
-            <h4><strong class="blue-text text-shadow">Apartamentos Blue Beach 2</strong></h4>
+            <h4><strong class="blueLogo-text text-shadow">Apartamentos Blue Beach 2</strong></h4>
             <p>I am a very simple card. I am good at containing small bits of information.
                 I am convenient because I require little markup to use effectively.</p>
             <hr>

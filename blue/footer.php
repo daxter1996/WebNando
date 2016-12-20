@@ -1,9 +1,9 @@
-<footer class="page-footer blue">
+<footer class="page-footer blue" style="margin-top: 0;">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
                 <h5 class="white-text">Blue Beach</h5>
-                <p class="grey-text text-lighten-4">Texto aqui</p>
+                <p class="grey-text text-lighten-4">Informacio de contacte i demes</p>
             </div>
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
