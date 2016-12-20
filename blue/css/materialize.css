@@ -5,7 +5,8 @@
  */
 
 .transparenciaFons{
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
 }
 
 .img-navegacio{
@@ -13,11 +14,11 @@
   border-radius: 5px;
 }
 .blueLogo-text{
-  color: #3d75b9;
+  color: #1565c0;
 }
 
 .blueDarken-text{
-  color: #0d47a1;
+  color: #1e88e5 ;
 }
 
 .ocult{
@@ -30,7 +31,7 @@ body {
 }
 
 .card-transparency{
-  background: rgba(255, 255, 255, 0.6); !important;
+  background: rgba(255, 255, 255, 0.3); !important;
   border-radius: 4px;
 }
 
@@ -3692,7 +3693,7 @@ input[type=range] + .thumb {
   }
 
   .degradatPrincipal{
-    box-shadow: 0px 5px 14px 9px rgba(255,255,255,0.6);
+    box-shadow: 0px 5px 14px 10px rgba(0, 0, 0, 0.3);
   }
 
   .text-shadow{
