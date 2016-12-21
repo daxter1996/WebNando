@@ -15,7 +15,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 <body>
 <br/>
 <div class="main">
-<div class="container">
+<div class="container" style="min-height: 800px">
     <form class="col">
         <div class="row">
             <div class="input-field col s12 m6">
