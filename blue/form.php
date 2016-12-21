@@ -16,20 +16,23 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 <br/>
 <div class="main">
 <div class="container" style="min-height: 800px">
-    <form class="col">
+    <form class="col" method="post" action="process.php">
+        <div class="row">
+            <h2>Formulario de reserva</h2>
+        </div>
         <div class="row">
             <div class="input-field col s12 m6">
-                <input id="first_name" type="text" class="validate">
+                <input id="first_name" type="text" class="validate" required>
                 <label for="first_name">Nombre</label>
             </div>
             <div class="input-field col s12 m6">
-                <input id="last_name" type="text" class="validate">
+                <input id="last_name" type="text" class="validate" required>
                 <label for="last_name">Apellidos</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12 m6">
-                <input id="email" type="email" class="validate">
+                <input id="email" type="email" class="validate" required>
                 <label for="email">Email</label>
             </div>
 
@@ -41,17 +44,17 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
         </div>
         <div class="row">
             <div class="input-field col m6 s12">
-                <input id="entrada" type="date" class="datepicker">
+                <input id="entrada" type="date" class="datepicker" required>
                 <label for="entrada">Dia de entrada</label>
             </div>
             <div class="input-field col m6 s12">
-                <input id="entrada" type="date" class="datepicker">
+                <input id="entrada" type="date" class="datepicker" required>
                 <label for="entrada">Dia de entrada</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12 m4">
-                <input id="adultos" type="number" class="validate">
+                <input id="adultos" type="number" class="validate" required>
                 <label for="adultos">Adultos</label>
             </div>
             <div class="input-field col s12 m4">
@@ -59,11 +62,11 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
                 <label for="inf">Bebe (0-3 años)</label>
             </div>
             <div class="input-field col s12 m4">
-                <select class="validate">
+                <select class="validate" required>
                     <option value="" disabled selected>Numero de habitaciones</option>
-                    <option value="1">1 habitacion</option>
-                    <option value="2">2 habitaciones</option>
-                    <option value="3">3 habitaciones</option>
+                    <option value="1">1 Habitacion</option>
+                    <option value="2">2 Habitaciones</option>
+                    <option value="3">3 Habitaciones</option>
                 </select>
                 <label>Numero de habitaciones</label>
             </div>
@@ -71,10 +74,13 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
         <div class="row">
             <div class="input-field col s12">
                 <textarea id="textarea1" class="materialize-textarea"></textarea>
-                <label for="textarea1">Motivo</label>
+                <label for="textarea1">Observaciones</label>
             </div>
         </div>
-        <a class="waves-effect waves-light btn  blue darken-1"><i class="material-icons left">send</i>Enviar</a>
+        <input type="hidden" id="page" value="form1">
+        <div class="center">
+            <button class="btn waves-effect blue" type="submit">Enviar<i class="material-icons right">send</i> </button>
+        </div>
     </form>
 </div>
 </div>
