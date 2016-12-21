@@ -7,15 +7,8 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+   <?php include_once "head.php";?>
     <title>Blue Beach</title>
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <header>
     <?php $thispage="index.php";?>

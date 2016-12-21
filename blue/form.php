@@ -7,20 +7,15 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 <!DOCTYPE html>
 <html>
 <head>
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <?php include_once "head.php";?>
 </head>
 <header>
     <?php include_once "header.php"; ?>
 </header>
 <body>
 <br/>
-<div class="container main">
+<div class="main">
+<div class="container">
     <form class="col">
         <div class="row">
             <div class="input-field col s12 m6">
@@ -82,6 +77,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
         <a class="waves-effect waves-light btn  blue darken-1"><i class="material-icons left">send</i>Enviar</a>
     </form>
 </div>
+</div>
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -94,6 +90,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
         $('select').material_select();
     });
 </script>
-</body>
 <?php include_once "footer.php"; ?>
+</body>
+
 </html>
