@@ -38,7 +38,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 
 
             <div class="input-field col s12 m6">
-                <input name="telf"  id="telf" type="tel" class="validate">
+                <input name="telf"  id="telf" type="tel" class="validate" value="0">
                 <label for="telf">Telefono</label>
             </div>
         </div>
@@ -58,7 +58,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
                 <label for="adultos">Adultos</label>
             </div>
             <div class="input-field col s12 m4">
-                <input name="inf" id="inf" type="number" class="validate">
+                <input name="inf" id="inf" type="number" class="validate" value="0">
                 <label for="inf">Bebe (0-3 años)</label>
             </div>
             <div class="input-field col s12 m4">

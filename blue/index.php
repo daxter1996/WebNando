@@ -21,6 +21,8 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
             <div class="col s12 m0">
                 <img src="img/logo-grande.png" class="responsive-img" style="border-radius: 3px">
             </div>
+
+
             <div class="col s12 m4 white-text offset-l1m flow-text" style="padding: 10px; font-weight: 500" >
                 <h4><strong class="blueLogo-text text-shadow">Blue Beach</strong></h4>
                 <strong class="blueLogo-text text-shadow flow-text" style="font-weight: 500;">Apartamentos</strong>
