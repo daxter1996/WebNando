@@ -4,7 +4,11 @@ if (!isset($_POST['page'])) {
     header("Location: index.php");
     exit();
 } else {
+    if ($_POST['page']=='form1') sendMail1();
+    if ($_POST['page']=='form2') sendMail2();
 
+}
+function sendMail1(){
     $transport=Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com',465)
         ->setUsername('radiocontrolmenorca@gmail.com')
         ->setPassword('Jaumepons007');
@@ -21,14 +25,25 @@ if (!isset($_POST['page'])) {
     $message.='<h4>Bebes: '.$_POST['inf'].'</h4>';
     $message.='<h4>Nombre de habitacions: '.$_POST['hab'].'</h4>';
     $message.='<p>Observacions: '.$_POST['observaciones'].'</p>';
+    $message.='<form method="post" action="81.47.16.66/~jaume/WebNando1/blue/form2.php">';
+    $datos=$_POST;
+    $datos['page']='form2';
+    $datosCod=json_encode($datos);
+    $message.='<input type="hidden" name="datos" value="'.$datosCod.'">';
+    $message.='<input type="submit" name="submit" value="Aceptar" style="background-color: green">';
+    $message.='<input type="submit" name="submit" value="Cancelar" style="background-color: red">';
+    $message.='</form>';
     $message.='</body>';
     $mail=Swift_Message::newInstance('Nova Reserva')
         ->setFrom('bluebeach@prova.es')
-        ->setTo('jponsmorillas@gmail.com')
+        ->setTo($_POST['email'])
         ->setBody($message,'text/html');
     if ($mailer->send($mail)){
-        echo 'al fin';
+        echo 'Mail enviat';
     }else {
-        echo 'me cago en la puta';
+        echo 'Fall de email';
     }
+}
+function openForm2(){
+
 }
