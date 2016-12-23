@@ -1,14 +1,14 @@
 <?php
-if (!isset($_POST['submit'])) {
-    header("Location: index.php");
-    exit();
-}
+//if (!isset($_POST['submit'])) {
+//    header("Location: index.php");
+//    exit();
+//}
 if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");}
 
 
 ?>
 <?php $thispage="form2.php";
-$datos=json_decode($_POST['datos']);
+$datos=json_decode($_GET['datos']);
 $mensajeAceptar="Aquest seria es missatge pregrabat de aceptacio que es editable";
 $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editable";
 ?>
@@ -26,7 +26,7 @@ $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editabl
     <div class="container" style="min-height: 800px">
         <form class="col" method="post" action="process.php">
             <div class="row">
-                <h2><?php echo $_POST['submit']?> de reserva</h2>
+                <h2><?php echo $_GET['submit']?> de reserva</h2>
             </div>
             <div class="row">
                 <div class="input-field col s12 m6">
