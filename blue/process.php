@@ -21,8 +21,7 @@ if (!isset($_POST['page'])) {
     $message.='<h4>Nombre de habitacions: '.$_POST['hab'].'</h4>';
     $message.='<p>Observacions: '.$_POST['observaciones'].'</p>';
     $message.='</body>';
-    mail($to,$subject,$message,$headers);
-
-
- echo $_POST['page'];
+    $result=mail($to,$subject,$message,$headers);
+    if ($result) echo 'Tot be';
+    else echo 'fail';
 }
