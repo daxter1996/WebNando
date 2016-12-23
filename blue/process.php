@@ -1,14 +1,15 @@
 <?php
-$_POST = array(); //workaround for broken PHPstorm
-parse_str(file_get_contents('php://input'), $_POST);
+require_once 'libs/vendor/swiftmailer/swiftmailer/lib/swift_required.php';
 if (!isset($_POST['page'])) {
     header("Location: index.php");
     exit();
 } else {
-    $to="jponsmorillas@gmail.com";
-    $subject="Nova Reserva";
-    $headers  = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+    $transport=Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com',465)
+        ->setUsername('radiocontrolmenorca@gmail.com')
+        ->setPassword('Jaumepons007');
+    $mailer=Swift_Mailer::newInstance($transport);
+
     $message='<body>';
     $message.= '<h1>Nova solicitud de reserva</h1>';
     $message.='<h4>Nom: '.$_POST["first_name"].' '.$_POST["last_name"].'</h4>';
@@ -21,7 +22,13 @@ if (!isset($_POST['page'])) {
     $message.='<h4>Nombre de habitacions: '.$_POST['hab'].'</h4>';
     $message.='<p>Observacions: '.$_POST['observaciones'].'</p>';
     $message.='</body>';
-    $result=mail($to,$subject,$message,$headers);
-    if ($result) echo 'Tot be';
-    else echo 'fail';
+    $mail=Swift_Message::newInstance('Nova Reserva')
+        ->setFrom('bluebeach@prova.es')
+        ->setTo('jponsmorillas@gmail.com')
+        ->setBody($message,'text/html');
+    if ($mailer->send($mail)){
+        echo 'al fin';
+    }else {
+        echo 'me cago en la puta';
+    }
 }
