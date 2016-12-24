@@ -3697,7 +3697,6 @@ input[type=range] + .thumb {
 
   .transparenciaFons{
     background: rgba(0, 0, 0, 0.3);
-    border-radius: 30px;
   }
 
   .white-text-m{
