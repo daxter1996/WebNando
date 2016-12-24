@@ -37,108 +37,86 @@
 
 <div class="section white">
     <div class="row container">
-        <h2 class="header">Dos habitaciones </h2>
-        <div class="col m12 s12">
-            <p class="grey-text text-darken-3 lighten-3">
-                <ul class="collapsible popout" data-collapsible="accordion">
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">hotel</i>Habitaciones</div>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li>Una habitacion</li>
-                                <li>Cama de 160cm con colchón de gran calidad</li>
-                                <li>Cuna opcional</li>
-                                <li>Sofá cama en sala para una persona</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">kitchen</i>Cocina</div>
-                        <div class="collapsible-body">
-            <p>
-                <ul>
-                    <li>Cocina eléctrica completa con menaje</li>
-                    <li>Frigorífico</li>
-                    <li>Tostadora</li>
-                    <li>Microondas</li>
-                    <li>Cafetera</li>
-                    <li>Hervidor de Agua</li>
+        <h2 class="header">Dos Habitaciones</h2>
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3"><a class="active" href="#test11">Habitaciones</a></li>
+                    <li class="tab col s3"><a href="#test21">Cocina</a></li>
+                    <li class="tab col s3"><a href="#test31">Baño</a></li>
                 </ul>
-            </p>
             </div>
-            </li>
-            <li>
-                <div class="collapsible-header"><i class="material-icons">hot_tub</i>Baño</div>
-                <div class="collapsible-body">
-                    <ul>
-                        <li>Secador de Pelo</li>
-                        <li>Espejo de Maquillage</li>
-                        <li>Bañera</li>
-                    </ul>
-                </div>
-            </li>
-            </p>
+            <div id="test11" class="col s12">
+                <p>
+                    Exemple de text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                </p>
+            </div>
+            <div id="test21" class="col s12">
+                <p>
+                    Exemple de text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                </p>
+            </div>
+            <div id="test31" class="col s12">
+                <p>
+                    Exemple de text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                </p>
+            </div>
         </div>
-        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue">Galeria<i class="material-icons right">insert_photo</i></a>
+        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue">Galeria <i class="material-icons right">insert_photo</i></a>
     </div>
 </div>
 
 
+
 <div class="parallax-container">
-    <div class="parallax"><img src="img/blue_beach_2/parallax3.jpg"></div>
+    <div class="parallax"><img src="img/blue_beach_2/parallax4.jpg"></div>
 </div>
 
 <div class="section white">
     <div class="row container">
-        <h2 class="header">Tres habitaciones</h2>
-        <div class="col m12 s12">
-            <p class="grey-text text-darken-3 lighten-3">
-                <ul class="collapsible popout" data-collapsible="accordion">
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">hotel</i>Habitaciones</div>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li>Una habitacion</li>
-                                <li>Cama de 160cm con colchón de gran calidad</li>
-                                <li>Cuna opcional</li>
-                                <li>Sofá cama en sala para una persona</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">kitchen</i>Cocina</div>
-                        <div class="collapsible-body">
-                            <p>
-                                <ul>
-                                    <li>Cocina eléctrica completa con menaje</li>
-                                    <li>Frigorífico</li>
-                                    <li>Tostadora</li>
-                                    <li>Microondas</li>
-                                    <li>Cafetera</li>
-                                    <li>Hervidor de Agua</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">hot_tub</i>Baño</div>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li>Secador de Pelo</li>
-                                <li>Espejo de Maquillage</li>
-                                <li>Bañera</li>
-                            </ul>
-                        </div>
-                    </li>
+        <h2 class="header">Tres Habitaciones</h2>
+        <div class="row">
+            <div class="offset-m1 col s12">
+                <ul class="tabs">
+                    <li class="tab col s3"><a class="active" href="#test1">Habitaciones</a></li>
+                    <li class="tab col s3"><a href="#test2">Cocina</a></li>
+                    <li class="tab col s3"><a href="#test3">Baño</a></li>
                 </ul>
-            </p>
+            </div>
+            <div id="test1" class="col s12">
+                <p>
+                    Exemple de text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                </p>
+            </div>
+            <div id="test2" class="col s12">
+                <p>
+                    Exemple de text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                </p>
+            </div>
+            <div id="test3" class="col s12">
+                <p>
+                    Exemple de text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                </p>
+            </div>
         </div>
-    <a href="galeriab2-3.php" class="waves-effect waves-light btn blue">Galeria<i class="material-icons right">insert_photo</i></a>
+        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue">Galeria <i class="material-icons right">insert_photo</i></a>
+    </div>
+</div>
+
+
+<div class="parallax-container">
+    <div class="parallax"><img src="img/blue_beach_2/parallax5.jpg"></div>
+</div>
+
+<div class="section white">
+    <div class="row container">
+        <h2 class="header">Video</h2>
+        <p class="grey-text text-darken-3 lighten-3"><iframe class=" offset-m1 col m10 s12" height="490" src="https://www.youtube.com/embed/zXMYbGZB9js" frameborder="0" allowfullscreen></iframe></p>
     </div>
 </div>
 
 <div class="parallax-container">
-    <div class="parallax"><img src="img/blue_beach_2/parallax4.jpg"></div>
+    <div class="parallax"><img src="img/blue_beach_2/parallax3.jpg"></div>
 </div>
 
 <div class="section white">

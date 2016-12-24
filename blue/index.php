@@ -23,26 +23,30 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
             </div>
 
 
-            <div class="col s12 m4 white-text offset-l1m flow-text" style="padding: 10px; font-weight: 500" >
+            <div class="col s12 m4 white-text-m offset-l1m flow-text" style="padding: 10px; font-weight: 400" >
                 <h4><strong class="blueLogo-text text-shadow">Blue Beach</strong></h4>
                 <strong class="blueLogo-text text-shadow flow-text" style="font-weight: 500;">Apartamentos</strong>
                 <p>I am a very simple card. I am good at containing small bits of information.
                     I am convenient because I require little markup to use effectively.</p>
-                <hr>
-                <a href="bluebeach.php" class="white-text text-shadow" style="font-weight: 400">MAS INFORMACIÓN</a>
+                <hr/>
+                <a href="bluebeach.php" class="white-text-m text-shadow" style="font-weight: 400">MAS INFORMACIÓN</a>
+                <br/>
+                <strong><a href="https://vimeo.com/122454103" class="white-text-m text-shadow" target="_blank" style="font-weight: 400">VIDEO</a></strong>
             </div>
 
             <div class="col s0 m3">
-                <img src="img/logo-grande-low.png" class="responsive-img" style="border-radius: 3px">
+                <img src="img/logo-grande-sense-clau.png" class="responsive-img" style="border-radius: 3px">
             </div>
 
-            <div class="col s12 m4 white-text flow-text" style="padding: 10px;font-weight: 500">
+            <div class="col s12 m4 white-text-m flow-text" style="padding: 10px;font-weight: 400">
                 <h4><strong class="blueLogo-text text-shadow">Blue Beach 2</strong></h4>
                 <strong class="blueLogo-text text-shadow flow-text" style="font-weight: 500;">Apartamentos</strong>
                 <p>I am a very simple card. I am good at containing small bits of information.
                     I am convenient because I require little markup to use effectively.</p>
-                <hr>
-                <strong><a href="bluebeach2.php" class="white-text text-shadow">MAS INFORMACIÓN</a></strong>
+                <hr/>
+                <strong><a href="bluebeach2.php" class="white-text-m text-shadow">MAS INFORMACIÓN</a></strong>
+                <br/>
+                <strong><a href="https://www.youtube.com/watch?v=zXMYbGZB9js" class="white-text-m text-shadow" target="_blank" style="font-weight: 400">VIDEO</a></strong>
             </div>
         </div>
     </div>

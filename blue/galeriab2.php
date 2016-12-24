@@ -19,7 +19,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 </header>
 <body>
 <div class="container center">
-    <h2>Galeria Blue Beach 2</h2>
+    <h3>Galeria Blue Beach 2</h3>
     <div class="row">
         <br/>
         <?php

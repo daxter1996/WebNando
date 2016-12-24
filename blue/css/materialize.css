@@ -4,11 +4,6 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
-.transparenciaFons{
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 30px;
-}
-
 .img-navegacio{
   height: 30px;
   border-radius: 5px;
@@ -3698,6 +3693,15 @@ input[type=range] + .thumb {
 
   .text-shadow{
     text-shadow: 2px 2px 2px #90a4ae;
+  }
+
+  .transparenciaFons{
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+  }
+
+  .white-text-m{
+    color: white;
   }
 
 
