@@ -7,6 +7,7 @@
             <li><a href="<?php echo $thispage?>" target="_self" onclick="updatecookie('en')"><img class="img-navegacio" src="img/eng.jpg"/></a></li>
             <li><a href="<?php echo $thispage?>" target="_self" onclick="updatecookie('fr')"><img class="img-navegacio" src="img/fr.jpg"/></a></li>
             <li><a href="<?php echo $thispage?>" target="_self" onclick="updatecookie('it')"><img class="img-navegacio" src="img/it.png"/></a></li>
+            <li><a href="<?php echo $thispage?>" target="_self" onclick="updatecookie('de')"><img class="img-navegacio" src="img/de.png"/></a></li>
         </ul>
     </div>
     <script>
@@ -19,6 +20,8 @@
                 case "fr": document.cookie="langcookie=fr";
                     break;
                 case "it": document.cookie="langcookie=it";
+                    break;
+                case "de": document.cookie="langcookie=de";
                     break;
             }
 

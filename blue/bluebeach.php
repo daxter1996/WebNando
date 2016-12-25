@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <header>
+    <?php $thispage="bluebeach.php";?>
     <?php setcookie("name","langcookie",time()+9999);?>
     <?php include_once "header.php"; ?>
 </header>

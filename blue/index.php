@@ -1,9 +1,7 @@
 <?php
-if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
-}
-
+    if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
+    }
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>

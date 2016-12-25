@@ -15,6 +15,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <header>
+    <?php $thispage="galeriab2-2.php";?>
     <?php include_once "header.php"; ?>
 </header>
 <body>

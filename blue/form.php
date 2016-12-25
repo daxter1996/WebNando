@@ -10,6 +10,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
    <?php include_once "head.php";?>
 </head>
 <header>
+    <?php $thispage="form.php";?>
     <?php include_once "header.php"; ?>
 </header>
 <body>

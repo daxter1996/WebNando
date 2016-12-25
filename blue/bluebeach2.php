@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <header>
+    <?php $thispage="bluebeach2.php";?>
     <?php include_once "header.php"; ?>
 </header>
 <body>
