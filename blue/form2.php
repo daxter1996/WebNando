@@ -8,7 +8,8 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");}
 
 ?>
 <?php $thispage="form2.php";
-$datos=json_decode($_GET['datos'],true);
+$datos=[];
+$datos=json_decode(($_GET['datos']),true);
 print_r($datos);
 $mensajeAceptar="Aquest seria es missatge pregrabat de aceptacio que es editable";
 $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editable";
