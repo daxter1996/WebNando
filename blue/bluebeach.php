@@ -25,6 +25,8 @@
         <p class="grey-text text-darken-3 lighten-3">
             Apartamento con terraza individual, aire acondicionado y calefaccion,
             wifi gratis, caja fuerte gratuita, piscina comunitaria con ducha y tumbonas.
+
+            Apartamento con una habitacion para dos personas
         </p>
         <p>
             <a href="form.php" class="waves-effect waves-light btn blue">Reserva <i class="material-icons right">drafts</i></a>
