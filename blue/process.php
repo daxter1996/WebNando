@@ -25,13 +25,13 @@ function sendMail1(){
     $message.='<h4>Bebes: '.$_POST['inf'].'</h4>';
     $message.='<h4>Nombre de habitacions: '.$_POST['hab'].'</h4>';
     $message.='<p>Observacions: '.$_POST['observaciones'].'</p>';
-    $message.='<form method="get" action="localhost/~jaume/WebNando1/blue/form2.php">';
+    $message.='<form method="get" action="83.52.177.177/web/WebNando/blue/form2.php">';
     $datos=$_POST;
     print_r($datos);
     $datos['page']='form2';
     $datosCod=json_encode($datos);
     print_r($datosCod);
-    $message.='<input type="hidden" name="datos" value='.$datosCod.'>';
+    $message.='<textarea name="datos" style="display: none">'.$datosCod.'</textarea>';
     $message.='<input type="submit" name="submit" value="Aceptar" style="background-color: green">';
     $message.='<input type="submit" name="submit" value="Cancelar" style="background-color: red">';
     $message.='</form>';
