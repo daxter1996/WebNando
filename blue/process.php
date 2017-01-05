@@ -31,7 +31,7 @@ function sendMail1(){
     $datos['page']='form2';
     $datosCod=json_encode($datos);
     print_r($datosCod);
-    $message.='<input type="hidden" name="datos" value="'.$datosCod.'">';
+    $message.='<input type="hidden" name="datos" value='.$datosCod.'>';
     $message.='<input type="submit" name="submit" value="Aceptar" style="background-color: green">';
     $message.='<input type="submit" name="submit" value="Cancelar" style="background-color: red">';
     $message.='</form>';
@@ -40,11 +40,11 @@ function sendMail1(){
         ->setFrom('bluebeach@prova.es')
         ->setTo($_POST['email'])
         ->setBody($message,'text/html');
-//    if ($mailer->send($mail)){
-//        echo 'Mail enviat';
-//    }else {
-//        echo 'Fall de email';
-//    }
+    if ($mailer->send($mail)){
+        echo 'Mail enviat';
+    }else {
+        echo 'Fall de email';
+    }
 }
 function openForm2(){
 

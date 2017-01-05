@@ -9,6 +9,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");}
 ?>
 <?php $thispage="form2.php";
 $datos=json_decode($_GET['datos']);
+print_r($datos);
 $mensajeAceptar="Aquest seria es missatge pregrabat de aceptacio que es editable";
 $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editable";
 ?>
@@ -78,7 +79,7 @@ $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editabl
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <textarea id="mensaje" name="mensaje" class="materialize-textarea"><?php if($_POST['submit']=='Aceptar') echo $mensajeAceptar; else echo $mensajeRechazar;?></textarea>
+                    <textarea id="mensaje" name="mensaje" class="materialize-textarea"><?php if($_GET['submit']=='Aceptar') echo $mensajeAceptar; else echo $mensajeRechazar;?></textarea>
                     <label for="mensaje">Mensaje a enviar:</label>
                 </div>
             </div>
