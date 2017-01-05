@@ -32,7 +32,7 @@
                 <hr/>
                 <a href="bluebeach.php" class="white-text-m text-shadow" style="font-weight: 400"><?php echo $textos["masinfo"][$_COOKIE["langcookie"]]; ?></a>
                 <br/>
-                <strong><a href="https://vimeo.com/122454103" class="white-text-m text-shadow" target="_blank" style="font-weight: 400">VIDEO</a></strong>
+                <strong><a href="https://vimeo.com/122454103" class="white-text-m text-shadow" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$_COOKIE["langcookie"]];?></a></strong>
             </div>
 
             <div class="col s0 m3">
@@ -50,7 +50,7 @@
                 <hr/>
                 <strong><a href="bluebeach2.php" class="white-text-m text-shadow"><?php echo $textos["masinfo"][$_COOKIE["langcookie"]]; ?></a></strong>
                 <br/>
-                <strong><a href="https://www.youtube.com/watch?v=zXMYbGZB9js" class="white-text-m text-shadow" target="_blank" style="font-weight: 400">VIDEO</a></strong>
+                <strong><a href="https://www.youtube.com/watch?v=zXMYbGZB9js" class="white-text-m text-shadow" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$_COOKIE["langcookie"]];?></a></strong>
             </div>
         </div>
     </div>
