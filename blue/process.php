@@ -39,7 +39,7 @@ function sendMail1(){
         Nova Solicitud de Reserva
     </div>
     <div class="logo" style="margin: auto;padding: 2%;">
-        <img src="http://83.52.177.177/web/WebNando/blue/img/logo-grande-low.png" style="width: 50%;margin-left: 15%">
+        <img src="http://83.52.177.177/web/WebNando/blue/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
     </div>
     <div class="content" style="font-size: 150%;padding: 2%;text-align: center;">
         '.$message.'
