@@ -10,7 +10,6 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");}
 <?php $thispage="form2.php";
 $datos=[];
 $datos=json_decode(($_GET['datos']),true);
-print_r($datos);
 $mensajeAceptar="Aquest seria es missatge pregrabat de aceptacio que es editable";
 $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editable";
 ?>
@@ -28,7 +27,7 @@ $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editabl
     <div class="container" style="min-height: 800px">
         <form class="col" method="post" action="process.php">
             <div class="row">
-                <h2><?php echo $_GET['submit']?> de reserva</h2>
+                <h2><?php echo $_GET['accio']?>  reserva</h2>
             </div>
             <div class="row">
                 <div class="input-field col s12 m6">
@@ -71,16 +70,15 @@ $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editabl
                     <input name="inf" id="inf" type="text" class="validate" value="<?php echo $datos['inf']?>">
                     <label for="inf">Bebe (0-3 años)</label>
                 </div>
-                <div class="input-field col s12 m4">
+
                     <div class="input-field col s12 m4">
                         <input name="hab" id="hab" type="text" class="validate" value="<?php echo $datos['hab']?>">
                         <label for="hab">Habitaciones</label>
                     </div>
-                </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <textarea id="mensaje" name="mensaje" class="materialize-textarea"><?php if($_GET['submit']=='Aceptar') echo $mensajeAceptar; else echo $mensajeRechazar;?></textarea>
+                    <textarea id="mensaje" name="mensaje" class="materialize-textarea"><?php if($_GET['accio']=='Aceptar') echo $mensajeAceptar; else echo $mensajeRechazar;?></textarea>
                     <label for="mensaje">Mensaje a enviar:</label>
                 </div>
             </div>
