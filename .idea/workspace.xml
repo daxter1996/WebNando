@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abc4b3f3-2c2a-4e56-bea5-dff44f724fd7" name="Default" comment="">
+    <list default="true" id="abc4b3f3-2c2a-4e56-bea5-dff44f724fd7" name="Default" comment="Homepage">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/bluebeach.php" afterPath="$PROJECT_DIR$/blue/bluebeach.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/textos.php" afterPath="$PROJECT_DIR$/blue/textos.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,32 +24,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="textos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blue/textos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bluebeach.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bluebeach.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blue/bluebeach.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+            <state relative-caret-position="360">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blue/index.php">
+      <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blue/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="1080">
+              <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blue/process.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <folding>
+                <marker date="1483609752114" expanded="true" signature="1392:1405" ph="..." />
+                <marker date="1483609752114" expanded="true" signature="1507:1530" ph="..." />
+                <marker date="1483609752114" expanded="true" signature="1609:1630" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mail_plantilla.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blue/mail_plantilla.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blue/form2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="81" column="154" selection-start-line="81" selection-start-column="154" selection-end-line="81" selection-end-column="154" />
+              <folding>
+                <element signature="e#6#39#0#PHP" expanded="true" />
+                <marker date="1482865215930" expanded="true" signature="3078:3080" ph="..." />
+                <marker date="1482865215930" expanded="true" signature="4264:4272" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,6 +88,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -80,19 +107,24 @@
         <option value="$PROJECT_DIR$/blue/header.html" />
         <option value="$PROJECT_DIR$/blue/galerias/galeriab1.php" />
         <option value="$PROJECT_DIR$/blue/galerias/galeriab2.php" />
-        <option value="$PROJECT_DIR$/blue/footer.php" />
-        <option value="$PROJECT_DIR$/blue/css/materialize.css" />
-        <option value="$PROJECT_DIR$/blue/mail_plantilla.html" />
-        <option value="$PROJECT_DIR$/blue/bluebeach2.php" />
         <option value="$PROJECT_DIR$/blue/galeriab1.php" />
-        <option value="$PROJECT_DIR$/blue/form.php" />
-        <option value="$PROJECT_DIR$/blue/header.php" />
-        <option value="$PROJECT_DIR$/blue/galeriab2-2.php" />
-        <option value="$PROJECT_DIR$/blue/galeriab2-3.php" />
         <option value="$PROJECT_DIR$/blue/galeriab2.php" />
-        <option value="$PROJECT_DIR$/blue/index.php" />
-        <option value="$PROJECT_DIR$/blue/textos.php" />
+        <option value="$PROJECT_DIR$/blue/galeriab2-3.php" />
+        <option value="$PROJECT_DIR$/blue/galeriab2-2.php" />
+        <option value="$PROJECT_DIR$/blue/bluebeach2.php" />
+        <option value="$PROJECT_DIR$/blue/footer.php" />
         <option value="$PROJECT_DIR$/blue/bluebeach.php" />
+        <option value="$PROJECT_DIR$/blue/css/materialize.css" />
+        <option value="$PROJECT_DIR$/blue/header.php" />
+        <option value="$PROJECT_DIR$/blue/css/footer.css" />
+        <option value="$PROJECT_DIR$/blue/index.php" />
+        <option value="$PROJECT_DIR$/blue/head.php" />
+        <option value="$PROJECT_DIR$/blue/proves.php" />
+        <option value="$PROJECT_DIR$/blue/formintro.php" />
+        <option value="$PROJECT_DIR$/blue/form.php" />
+        <option value="$PROJECT_DIR$/blue/mail_plantilla.html" />
+        <option value="$PROJECT_DIR$/blue/form2.php" />
+        <option value="$PROJECT_DIR$/blue/process.php" />
       </list>
     </option>
   </component>
@@ -104,10 +136,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="26" />
+    <option name="width" value="1920" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -134,41 +165,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebNando" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebNando" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebNando" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebNando" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebNando" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blue" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -177,20 +177,180 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2\3hab" />
-      <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2\2hab" />
-      <recent name="C:\xampp\htdocs\web\WebNando\blue\img" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue\galerias" />
+      <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach" />
+      <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach\galeria" />
+      <recent name="C:\xampp\htdocs\web\WebNando\blue\img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue\img" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue" />
+      <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/bluebeach.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/galeriab2-2.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/galeriab2-3.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/galeriab2.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/header.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/index.php</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.032-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.042-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.043-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.045-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.047-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.076-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.078-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.083-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.094-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.100-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.102-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.107-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/160620.108-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.050-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.053-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.056-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.059-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.061-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.064-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.069-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.070-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.074-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.104-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.001-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.002-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.008-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.010-3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.011-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.012-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.015-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.019-22.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.023-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.026-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.027-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.029-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.034-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.037-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.091-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.097-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.098-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blue/textos.php</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -269,17 +429,17 @@
       <workItem from="1480093684508" duration="4000" />
       <workItem from="1480093725852" duration="509000" />
       <workItem from="1480321279586" duration="116000" />
-      <workItem from="1482050970699" duration="10305000" />
-      <workItem from="1482219714765" duration="256000" />
-      <workItem from="1482219974136" duration="1807000" />
-      <workItem from="1482399857954" duration="616000" />
-      <workItem from="1482479555585" duration="2622000" />
-      <workItem from="1482567561169" duration="247000" />
-      <workItem from="1482572191632" duration="5084000" />
-      <workItem from="1482672824408" duration="1725000" />
-      <workItem from="1483355840569" duration="137000" />
-      <workItem from="1483521031535" duration="3799000" />
-      <workItem from="1483607686016" duration="2083000" />
+      <workItem from="1482050970699" duration="9700000" />
+      <workItem from="1482165345356" duration="6703000" />
+      <workItem from="1482176002895" duration="1324000" />
+      <workItem from="1482248179290" duration="2017000" />
+      <workItem from="1482319001956" duration="2184000" />
+      <workItem from="1482321231963" duration="723000" />
+      <workItem from="1482429785763" duration="1430000" />
+      <workItem from="1482515754551" duration="3379000" />
+      <workItem from="1482526945034" duration="7223000" />
+      <workItem from="1482864038182" duration="3613000" />
+      <workItem from="1483608345274" duration="873000" />
     </task>
     <task id="LOCAL-00001" summary="Banderetes a nes header, footer i classe nova a css.">
       <created>1479801046097</created>
@@ -373,62 +533,125 @@
       <updated>1482072329878</updated>
     </task>
     <task id="LOCAL-00014" summary="Homepage">
-      <created>1482138298118</created>
+      <created>1482166528066</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1482138298118</updated>
+      <updated>1482166528066</updated>
     </task>
     <task id="LOCAL-00015" summary="Homepage">
-      <created>1482567619201</created>
+      <created>1482176114472</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1482567619201</updated>
+      <updated>1482176114472</updated>
     </task>
-    <task id="LOCAL-00016" summary="Plantilla per es mail">
-      <created>1482576477504</created>
+    <task id="LOCAL-00016" summary="Homepage">
+      <created>1482177314164</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1482576477504</updated>
+      <updated>1482177314164</updated>
     </task>
-    <task id="LOCAL-00017" summary="asdfasdfas">
-      <created>1482688469591</created>
+    <task id="LOCAL-00017" summary="Homepage">
+      <created>1482249599511</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1482688469591</updated>
+      <updated>1482249599511</updated>
     </task>
-    <task id="LOCAL-00018" summary="asdfasdfas">
-      <created>1482688494911</created>
+    <task id="LOCAL-00018" summary="Homepage">
+      <created>1482319016419</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1482688494911</updated>
+      <updated>1482319016419</updated>
     </task>
-    <task id="LOCAL-00019" summary="Fotos galeria">
-      <created>1483608716196</created>
+    <task id="LOCAL-00019" summary="Homepage">
+      <created>1482319125559</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1483608716196</updated>
+      <updated>1482319125559</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Homepage">
+      <created>1482320998093</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1482320998093</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Homepage">
+      <created>1482321734188</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1482321734188</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Homepage">
+      <created>1482516202321</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1482516202321</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Homepage">
+      <created>1482519497267</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1482519497267</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Homepage">
+      <created>1482519750492</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1482519750492</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Homepage">
+      <created>1482532627552</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1482532627553</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Homepage">
+      <created>1482534150549</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1482534150549</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Homepage">
+      <created>1482866509963</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1482866509963</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Homepage">
+      <created>1483609761750</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1483609761750</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59678000" />
+    <option name="totallyTimeSpent" value="70166000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="26" width="1920" height="1054" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18976545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38313767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32286024" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -451,12 +674,12 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32286024" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18176973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -488,16 +711,20 @@
     <MESSAGE value="Pagines blue beach 1 i 2 amb parallax." />
     <MESSAGE value="jeje" />
     <MESSAGE value="Homepage" />
-    <MESSAGE value="Plantilla per es mail" />
-    <MESSAGE value="asdfasdfas" />
-    <MESSAGE value="Fotos galeria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fotos galeria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homepage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blue/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blue/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -509,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -524,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="81" column="70" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
           <caret line="81" column="70" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -602,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,14 +916,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/proves.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blue/css/materialize.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -713,133 +923,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blue/galeriab2-3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/galeriab2-2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/galeriab1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/bluebeach2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/galeriab2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blue/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="165">
           <caret line="11" column="103" selection-start-line="11" selection-start-column="103" selection-end-line="11" selection-end-column="103" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/mailPlantilla.html" />
+    <entry file="file://$PROJECT_DIR$/blue/css/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blue/css/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62594">
-          <caret line="3682" column="43" selection-start-line="3681" selection-start-column="0" selection-end-line="3682" selection-end-column="43" />
+        <state relative-caret-position="55425">
+          <caret line="3695" column="53" selection-start-line="3695" selection-start-column="53" selection-end-line="3695" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+    <entry file="file://$PROJECT_DIR$/blue/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="228" column="16" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/proves.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/bluebeach.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blue/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="1080">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/mail_plantilla.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blue/process.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="426">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding>
-            <marker date="1483608728205" expanded="true" signature="1494:1517" ph="..." />
-            <marker date="1483608728205" expanded="true" signature="1596:1617" ph="..." />
+            <marker date="1483609752114" expanded="true" signature="1392:1405" ph="..." />
+            <marker date="1483609752114" expanded="true" signature="1507:1530" ph="..." />
+            <marker date="1483609752114" expanded="true" signature="1609:1630" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/mail_plantilla.html">
+    <entry file="file://$PROJECT_DIR$/blue/form2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="27" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/galeriab2-2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="63" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/galeriab1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/galeriab2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/bluebeach2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/galeriab2-3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/textos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/bluebeach.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-          <folding />
+        <state relative-caret-position="399">
+          <caret line="81" column="154" selection-start-line="81" selection-start-column="154" selection-end-line="81" selection-end-column="154" />
+          <folding>
+            <element signature="e#6#39#0#PHP" expanded="true" />
+            <marker date="1482865215930" expanded="true" signature="3078:3080" ph="..." />
+            <marker date="1482865215930" expanded="true" signature="4264:4272" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
