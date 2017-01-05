@@ -56,6 +56,9 @@ function sendMail1(){
     }
 }
 function sendMail2(){
+    if ($_POST['accio']=='Cancelar'){
+        //TODO missatge rechazar
+    }
 
 
 }
