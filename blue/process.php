@@ -15,7 +15,7 @@ function sendMail1(){
     $mailer=Swift_Mailer::newInstance($transport);
 
 
-    $message.='<h4>Nom: '.$_POST["first_name"].' '.$_POST["last_name"].'</h4>';
+    $message='<h4>Nom: '.$_POST["first_name"].' '.$_POST["last_name"].'</h4>';
     $message.='<h4>Email: '.$_POST['email'].'</h4>';
     $message.='<h4>Telefon: '.$_POST['telf'].'</h4>';
     $message.='<h4>Data entrada: '.$_POST['entrada'].'</h4>';
@@ -39,7 +39,7 @@ function sendMail1(){
         Nova Solicitud de Reserva
     </div>
     <div class="logo" style="margin: auto;padding: 2%;">
-        <img src="http://83.52.177.177/web/WebNando/blue/img/logo-grande-low.png" style="width: 70%;margin-left: 15%;">
+        <img src="http://83.52.177.177/web/WebNando/blue/img/logo-grande-low.png" style="width: 50%;margin-left: 15%">
     </div>
     <div class="content" style="font-size: 150%;padding: 2%;text-align: center;">
         '.$message.'
