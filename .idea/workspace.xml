@@ -2,53 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abc4b3f3-2c2a-4e56-bea5-dff44f724fd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.032-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.042-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.043-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.045-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.047-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.076-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.078-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.083-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.094-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.100-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.102-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.107-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/160620.108-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.050-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.053-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.056-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.059-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.061-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.064-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.069-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.070-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.074-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/2hab/160620.104-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.001-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.002-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.008-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.010-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.011-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.012-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.015-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.019-22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.023-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.026-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.027-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.029-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.034-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.037-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.091-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.097-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/img/blue_beach_2/3hab/160620.098-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/textos.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/galeriab2-2.php" afterPath="$PROJECT_DIR$/blue/galeriab2-2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/galeriab2-3.php" afterPath="$PROJECT_DIR$/blue/galeriab2-3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/galeriab2.php" afterPath="$PROJECT_DIR$/blue/galeriab2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/header.php" afterPath="$PROJECT_DIR$/blue/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/index.php" afterPath="$PROJECT_DIR$/blue/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/bluebeach.php" afterPath="$PROJECT_DIR$/blue/bluebeach.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/textos.php" afterPath="$PROJECT_DIR$/blue/textos.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,11 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="textos.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="textos.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blue/textos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="165" selection-start-line="5" selection-start-column="165" selection-end-line="5" selection-end-column="165" />
+            <state relative-caret-position="119">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bluebeach.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blue/bluebeach.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -120,13 +86,13 @@
         <option value="$PROJECT_DIR$/blue/bluebeach2.php" />
         <option value="$PROJECT_DIR$/blue/galeriab1.php" />
         <option value="$PROJECT_DIR$/blue/form.php" />
-        <option value="$PROJECT_DIR$/blue/bluebeach.php" />
         <option value="$PROJECT_DIR$/blue/header.php" />
         <option value="$PROJECT_DIR$/blue/galeriab2-2.php" />
         <option value="$PROJECT_DIR$/blue/galeriab2-3.php" />
         <option value="$PROJECT_DIR$/blue/galeriab2.php" />
-        <option value="$PROJECT_DIR$/blue/textos.php" />
         <option value="$PROJECT_DIR$/blue/index.php" />
+        <option value="$PROJECT_DIR$/blue/textos.php" />
+        <option value="$PROJECT_DIR$/blue/bluebeach.php" />
       </list>
     </option>
   </component>
@@ -313,7 +279,7 @@
       <workItem from="1482672824408" duration="1725000" />
       <workItem from="1483355840569" duration="137000" />
       <workItem from="1483521031535" duration="3799000" />
-      <workItem from="1483607686016" duration="1001000" />
+      <workItem from="1483607686016" duration="2083000" />
     </task>
     <task id="LOCAL-00001" summary="Banderetes a nes header, footer i classe nova a css.">
       <created>1479801046097</created>
@@ -441,11 +407,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482688494911</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fotos galeria">
+      <created>1483608716196</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1483608716196</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58596000" />
+    <option name="totallyTimeSpent" value="59678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -517,7 +490,8 @@
     <MESSAGE value="Homepage" />
     <MESSAGE value="Plantilla per es mail" />
     <MESSAGE value="asdfasdfas" />
-    <option name="LAST_COMMIT_MESSAGE" value="asdfasdfas" />
+    <MESSAGE value="Fotos galeria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fotos galeria" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -776,8 +750,8 @@
         <state relative-caret-position="408">
           <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
           <folding>
-            <marker date="1482567574801" expanded="true" signature="1494:1517" ph="..." />
-            <marker date="1482567574801" expanded="true" signature="1596:1617" ph="..." />
+            <marker date="1483608728205" expanded="true" signature="1494:1517" ph="..." />
+            <marker date="1483608728205" expanded="true" signature="1596:1617" ph="..." />
           </folding>
         </state>
       </provider>
@@ -786,14 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/bluebeach.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,8 +829,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blue/textos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="165" selection-start-line="5" selection-start-column="165" selection-end-line="5" selection-end-column="165" />
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/bluebeach.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
           <folding />
         </state>
       </provider>
