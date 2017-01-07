@@ -23,11 +23,11 @@
     <div class="row container">
         <h3 class="header">Blue Beach 2</h3>
         <p class="grey-text text-darken-3 lighten-3">
-            Conjunto de apartamentos de dos y tres habitaciones.
+            <?php echo $textos["infobb2"][$_COOKIE["langcookie"]];?>
         </p>
         <p>
-            <a class="waves-effect waves-light btn blue">Consulta Disponibilidad <i class="material-icons right">book</i></a>
-            <a href="galeriab2.php" class="waves-effect waves-light btn blue">Galeria <i class="material-icons right">insert_photo</i></a>
+            <p><a class="waves-effect waves-light btn blue"><?php echo $textos["botoReserva"][$_COOKIE["langcookie"]];?> <i class="material-icons right">book</i></a></p>
+        <p><a href="galeriab2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$_COOKIE["langcookie"]];?> <i class="material-icons right">insert_photo</i></a></p>
         </p>
     </div>
 </div>
@@ -38,32 +38,33 @@
 
 <div class="section white">
     <div class="row container">
-        <h2 class="header">Dos Habitaciones</h2>
-        <div class="row">
+        <h2 class="header"><?php echo $textos["doshabit"][$_COOKIE["langcookie"]];?></h2>
+        <div class="row z-depth-1">
             <div class="col s12">
                 <ul class="tabs">
-                    <li class="tab col s3"><a class="active" href="#test11">Habitaciones</a></li>
-                    <li class="tab col s3"><a href="#test21">Cocina</a></li>
-                    <li class="tab col s3"><a href="#test31">Baño</a></li>
+                    <li class="tab col s3"><a class="active" href="#habp1"><?php echo $textos["habitaciones"][$_COOKIE["langcookie"]];?></a></li>
+                    <li class="tab col s3"><a href="#cocina1"><?php echo $textos["cocina"][$_COOKIE["langcookie"]];?></a></li>
+                    <li class="tab col s3"><a href="#baño1"><?php echo $textos["bano"][$_COOKIE["langcookie"]];?></a></li>
                 </ul>
             </div>
-            <div id="test11" class="col s12">
+            <div id="habp1" class="col s12">
                 <p>
-                    Exemple de text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                    <?php echo $textos["hab2info"][$_COOKIE["langcookie"]];?>
                 </p>
             </div>
-            <div id="test21" class="col s12">
+            <div id="cocina1" class="col s12">
                 <p>
-                    Exemple de text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                    <?php echo $textos["hab2cocinainfo"][$_COOKIE["langcookie"]];?>
                 </p>
             </div>
-            <div id="test31" class="col s12">
+            <div id="baño1" class="col s12">
                 <p>
-                    Exemple de text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                    <?php echo $textos["hab2banoinfo"][$_COOKIE["langcookie"]];?>
+                    -Secador de pelo<br/>-Espejo de Maquillaje<br/>-Bañera<br/>
                 </p>
             </div>
         </div>
-        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue">Galeria <i class="material-icons right">insert_photo</i></a>
+        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$_COOKIE["langcookie"]];?> <i class="material-icons right">insert_photo</i></a>
     </div>
 </div>
 
@@ -75,32 +76,45 @@
 
 <div class="section white">
     <div class="row container">
-        <h2 class="header">Tres Habitaciones</h2>
-        <div class="row">
-            <div class="offset-m1 col s12">
+        <h2 class="header"><?php echo $textos["treshabit"][$_COOKIE["langcookie"]];?></h2>
+        <div class="row z-depth-1">
+            <div class=" col s12">
                 <ul class="tabs">
-                    <li class="tab col s3"><a class="active" href="#test1">Habitaciones</a></li>
-                    <li class="tab col s3"><a href="#test2">Cocina</a></li>
-                    <li class="tab col s3"><a href="#test3">Baño</a></li>
+                    <li class="tab col s3 "><a class="active" href="#habp2">Habitaciones</a></li>
+                    <li class="tab col s3 "><a href="#cocina2">Cocina</a></li>
+                    <li class="tab col s3 "><a href="#baño2">Baño</a></li>
                 </ul>
             </div>
-            <div id="test1" class="col s12">
+            <div id="habp2" class="col s12">
                 <p>
-                    Exemple de text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                    <strong>Habitacion Principal</strong><br/>
+                    -Cama de 160cm con colchón de gran calidad y armario<br/>
+                    -Cuna opcional<br/>
+                    <strong>Habitacion nº2</strong><br/>
+                    -2 Camas dobles de 90cm con Armario<br/>
+                    <strong>Habitacion nº3</strong><br/>
+                    -1 cama de 90Cm con Armario
                 </p>
             </div>
-            <div id="test2" class="col s12">
+            <div id="cocina2" class="col s12">
                 <p>
-                    Exemple de text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                    -Cocina eléctrica completa con menaje<br/>
+                    -Frigorífico<br/>
+                    -Tostadora<br/>
+                    -Microondas<br/>
+                    -Hervidor de Agua<br/>
+                    -Cafetera<br/>
                 </p>
             </div>
-            <div id="test3" class="col s12">
+            <div id="baño2" class="col s12">
                 <p>
-                    Exemple de text. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                    -Secador de pelo<br/>
+                    -Espejo de Maquillaje<br/>
+                    -Bañera<br/>
                 </p>
             </div>
         </div>
-        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue">Galeria <i class="material-icons right">insert_photo</i></a>
+        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$_COOKIE["langcookie"]];?><i class="material-icons right">insert_photo</i></a>
     </div>
 </div>
 

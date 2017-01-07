@@ -42,7 +42,7 @@
 <div class="section white">
     <div class="row container">
         <h2 class="header"><?php echo $textos["descripccion"][$_COOKIE["langcookie"]];?></h2>
-        <div class="row">
+        <div class="row z-depth-1">
             <div class="offset-m1 col s12">
                 <ul class="tabs">
                     <li class="tab col s3"><a class="active" href="#test1"><?php echo $textos["habitaciones"][$_COOKIE["langcookie"]];?></a></li>
