@@ -32,6 +32,7 @@ $textos = array(
     "telefono" => array("es"=>"Telefono de contacto", "en" => "Contact phone", "fr" => "Téléphone de contact", "it" => "Contatto Telefono", "de" => "Kontakt Telefon"),
     "emailinfo" => array("es"=>"Solicita informacion", "en" => "", "fr" => "", "it" => "", "de" => ""),
     //Textos Formulari
+    "solicitud" => array("es"=>"Solicitud de reserva", "en" => "Reservation request", "fr" => "Demande de réservation", "it" => "Prenotazione richiesta", "de" => "Reservierungsanfrage"),
     "nombre" => array("es"=>"Nombre", "en" => "Name", "fr" => "Nom", "it" => "Nome", "de" => "Name"),
     "apellido" => array("es"=>"Apellido", "en" => "Surname", "fr" => "Noms", "it" => "Cognomi", "de" => "Nachnamen"),
     "email" => array("es"=>"Email", "en" => "E-mail", "fr" => "E-mail", "it" => "E-mail", "de" => "E-mail"),

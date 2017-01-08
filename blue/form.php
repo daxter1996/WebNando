@@ -20,7 +20,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 <div class="container" style="min-height: 800px">
     <form class="col" method="post" action="process.php">
         <div class="row">
-            <h2>Formulario de reserva</h2>
+            <h2><?php echo $textos["solicitud"][$_COOKIE["langcookie"]];?></h2>
         </div>
         <div class="row">
             <div class="input-field col s12 m6">
@@ -56,11 +56,11 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
         </div>
         <div class="row">
             <div class="input-field col s12 m4">
-                <input name="adultos" id="adultos" type="number" class="validate" required>
+                <input name="adultos" id="adultos" type="number" class="validate" required min="1">
                 <label for="adultos"> <?php echo $textos["adultos"][$_COOKIE["langcookie"]];?></label>
             </div>
             <div class="input-field col s12 m4">
-                <input name="inf" id="inf" type="number" class="validate" value="0">
+                <input name="inf" id="inf" type="number" class="validate" value="0" min="0">
                 <label for="inf"> <?php echo $textos["bebe"][$_COOKIE["langcookie"]];?></label>
             </div>
             <div class="input-field col s12 m4">
