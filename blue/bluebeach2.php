@@ -1,3 +1,6 @@
+<?php
+include_once "init.php";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,11 +26,11 @@
     <div class="row container">
         <h3 class="header">Blue Beach 2</h3>
         <p class="grey-text text-darken-3 lighten-3">
-            <?php echo $textos["infobb2"][$_COOKIE["langcookie"]];?>
+            <?php echo $textos["infobb2"][$lang];?>
         </p>
         <p>
-            <p><a href="form.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoReserva"][$_COOKIE["langcookie"]];?> <i class="material-icons right">book</i></a></p>
-        <p><a href="galeriab2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$_COOKIE["langcookie"]];?> <i class="material-icons right">insert_photo</i></a></p>
+            <p><a href="form.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoReserva"][$lang];?> <i class="material-icons right">book</i></a></p>
+        <p><a href="galeriab2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$lang];?> <i class="material-icons right">insert_photo</i></a></p>
         </p>
     </div>
 </div>
@@ -38,33 +41,33 @@
 
 <div class="section white">
     <div class="row container">
-        <h2 class="header"><?php echo $textos["doshabit"][$_COOKIE["langcookie"]];?></h2>
+        <h2 class="header"><?php echo $textos["doshabit"][$lang];?></h2>
         <div class="row z-depth-1">
             <div class="col s12">
                 <ul class="tabs">
-                    <li class="tab col s3"><a class="active" href="#habp1"><?php echo $textos["habitaciones"][$_COOKIE["langcookie"]];?></a></li>
-                    <li class="tab col s3"><a href="#cocina1"><?php echo $textos["cocina"][$_COOKIE["langcookie"]];?></a></li>
-                    <li class="tab col s3"><a href="#baño1"><?php echo $textos["bano"][$_COOKIE["langcookie"]];?></a></li>
+                    <li class="tab col s3"><a class="active" href="#habp1"><?php echo $textos["habitaciones"][$lang];?></a></li>
+                    <li class="tab col s3"><a href="#cocina1"><?php echo $textos["cocina"][$lang];?></a></li>
+                    <li class="tab col s3"><a href="#baño1"><?php echo $textos["bano"][$lang];?></a></li>
                 </ul>
             </div>
             <div id="habp1" class="col s12">
                 <p>
-                    <?php echo $textos["hab2info"][$_COOKIE["langcookie"]];?>
+                    <?php echo $textos["hab2info"][$lang];?>
                 </p>
             </div>
             <div id="cocina1" class="col s12">
                 <p>
-                    <?php echo $textos["hab2cocinainfo"][$_COOKIE["langcookie"]];?>
+                    <?php echo $textos["hab2cocinainfo"][$lang];?>
                 </p>
             </div>
             <div id="baño1" class="col s12">
                 <p>
-                    <?php echo $textos["hab2banoinfo"][$_COOKIE["langcookie"]];?>
+                    <?php echo $textos["hab2banoinfo"][$lang];?>
                     -Secador de pelo<br/>-Espejo de Maquillaje<br/>-Bañera<br/>
                 </p>
             </div>
         </div>
-        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$_COOKIE["langcookie"]];?> <i class="material-icons right">insert_photo</i></a>
+        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$lang];?> <i class="material-icons right">insert_photo</i></a>
     </div>
 </div>
 
@@ -76,7 +79,7 @@
 
 <div class="section white">
     <div class="row container">
-        <h2 class="header"><?php echo $textos["treshabit"][$_COOKIE["langcookie"]];?></h2>
+        <h2 class="header"><?php echo $textos["treshabit"][$lang];?></h2>
         <div class="row z-depth-1">
             <div class=" col s12">
                 <ul class="tabs">
@@ -114,7 +117,7 @@
                 </p>
             </div>
         </div>
-        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$_COOKIE["langcookie"]];?><i class="material-icons right">insert_photo</i></a>
+        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$lang];?><i class="material-icons right">insert_photo</i></a>
     </div>
 </div>
 

@@ -3,9 +3,12 @@
 //    header("Location: index.php");
 //    exit();
 //}
-if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");}
 
 
+
+?>
+<?php
+include_once "init.php";
 ?>
 <?php $thispage="form2.php";
 $datos=[];

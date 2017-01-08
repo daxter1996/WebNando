@@ -1,7 +1,5 @@
 <?php
-if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
-}
-
+include_once "init.php";
 ?>
 <?php $thispage="index.php";?>
 <!DOCTYPE html>
