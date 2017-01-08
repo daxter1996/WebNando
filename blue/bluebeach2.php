@@ -3,11 +3,7 @@
 <head>
     <title>Blue Beach 2</title>
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <?php require_once("head.php");?>
 </head>
 <header>
     <?php $thispage="bluebeach2.php";?>
@@ -106,7 +102,7 @@
 
 
 <div class="parallax-container">
-    <div class="parallax"><img src="img/blue_beach_2/parallax5.jpg"></div>
+    <div class="parallax"><img src="img/blue_beach_2/parallax3.jpg"></div>
 </div>
 
 <div class="section white">
@@ -117,7 +113,7 @@
 </div>
 
 <div class="parallax-container">
-    <div class="parallax"><img src="img/blue_beach_2/parallax3.jpg"></div>
+    <div class="parallax"><img src="img/blue_beach_2/parallax5.jpg"></div>
 </div>
 
 <div class="section white">

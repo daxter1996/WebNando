@@ -18,6 +18,7 @@ $datos=json_decode(($_GET['datos']),true);
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Confirmacion Reserva - Blue Beach</title>
     <?php include_once "head.php";?>
 </head>
 <header>

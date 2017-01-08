@@ -5,6 +5,7 @@ include_once "init.php";
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Reserva - Blue Beach</title>
    <?php include_once "head.php";?>
 </head>
 <header>

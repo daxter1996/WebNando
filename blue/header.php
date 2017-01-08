@@ -10,7 +10,7 @@
             <li><a class="hide-on-small-only" href="<?php echo $thispage?>" target="_self" onclick="updatecookie('fr')"><img class="img-navegacio" src="img/fr.jpg"/></a></li>
             <li><a class="hide-on-small-only" href="<?php echo $thispage?>" target="_self" onclick="updatecookie('it')"><img class="img-navegacio" src="img/it.png"/></a></li>
             <li><a class="hide-on-small-only" href="<?php echo $thispage?>" target="_self" onclick="updatecookie('de')"><img class="img-navegacio" src="img/de.png"/></a></li>
-            <li><a class="dropdown-button hide-on-med-and-up" href="#!" data-activates="dropdown1"><i class="material-icons">translate</i></a></li>
+            <li><a class="dropdown-button hide-on-med-and-up" href="#!" data-activates="dropdown1"><img src="img/multi.png"></a></li>
         </ul>
         <ul id="dropdown1" class="dropdown-content">
             <li><a href="<?php echo $thispage?>" target="_self" onclick="updatecookie('es')"><img class="img-navegacio" src="img/esp.png"/> </a></li>

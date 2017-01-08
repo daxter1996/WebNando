@@ -4,6 +4,7 @@ include_once "init.php";
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Blue Beach</title>
     <?php include_once "head.php";?>
 </head>
 <header>
@@ -53,7 +54,7 @@ include_once "init.php";
             </div>
             <div id="test2" class="col s12">
                 <p>
-                    <?php echo $textos["cocinainfo"][$lang];?>
+                    <?php echo $textos["hab2cocinainfo"][$lang];?>
                 </p>
             </div>
             <div id="test3" class="col s12">
