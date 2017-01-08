@@ -31,6 +31,18 @@ $textos = array(
     //Footer
     "telefono" => array("es"=>"Telefono de contacto", "en" => "Contact phone", "fr" => "Téléphone de contact", "it" => "Contatto Telefono", "de" => "Kontakt Telefon"),
     "emailinfo" => array("es"=>"Solicita informacion", "en" => "", "fr" => "", "it" => "", "de" => ""),
+    //Textos Formulari
+    "nombre" => array("es"=>"Nombre", "en" => "Name", "fr" => "Nom", "it" => "Nome", "de" => "Name"),
+    "apellido" => array("es"=>"Apellido", "en" => "Surname", "fr" => "Noms", "it" => "Cognomi", "de" => "Nachnamen"),
+    "email" => array("es"=>"Email", "en" => "E-mail", "fr" => "E-mail", "it" => "E-mail", "de" => "E-mail"),
+    "telefono" => array("es"=>"Telefono", "en" => "Phone", "fr" => "Téléphone", "it" => "Telefono", "de" => "Telefon"),
+    "entrada" => array("es"=>"Dia de entrada", "en" => "Day of entry", "fr" => "Jour d'arrivée", "it" => "Giorno di arrivo", "de" => ""),
+    "salida" => array("es"=>"Dia de salida", "en" => "Departure day", "fr" => "Jour de départ", "it" => "Giorno di partenza", "de" => "Tag der Abreise"),
+    "bebe" => array("es"=>"Bebes (0 a 3 años)", "en" => "Children (0 to 3 years)", "fr" => "Bébés", "it" => "Bambini", "de" => "Babys"),
+    "adultos" => array("es"=>"Adultos", "en" => "Adults", "fr" => "Adultes", "it" => "Adulti", "de" => "Erwachsene"),
+    "nhab" => array("es"=>"Numero de Habitaciones", "en" => "Number of rooms", "fr" => "Nombre de chambres", "it" => "Numero di Camere", "de" => "Zahl der verfügbaren Zimmer"),
+    "observaciones" => array("es"=>"Observaciones", "en" => "Observations", "fr" => "Remarques", "it" => "Osservazioni", "de" => "Bemerkungen"),
+    "enviar" => array("es"=>"Enviar", "en" => "Send", "fr" => "Eenvoyer", "it" => "Inviare", "de" => "Senden"),
 );
 
 

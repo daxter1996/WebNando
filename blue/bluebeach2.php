@@ -26,7 +26,7 @@
             <?php echo $textos["infobb2"][$_COOKIE["langcookie"]];?>
         </p>
         <p>
-            <p><a class="waves-effect waves-light btn blue"><?php echo $textos["botoReserva"][$_COOKIE["langcookie"]];?> <i class="material-icons right">book</i></a></p>
+            <p><a href="form.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoReserva"][$_COOKIE["langcookie"]];?> <i class="material-icons right">book</i></a></p>
         <p><a href="galeriab2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$_COOKIE["langcookie"]];?> <i class="material-icons right">insert_photo</i></a></p>
         </p>
     </div>

@@ -12,6 +12,7 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
 <header>
     <?php $thispage="form.php";?>
     <?php include_once "header.php"; ?>
+    <?php include_once "textos.php"; ?>
 </header>
 <body>
 <br/>
@@ -24,63 +25,63 @@ if(empty($_COOKIE["langcookie"])){ setcookie("langcookie","es");
         <div class="row">
             <div class="input-field col s12 m6">
                 <input name="first_name" id="first_name" type="text" class="validate" required>
-                <label for="first_name">Nombre</label>
+                <label for="first_name"> <?php echo $textos["nombre"][$_COOKIE["langcookie"]];?></label>
             </div>
             <div class="input-field col s12 m6">
                 <input name="last_name" id="last_name" type="text" class="validate" required>
-                <label for="last_name">Apellidos</label>
+                <label for="last_name"> <?php echo $textos["apellido"][$_COOKIE["langcookie"]];?></label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12 m6">
                 <input name="email" id="email" type="email" class="validate" required>
-                <label for="email">Email</label>
+                <label for="email"> <?php echo $textos["email"][$_COOKIE["langcookie"]];?></label>
             </div>
 
 
             <div class="input-field col s12 m6">
                 <input name="telf"  id="telf" type="tel" class="validate" value="0">
-                <label for="telf">Telefono</label>
+                <label for="telf"> <?php echo $textos["telefono"][$_COOKIE["langcookie"]];?></label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col m6 s12">
                 <input name="entrada" id="entrada" type="date" class="datepicker" required>
-                <label for="entrada">Dia de entrada</label>
+                <label for="entrada"> <?php echo $textos["entrada"][$_COOKIE["langcookie"]];?></label>
             </div>
             <div class="input-field col m6 s12">
                 <input name="salida" id="salida" type="date" class="datepicker" required>
-                <label for="salida">Dia de salida</label>
+                <label for="salida"> <?php echo $textos["salida"][$_COOKIE["langcookie"]];?></label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12 m4">
                 <input name="adultos" id="adultos" type="number" class="validate" required>
-                <label for="adultos">Adultos</label>
+                <label for="adultos"> <?php echo $textos["adultos"][$_COOKIE["langcookie"]];?></label>
             </div>
             <div class="input-field col s12 m4">
                 <input name="inf" id="inf" type="number" class="validate" value="0">
-                <label for="inf">Bebe (0-3 años)</label>
+                <label for="inf"> <?php echo $textos["bebe"][$_COOKIE["langcookie"]];?></label>
             </div>
             <div class="input-field col s12 m4">
                 <select class="validate" name="hab" required>
-                    <option value="" disabled selected>Numero de habitaciones</option>
-                    <option value="1">1 Habitacion</option>
-                    <option value="2">2 Habitaciones</option>
-                    <option value="3">3 Habitaciones</option>
+                    <option value="" disabled selected> <?php echo $textos["nhab"][$_COOKIE["langcookie"]];?></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
                 </select>
-                <label>Numero de habitaciones</label>
+                <label> <?php echo $textos["nhab"][$_COOKIE["langcookie"]];?></label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s12">
                 <textarea id="observaciones" name="observaciones" class="materialize-textarea"></textarea>
-                <label for="observaciones">Observaciones</label>
+                <label for="observaciones"> <?php echo $textos["observaciones"][$_COOKIE["langcookie"]];?></label>
             </div>
         </div>
         <input type="hidden" name="page" value="form1">
         <div class="center">
-            <button class="btn waves-effect blue" type="submit">Enviar<i class="material-icons right">send</i> </button>
+            <button class="btn waves-effect blue" type="submit"><?php echo $textos["enviar"][$_COOKIE["langcookie"]];?><i class="material-icons right">send</i> </button>
         </div>
     </form>
 </div>
