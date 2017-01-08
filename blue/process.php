@@ -71,7 +71,7 @@ function sendMail2()
             ->setPassword('Jaumepons007');
         $mailer = Swift_Mailer::newInstance($transport);
         $message = '<h4>Tu solicitud de reserva ha sido aceptada, para completar la reserva accede al siguiente enlace</h4>';
-        $message .= '<form method="get" action="81.47.19.13/~jaume/WebNando1/blue/form2.php">';
+        $message .= '<form method="get" action="81.47.19.13/~jaume/WebNando1/blue/form3.php">';
         $datos = $_POST;
         $datos['page'] = 'form3';
         $datosCod = json_encode($datos);

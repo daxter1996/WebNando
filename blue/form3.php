@@ -4,7 +4,7 @@
 //    exit();
 //}
 
-
+include_once "huesped.php";
 
 ?>
 <?php
@@ -30,63 +30,46 @@ $datos=json_decode(($_GET['datos']),true);
     <div class="container" style="min-height: 800px">
         <form class="col" method="post" action="process.php">
             <div class="row">
-                <h2><?php echo $_GET['accio']?>  reserva</h2>
+                <h2>Confirmacion de Reserva</h2>
             </div>
             <div class="row">
-                <div class="input-field col s12 m6">
-                    <input name="first_name" id="first_name" type="text" class="validate" disabled value="<?php echo $datos['first_name']?>">
-                    <label for="first_name">Nombre</label>
+                <div >
+                    <h4><?php echo $textos["nombre"][$lang];?>: <?php echo $datos['first_name']?></h4>
                 </div>
-                <div class="input-field col s12 m6">
-                    <input name="last_name" id="last_name" type="text" class="validate" value="<?php echo $datos['last_name']?>">
-                    <label for="last_name">Apellidos</label>
+                <div >
+                    <h4><?php echo $textos["apellido"][$lang];?>: <?php echo $datos['last_name']?></h4>
                 </div>
             </div>
             <div class="row">
-                <div class="input-field col s12 m6">
-                    <input name="email" id="email" type="email" class="validate" value="<?php echo $datos['email']?>">
-                    <label for="email">Email</label>
+                <div >
+                    <h4><?php echo $textos["email"][$lang];?>: <?php echo $datos['email']?></h4>
                 </div>
 
 
-                <div class="input-field col s12 m6">
-                    <input name="telf"  id="telf" type="tel" class="validate" value="<?php echo $datos['telf']?>">
-                    <label for="telf">Telefono</label>
+                <div>
+                    <h4><?php echo $textos["telefono"][$lang];?>: <?php echo $datos['telf']?></h4>
+
                 </div>
             </div>
             <div class="row">
-                <div class="input-field col m6 s12">
-                    <input name="entrada" id="entrada" type="text" value="<?php echo $datos['entrada']?>">
-                    <label for="entrada">Dia de entrada</label>
+                <div>
+                    <h4><?php echo $textos["entrada"][$lang];?>: <?php echo $datos['entrada']?></h4>
+
                 </div>
-                <div class="input-field col m6 s12">
-                    <input name="salida" id="salida" type="text"  value="<?php echo $datos['salida']?>">
-                    <label for="salida">Dia de salida</label>
+                <div >
+                    <h4><?php echo $textos["salida"][$lang];?>: <?php echo $datos['salida']?></h4>
+
                 </div>
             </div>
             <div class="row">
-                <div class="input-field col s12 m4">
-                    <input name="adultos" id="adultos" type="text" class="validate" value="<?php echo $datos['adultos']?>">
-                    <label for="adultos">Adultos</label>
-                </div>
-                <div class="input-field col s12 m4">
-                    <input name="inf" id="inf" type="text" class="validate" value="<?php echo $datos['inf']?>">
-                    <label for="inf">Bebe (0-3 años)</label>
-                </div>
 
                 <div class="input-field col s12 m4">
-                    <input name="hab" id="hab" type="text" class="validate" value="<?php echo $datos['hab']?>">
-                    <label for="hab">Habitaciones</label>
+                    <h4><?php echo $textos["nhab"][$lang];?>: <?php echo $datos['hab']?></h4>
                 </div>
             </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <textarea id="mensaje" name="mensaje" class="materialize-textarea"><?php if($_GET['accio']=='Aceptar') echo $mensajeAceptar; else echo $mensajeRechazar;?></textarea>
-                    <label for="mensaje">Mensaje a enviar:</label>
-                </div>
-            </div>
-            <input type="hidden" name="page" value="form2">
-            <input type="hidden" name="accio" value="<?php echo $_GET['accio'];?>">
+            <?php datoshuesped($datos['adultos'])?>
+            <input type="hidden" name="page" value="form3">
+            <textarea name="datos" style="display: none"><?php echo $_GET['datos']?></textarea>
             <div class="center">
                 <button class="btn waves-effect blue" type="submit">Enviar<i class="material-icons right">send</i> </button>
             </div>
