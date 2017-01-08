@@ -1,6 +1,3 @@
-<?php
-include_once "init.php";
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,11 +23,11 @@ include_once "init.php";
     <div class="row container">
         <h3 class="header">Blue Beach 2</h3>
         <p class="grey-text text-darken-3 lighten-3">
-            <?php echo $textos["infobb2"][$lang];?>
+            <?php echo $textos["infobb2"][$_COOKIE["langcookie"]];?>
         </p>
         <p>
-            <p><a href="form.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoReserva"][$lang];?> <i class="material-icons right">book</i></a></p>
-        <p><a href="galeriab2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$lang];?> <i class="material-icons right">insert_photo</i></a></p>
+            <p><a href="form.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoReserva"][$_COOKIE["langcookie"]];?> <i class="material-icons right">book</i></a></p>
+        <p><a href="galeriab2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$_COOKIE["langcookie"]];?> <i class="material-icons right">insert_photo</i></a></p>
         </p>
     </div>
 </div>
@@ -41,33 +38,32 @@ include_once "init.php";
 
 <div class="section white">
     <div class="row container">
-        <h2 class="header"><?php echo $textos["doshabit"][$lang];?></h2>
+        <h2 class="header"><?php echo $textos["doshabit"][$_COOKIE["langcookie"]];?></h2>
         <div class="row z-depth-1">
             <div class="col s12">
                 <ul class="tabs">
-                    <li class="tab col s3"><a class="active" href="#habp1"><?php echo $textos["habitaciones"][$lang];?></a></li>
-                    <li class="tab col s3"><a href="#cocina1"><?php echo $textos["cocina"][$lang];?></a></li>
-                    <li class="tab col s3"><a href="#baño1"><?php echo $textos["bano"][$lang];?></a></li>
+                    <li class="tab col s3"><a class="active" href="#habp1"><?php echo $textos["habitaciones"][$_COOKIE["langcookie"]];?></a></li>
+                    <li class="tab col s3"><a href="#cocina1"><?php echo $textos["cocina"][$_COOKIE["langcookie"]];?></a></li>
+                    <li class="tab col s3"><a href="#baño1"><?php echo $textos["bano"][$_COOKIE["langcookie"]];?></a></li>
                 </ul>
             </div>
             <div id="habp1" class="col s12">
                 <p>
-                    <?php echo $textos["hab2info"][$lang];?>
+                    <?php echo $textos["hab2info"][$_COOKIE["langcookie"]];?>
                 </p>
             </div>
             <div id="cocina1" class="col s12">
                 <p>
-                    <?php echo $textos["hab2cocinainfo"][$lang];?>
+                    <?php echo $textos["hab2cocinainfo"][$_COOKIE["langcookie"]];?>
                 </p>
             </div>
             <div id="baño1" class="col s12">
                 <p>
-                    <?php echo $textos["hab2banoinfo"][$lang];?>
-                    -Secador de pelo<br/>-Espejo de Maquillaje<br/>-Bañera<br/>
+                    <?php echo $textos["hab2banoinfo"][$_COOKIE["langcookie"]];?>
                 </p>
             </div>
         </div>
-        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$lang];?> <i class="material-icons right">insert_photo</i></a>
+        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$_COOKIE["langcookie"]];?> <i class="material-icons right">insert_photo</i></a>
     </div>
 </div>
 
@@ -79,13 +75,13 @@ include_once "init.php";
 
 <div class="section white">
     <div class="row container">
-        <h2 class="header"><?php echo $textos["treshabit"][$lang];?></h2>
+        <h2 class="header"><?php echo $textos["treshabit"][$_COOKIE["langcookie"]];?></h2>
         <div class="row z-depth-1">
             <div class=" col s12">
                 <ul class="tabs">
-                    <li class="tab col s3 "><a class="active" href="#habp2">Habitaciones</a></li>
-                    <li class="tab col s3 "><a href="#cocina2">Cocina</a></li>
-                    <li class="tab col s3 "><a href="#baño2">Baño</a></li>
+                    <li class="tab col s3 "><a class="active" href="#habp2"><?php echo $textos["habitaciones"][$_COOKIE["langcookie"]];?></a></li>
+                    <li class="tab col s3 "><a href="#cocina2"><?php echo $textos["cocina"][$_COOKIE["langcookie"]];?></a></li>
+                    <li class="tab col s3 "><a href="#baño2"><?php echo $textos["bano"][$_COOKIE["langcookie"]];?></a></li>
                 </ul>
             </div>
             <div id="habp2" class="col s12">
@@ -101,23 +97,16 @@ include_once "init.php";
             </div>
             <div id="cocina2" class="col s12">
                 <p>
-                    -Cocina eléctrica completa con menaje<br/>
-                    -Frigorífico<br/>
-                    -Tostadora<br/>
-                    -Microondas<br/>
-                    -Hervidor de Agua<br/>
-                    -Cafetera<br/>
+                    <?php echo $textos["hab2cocinainfo"][$_COOKIE["langcookie"]];?>
                 </p>
             </div>
             <div id="baño2" class="col s12">
                 <p>
-                    -Secador de pelo<br/>
-                    -Espejo de Maquillaje<br/>
-                    -Bañera<br/>
+                    <?php echo $textos["hab2banoinfo"][$_COOKIE["langcookie"]];?>
                 </p>
             </div>
         </div>
-        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$lang];?><i class="material-icons right">insert_photo</i></a>
+        <a href="galeriab2-2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$_COOKIE["langcookie"]];?><i class="material-icons right">insert_photo</i></a>
     </div>
 </div>
 
@@ -128,7 +117,7 @@ include_once "init.php";
 
 <div class="section white">
     <div class="row container">
-        <h2 class="header">Video</h2>
+        <h2 class="header"><?php echo $textos["video"][$_COOKIE["langcookie"]];?></h2>
         <p class="grey-text text-darken-3 lighten-3"><iframe class=" offset-m1 col m10 s12" height="490" src="https://www.youtube.com/embed/zXMYbGZB9js" frameborder="0" allowfullscreen></iframe></p>
     </div>
 </div>
@@ -139,7 +128,7 @@ include_once "init.php";
 
 <div class="section white">
     <div class="row container">
-        <h2 class="header">Localicacion</h2>
+        <h2 class="header"><?php echo $textos["localicacion"][$_COOKIE["langcookie"]];?></h2>
         <p class="grey-text text-darken-3 lighten-3"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d764.0118363917348!2d3.80707282925118!3d40.007389998713414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12be06b6f2b02951%3A0x93ce6005d8434d97!2sUb+Cala+Picas%2C+415%2C+07769+Cala+en+Blanes%2C+Illes+Balears!5e0!3m2!1ses!2ses!4v1479806702337" class="col s12" height="350" frameborder="0" style="border:0" allowfullscreen></iframe></p>
     </div>
 </div>
