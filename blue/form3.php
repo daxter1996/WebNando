@@ -10,11 +10,10 @@
 <?php
 include_once "init.php";
 ?>
-<?php $thispage="form2.php";
+<?php $thispage="form3.php";
 $datos=[];
 $datos=json_decode(($_GET['datos']),true);
-$mensajeAceptar="Aquest seria es missatge pregrabat de aceptacio que es editable";
-$mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editable";
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -74,10 +73,10 @@ $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editabl
                     <label for="inf">Bebe (0-3 años)</label>
                 </div>
 
-                    <div class="input-field col s12 m4">
-                        <input name="hab" id="hab" type="text" class="validate" value="<?php echo $datos['hab']?>">
-                        <label for="hab">Habitaciones</label>
-                    </div>
+                <div class="input-field col s12 m4">
+                    <input name="hab" id="hab" type="text" class="validate" value="<?php echo $datos['hab']?>">
+                    <label for="hab">Habitaciones</label>
+                </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">

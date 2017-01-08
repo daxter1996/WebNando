@@ -25,7 +25,7 @@ function sendMail1()
     $message .= '<h4>Bebes: ' . $_POST['inf'] . '</h4>';
     $message .= '<h4>Nombre de habitacions: ' . $_POST['hab'] . '</h4>';
     $message .= '<p>Observacions: ' . $_POST['observaciones'] . '</p>';
-    $message .= '<form method="get" action="83.52.177.177/web/WebNando/blue/form2.php">';
+    $message .= '<form method="get" action="81.47.19.13/~jaume/WebNando1/blue/form2.php">';
     $datos = $_POST;
     $datos['page'] = 'form2';
     $datosCod = json_encode($datos);
@@ -59,15 +59,19 @@ function sendMail1()
 
 function sendMail2()
 {
+    echo "entrada funcio";
     if ($_POST['accio'] == 'Cancelar') {
         //TODO missatge rechazar
-    } else if ($_POST['accio'] == 'Aceptar') {
+
+    }
+    if ($_POST['accio'] == 'Aceptar') {
+
         $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 465)
             ->setUsername('radiocontrolmenorca@gmail.com')
             ->setPassword('Jaumepons007');
         $mailer = Swift_Mailer::newInstance($transport);
         $message = '<h4>Tu solicitud de reserva ha sido aceptada, para completar la reserva accede al siguiente enlace</h4>';
-        $message .= '<form method="get" action="83.52.177.177/web/WebNando/blue/form3.php">';
+        $message .= '<form method="get" action="81.47.19.13/~jaume/WebNando1/blue/form2.php">';
         $datos = $_POST;
         $datos['page'] = 'form3';
         $datosCod = json_encode($datos);
