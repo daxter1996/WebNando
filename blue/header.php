@@ -5,6 +5,14 @@
     <div class="nav-wrapper blue" style="box-shadow: 0px 15px 37px -2px rgba(0,0,0,0.3);">
         <a href="index.php" class="brand-logo left"><img src="img/logoh.jpg" style="height: 70px;"></a>
         <ul id="nav-mobile" class="right">
+            <li><a class="hide-on-small-only" href="<?php echo $thispage?>" target="_self" onclick="updatecookie('es')"><img class="img-navegacio" src="img/esp.png"/> </a></li>
+            <li><a class="hide-on-small-only" href="<?php echo $thispage?>" target="_self" onclick="updatecookie('en')"><img class="img-navegacio" src="img/eng.jpg"/></a></li>
+            <li><a class="hide-on-small-only" href="<?php echo $thispage?>" target="_self" onclick="updatecookie('fr')"><img class="img-navegacio" src="img/fr.jpg"/></a></li>
+            <li><a class="hide-on-small-only" href="<?php echo $thispage?>" target="_self" onclick="updatecookie('it')"><img class="img-navegacio" src="img/it.png"/></a></li>
+            <li><a class="hide-on-small-only" href="<?php echo $thispage?>" target="_self" onclick="updatecookie('de')"><img class="img-navegacio" src="img/de.png"/></a></li>
+            <li><a class="dropdown-button hide-on-med-and-up" href="#!" data-activates="dropdown1"><i class="material-icons">translate</i></a></li>
+        </ul>
+        <ul id="dropdown1" class="dropdown-content">
             <li><a href="<?php echo $thispage?>" target="_self" onclick="updatecookie('es')"><img class="img-navegacio" src="img/esp.png"/> </a></li>
             <li><a href="<?php echo $thispage?>" target="_self" onclick="updatecookie('en')"><img class="img-navegacio" src="img/eng.jpg"/></a></li>
             <li><a href="<?php echo $thispage?>" target="_self" onclick="updatecookie('fr')"><img class="img-navegacio" src="img/fr.jpg"/></a></li>

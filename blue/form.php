@@ -44,12 +44,14 @@ include_once "init.php";
         </div>
         <div class="row">
             <div class="input-field col m6 s12">
-                <input name="entrada" id="entrada" type="date" class="datepicker" required>
-                <label for="entrada"> <?php echo $textos["entrada"][$lang];?></label>
+                <p><?php echo $textos["entrada"][$lang];?></p>
+                <input name="entrada" id="entrada" type="date" required>
+                <label for="entrada"> <?php //echo $textos["entrada"][$lang];?></label>
             </div>
             <div class="input-field col m6 s12">
-                <input name="salida" id="salida" type="date" class="datepicker" required>
-                <label for="salida"> <?php echo $textos["salida"][$lang];?></label>
+                <p><?php echo $textos["salida"][$lang];?></p>
+                <input name="salida" id="salida" type="date" required>
+                <label for="salida"></label>
             </div>
         </div>
         <div class="row">

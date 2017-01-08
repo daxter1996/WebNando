@@ -86,13 +86,7 @@
             </div>
             <div id="habp2" class="col s12">
                 <p>
-                    <strong>Habitacion Principal</strong><br/>
-                    -Cama de 160cm con colchón de gran calidad y armario<br/>
-                    -Cuna opcional<br/>
-                    <strong>Habitacion nº2</strong><br/>
-                    -2 Camas dobles de 90cm con Armario<br/>
-                    <strong>Habitacion nº3</strong><br/>
-                    -1 cama de 90Cm con Armario
+                    <?php echo $textos["hab3info"][$_COOKIE["langcookie"]];?>
                 </p>
             </div>
             <div id="cocina2" class="col s12">

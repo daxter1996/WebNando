@@ -25,8 +25,8 @@ include_once "init.php";
             ?>
         </p>
         <p>
-            <a href="form.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoReserva"][$lang];?> <i class="material-icons right">drafts</i></a>
-            <a href="galeriab1.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$lang];?> <i class="material-icons right">insert_photo</i></a>
+            <p><a href="form.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoReserva"][$lang];?> <i class="material-icons right">drafts</i></a></p>
+            <p><a href="galeriab1.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$lang];?> <i class="material-icons right">insert_photo</i></a></p>
         </p>
     </div>
 </div>
