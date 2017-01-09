@@ -9,7 +9,7 @@ if (!isset($_POST['page'])) {
     if ($_POST['page'] == 'form3') sendMail3();
 
 }
-define('DIRE','http://bluebeachprova.ddns.net/blue');
+$GLOBALS['DIRE']='http://bluebeachprova.ddns.net/blue';
 function sendMail1()
 {
     $transport = Swift_SmtpTransport::newInstance('ssl://authsmtp.securemail.pro', 465)
@@ -27,7 +27,7 @@ function sendMail1()
     $message .= '<h4>Bebes: ' . $_POST['inf'] . '</h4>';
     $message .= '<h4>Nombre de habitacions: ' . $_POST['hab'] . '</h4>';
     $message .= '<p>Observacions: ' . $_POST['observaciones'] . '</p>';
-    $message .= '<form method="post" action="'.DIRE.'/form2.php">';
+    $message .= '<form method="post" action="'.$GLOBALS['DIRE'].'/form2.php">';
     $datos = $_POST;
     $datos['page'] = 'form2';
     $datosCod = json_encode($datos);
@@ -42,7 +42,7 @@ function sendMail1()
         Nova Solicitud de Reserva
     </div>
     <div class="logo" style="margin: auto;padding: 2%;">
-        <img src="'.DIRE.'/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
+        <img src="'.$GLOBALS['DIRE'].'/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
     </div>
     <div class="content" style="font-size: 150%;padding: 2%;text-align: center;">
         ' . $message . '
@@ -53,7 +53,7 @@ function sendMail1()
         ->setTo('reservas@bluebeachmenorca.com')
         ->setBody($plantilla, 'text/html');
     if ($mailer->send($mail)) {
-        echo 'Mail enviat';
+        echo '<script>window.location = "'.$GLOBALS['DIRE'].'/enviat.php";</script>';
     } else {
         echo 'Fall de email';
     }
@@ -74,7 +74,7 @@ function sendMail2()
     <div class="motiu" style="margin: auto;padding: 2%;font-weight: 700;font-size: 200%;text-align: center;">
     </div>
     <div class="logo" style="margin: auto;padding: 2%;">
-        <img src="'.DIRE.'/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
+        <img src="'.$GLOBALS['DIRE'].'/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
     </div>
     <div class="content" style="font-size: 150%;padding: 2%;text-align: center;">
         ' . $message . '
@@ -85,7 +85,7 @@ function sendMail2()
             ->setTo($_POST['email'])
             ->setBody($plantilla, 'text/html');
         if ($mailer->send($mail)) {
-            header("Location: enviat.php");
+            echo '<script>window.location = "'.$GLOBALS['DIRE'].'/enviat.php";</script>';
         } else {
             echo 'Fall de email';
         }
@@ -100,7 +100,7 @@ function sendMail2()
 
         $message = '<h4>Tu solicitud de reserva ha sido aceptada</h4>';
         $message.='<p>'.$_POST['mensaje'].'</p>';
-        $message .= '<form method="post" action="'.DIRE.'/form3.php">';
+        $message .= '<form method="post" action="'.$GLOBALS['DIRE'].'/form3.php">';
         $datos = $_POST;
         $datos['page'] = 'form3';
         $datosCod = json_encode($datos);
@@ -112,7 +112,7 @@ function sendMail2()
     <div class="motiu" style="margin: auto;padding: 2%;font-weight: 700;font-size: 200%;text-align: center;">
     </div>
     <div class="logo" style="margin: auto;padding: 2%;">
-        <img src="'.DIRE.'/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
+        <img src="'.$GLOBALS['DIRE'].'/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
     </div>
     <div class="content" style="font-size: 150%;padding: 2%;text-align: center;">
         ' . $message . '
@@ -123,7 +123,7 @@ function sendMail2()
             ->setTo($_POST['email'])
             ->setBody($plantilla, 'text/html');
         if ($mailer->send($mail)) {
-            header("Location: enviat.php");
+            echo '<script>window.location = "'.$GLOBALS['DIRE'].'/enviat.php";</script>';
         } else {
             echo 'Fall de email';
         }
@@ -164,7 +164,7 @@ function sendMail3(){
         Reserva Confirmada
     </div>
     <div class="logo" style="margin: auto;padding: 2%;">
-        <img src="'.DIRE.'/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
+        <img src="'.$GLOBALS['DIRE'].'/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
     </div>
     <div class="content" style="font-size: 150%;padding: 2%;text-align: center;">
         ' . $message . '
@@ -175,7 +175,7 @@ function sendMail3(){
         ->setTo('reservas@bluebeachmenorca.com')
         ->setBody($plantilla, 'text/html');
     if ($mailer->send($mail)) {
-        header("Location: enviat.php");
+        echo '<script>window.location = "'.$GLOBALS['DIRE'].'/enviat.php";</script>';
     } else {
         echo 'Fall de email';
     }
