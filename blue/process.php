@@ -26,7 +26,7 @@ function sendMail1()
     $message .= '<h4>Bebes: ' . $_POST['inf'] . '</h4>';
     $message .= '<h4>Nombre de habitacions: ' . $_POST['hab'] . '</h4>';
     $message .= '<p>Observacions: ' . $_POST['observaciones'] . '</p>';
-    $message .= '<form method="post" action="192.168.1.105/~jaume/WebNando1/blue/form2.php">';
+    $message .= '<form method="post" action="http://bluebeach.hol.es/form2.php">';
     $datos = $_POST;
     $datos['page'] = 'form2';
     $datosCod = json_encode($datos);
@@ -41,7 +41,7 @@ function sendMail1()
         Nova Solicitud de Reserva
     </div>
     <div class="logo" style="margin: auto;padding: 2%;">
-        <img src="http://83.52.177.177/web/WebNando/blue/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
+        <img src="http://bluebeach.hol.es/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
     </div>
     <div class="content" style="font-size: 150%;padding: 2%;text-align: center;">
         ' . $message . '
@@ -73,7 +73,7 @@ function sendMail2()
     <div class="motiu" style="margin: auto;padding: 2%;font-weight: 700;font-size: 200%;text-align: center;">
     </div>
     <div class="logo" style="margin: auto;padding: 2%;">
-        <img src="http://83.52.177.177/web/WebNando/blue/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
+        <img src="http://bluebeach.hol.es/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
     </div>
     <div class="content" style="font-size: 150%;padding: 2%;text-align: center;">
         ' . $message . '
@@ -98,7 +98,7 @@ function sendMail2()
         $mailer = Swift_Mailer::newInstance($transport);
         $message = '<h4>Tu solicitud de reserva ha sido aceptada</h4>';
         $message.='<p>'.$_POST['mensaje'].'</p>';
-        $message .= '<form method="post" action="192.168.1.105/~jaume/WebNando1/blue/form3.php">';
+        $message .= '<form method="post" action="http://bluebeach.hol.es/form3.php">';
         $datos = $_POST;
         $datos['page'] = 'form3';
         $datosCod = json_encode($datos);
@@ -110,7 +110,7 @@ function sendMail2()
     <div class="motiu" style="margin: auto;padding: 2%;font-weight: 700;font-size: 200%;text-align: center;">
     </div>
     <div class="logo" style="margin: auto;padding: 2%;">
-        <img src="http://83.52.177.177/web/WebNando/blue/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
+        <img src="http://bluebeach.hol.es/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
     </div>
     <div class="content" style="font-size: 150%;padding: 2%;text-align: center;">
         ' . $message . '
@@ -162,7 +162,7 @@ function sendMail3(){
         Reserva Confirmada
     </div>
     <div class="logo" style="margin: auto;padding: 2%;">
-        <img src="http://83.52.177.177/web/WebNando/blue/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
+        <img src="http://bluebeach.hol.es/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
     </div>
     <div class="content" style="font-size: 150%;padding: 2%;text-align: center;">
         ' . $message . '
