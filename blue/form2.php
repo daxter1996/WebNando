@@ -12,7 +12,7 @@ include_once "init.php";
 ?>
 <?php $thispage="form2.php";
 $datos=[];
-$datos=json_decode(($_GET['datos']),true);
+$datos=json_decode(($_POST['datos']),true);
 $mensajeAceptar="Aquest seria es missatge pregrabat de aceptacio que es editable";
 $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editable";
 ?>
@@ -30,11 +30,11 @@ $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editabl
     <div class="container" style="min-height: 800px">
         <form class="col" method="post" action="process.php">
             <div class="row">
-                <h2><?php echo $_GET['accio']?>  reserva</h2>
+                <h2><?php echo $_POST['accio']?>  reserva</h2>
             </div>
             <div class="row">
                 <div class="input-field col s12 m6">
-                    <input name="first_name" id="first_name" type="text" class="validate" disabled value="<?php echo $datos['first_name']?>">
+                    <input name="first_name" id="first_name" type="text" class="validate" value="<?php echo $datos['first_name']?>">
                     <label for="first_name">Nombre</label>
                 </div>
                 <div class="input-field col s12 m6">
@@ -81,12 +81,12 @@ $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editabl
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <textarea id="mensaje" name="mensaje" class="materialize-textarea"><?php if($_GET['accio']=='Aceptar') echo $mensajeAceptar; else echo $mensajeRechazar;?></textarea>
+                    <textarea id="mensaje" name="mensaje" class="materialize-textarea"><?php if($_POST['accio']=='Aceptar') echo $mensajeAceptar; else echo $mensajeRechazar;?></textarea>
                     <label for="mensaje">Mensaje a enviar:</label>
                 </div>
             </div>
             <input type="hidden" name="page" value="form2">
-            <input type="hidden" name="accio" value="<?php echo $_GET['accio'];?>">
+            <input type="hidden" name="accio" value="<?php echo $_POST['accio'];?>">
             <div class="center">
                 <button class="btn waves-effect blue" type="submit">Enviar<i class="material-icons right">send</i> </button>
             </div>

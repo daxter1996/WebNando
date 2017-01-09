@@ -12,7 +12,7 @@ include_once "init.php";
 ?>
 <?php $thispage="form3.php";
 $datos=[];
-$datos=json_decode(($_GET['datos']),true);
+$datos=json_decode(($_POST['datos']),true);
 
 ?>
 <!DOCTYPE html>
@@ -34,43 +34,43 @@ $datos=json_decode(($_GET['datos']),true);
             </div>
             <div class="row">
                 <div >
-                    <h4><?php echo $textos["nombre"][$lang];?>: <?php echo $datos['first_name']?></h4>
+                    <p><?php echo $textos["nombre"][$lang];?>: <?php echo $datos['first_name']?></p>
                 </div>
                 <div >
-                    <h4><?php echo $textos["apellido"][$lang];?>: <?php echo $datos['last_name']?></h4>
+                    <p><?php echo $textos["apellido"][$lang];?>: <?php echo $datos['last_name']?></p>
                 </div>
             </div>
             <div class="row">
                 <div >
-                    <h4><?php echo $textos["email"][$lang];?>: <?php echo $datos['email']?></h4>
+                    <p><?php echo $textos["email"][$lang];?>: <?php echo $datos['email']?></p>
                 </div>
 
 
                 <div>
-                    <h4><?php echo $textos["telefono"][$lang];?>: <?php echo $datos['telf']?></h4>
+                    <p><?php echo $textos["telefono"][$lang];?>: <?php echo $datos['telf']?></p>
 
                 </div>
             </div>
             <div class="row">
                 <div>
-                    <h4><?php echo $textos["entrada"][$lang];?>: <?php echo $datos['entrada']?></h4>
+                    <p><?php echo $textos["entrada"][$lang];?>: <?php $fecha=explode('-',$datos['entrada']); echo $fecha[2].'-'.$fecha[1].'-'.$fecha[0];?></p>
 
                 </div>
                 <div >
-                    <h4><?php echo $textos["salida"][$lang];?>: <?php echo $datos['salida']?></h4>
+                    <p><?php echo $textos["salida"][$lang];?>: <?php $fecha=explode('-',$datos['salida']); echo $fecha[2].'-'.$fecha[1].'-'.$fecha[0];?></p>
 
                 </div>
             </div>
             <div class="row">
 
                 <div class="input-field col s12 m4">
-                    <h4><?php echo $textos["nhab"][$lang];?>: <?php echo $datos['hab']?></h4>
+                    <p><?php echo $textos["nhab"][$lang];?>: <?php echo $datos['hab']?></p>
                 </div>
             </div>
-            <?php datoshuesped($datos['adultos'])?>
+            <?php datoshuesped($datos['adultos'],$textos,$lang)?>
             <input type="hidden" name="page" value="form3">
-            <textarea name="datos" style="display: none"><?php echo $_GET['datos']?></textarea>
-            <div class="center">
+            <textarea name="datos" style="display: none"><?php echo $_POST['datos']?></textarea>
+            <div class="center" style="margin-bottom: 20px">
                 <button class="btn waves-effect blue" type="submit">Enviar<i class="material-icons right">send</i> </button>
             </div>
         </form>
