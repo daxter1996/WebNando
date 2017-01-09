@@ -18,11 +18,11 @@ include_once "init.php";
             <div class="col s12 m0">
                 <img src="img/logo-grande.png" class="responsive-img" style="border-radius: 3px">
             </div>
-            <a href="bluebeach.php" style="color:white">
+            <a href="bluebeach.php" class="stextColor mtextColor">
                 <div class="col s12 m4 white-text-m offset-l1m flow-text" style="padding: 10px; font-weight: 800;" >
                     <h3><strong class="blueLogo-text text-shadow">Blue Beach</strong></h3>
                     <strong class="blueLogo-text text-shadow flow-text" style="font-weight: 500;"><?php echo $textos["apartamentos"][$lang]; ?></strong>
-                        <p style="min-height: 200px">
+                        <p class="med-min-height">
                             <?php
                                 echo $textos["homebb1"][$lang];
                             ?>
@@ -38,11 +38,11 @@ include_once "init.php";
                 <img src="img/logo-grande-sense-clau.png" class="responsive-img" style="border-radius: 3px">
             </div>
 
-            <a href="bluebeach2.php" style="color:white">
+            <a href="bluebeach2.php" class="stextColor mtextColor" >
                 <div class="col s12 m4 white-text-m flow-text" style="padding: 10px;font-weight: 800">
                     <h3><strong class="blueLogo-text text-shadow">Blue Beach 2</strong></h3>
                     <strong class="blueLogo-text text-shadow flow-text" style="font-weight: 500;"><?php echo $textos["apartamentos"][$lang]; ?></strong>
-                        <p style="min-height: 200px">
+                        <p class="med-min-height">
                             <?php
                                 echo $textos["homebb2"][$lang];
                             ?>
