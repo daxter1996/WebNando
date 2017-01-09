@@ -11,9 +11,9 @@ if (!isset($_POST['page'])) {
 }
 function sendMail1()
 {
-    $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 25)
-        ->setUsername('radiocontrolmenorca@gmail.com')
-        ->setPassword('Jaumepons007');
+    $transport = Swift_SmtpTransport::newInstance('ssl://authsmtp.securemail.pro', 465)
+        ->setUsername('info@bluebeachmenorca.com')
+        ->setPassword('Miercoles2015');
     $mailer = Swift_Mailer::newInstance($transport);
 
 
@@ -48,8 +48,8 @@ function sendMail1()
     </div>
 </div>';
     $mail = Swift_Message::newInstance('Nova Reserva')
-        ->setFrom('reservas@bluebeach.com')
-        ->setTo($_POST['email'])
+        ->setFrom('info@bluebeach.com')
+        ->setTo('reservas@bluebeach.com')
         ->setBody($plantilla, 'text/html');
     if ($mailer->send($mail)) {
         echo 'Mail enviat';
@@ -62,9 +62,9 @@ function sendMail2()
 {
     if ($_POST['accio'] == 'Cancelar') {
 
-        $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 25)
-            ->setUsername('radiocontrolmenorca@gmail.com')
-            ->setPassword('Jaumepons007');
+        $transport = Swift_SmtpTransport::newInstance('ssl://authsmtp.securemail.pro', 465)
+            ->setUsername('info@bluebeachmenorca.com')
+            ->setPassword('Miercoles2015');
         $mailer = Swift_Mailer::newInstance($transport);
         $message = '<h4>Tu solicitud de reserva ha sido rechazada</h4>';
         $message.='<p>'.$_POST['mensaje'].'</p>';
@@ -92,10 +92,11 @@ function sendMail2()
     }
     if ($_POST['accio'] == 'Aceptar') {
 
-        $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 25)
-            ->setUsername('radiocontrolmenorca@gmail.com')
-            ->setPassword('Jaumepons007');
+        $transport = Swift_SmtpTransport::newInstance('ssl://authsmtp.securemail.pro', 465)
+            ->setUsername('info@bluebeachmenorca.com')
+            ->setPassword('Miercoles2015');
         $mailer = Swift_Mailer::newInstance($transport);
+
         $message = '<h4>Tu solicitud de reserva ha sido aceptada</h4>';
         $message.='<p>'.$_POST['mensaje'].'</p>';
         $message .= '<form method="post" action="http://bluebeach.hol.es/form3.php">';
@@ -130,9 +131,9 @@ function sendMail2()
 
 }
 function sendMail3(){
-    $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 25)
-        ->setUsername('radiocontrolmenorca@gmail.com')
-        ->setPassword('Jaumepons007');
+    $transport = Swift_SmtpTransport::newInstance('ssl://authsmtp.securemail.pro', 465)
+        ->setUsername('info@bluebeachmenorca.com')
+        ->setPassword('Miercoles2015');
     $mailer = Swift_Mailer::newInstance($transport);
 
     $datos=[];
@@ -170,7 +171,7 @@ function sendMail3(){
 </div>';
     $mail = Swift_Message::newInstance('Nova Reserva')
         ->setFrom('reservas@bluebeach.com')
-        ->setTo($datos['email'])
+        ->setTo('reservas@bluebeach.com')
         ->setBody($plantilla, 'text/html');
     if ($mailer->send($mail)) {
         echo 'Mail enviat';
