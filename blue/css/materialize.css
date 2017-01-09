@@ -30,7 +30,9 @@ body {
   border-radius: 4px;
 }
 
-
+.stextColor{
+  color: black;!important;
+}
 
 /*Css materialize*/
 
@@ -3682,6 +3684,7 @@ input[type=range] + .thumb {
 
 @media only screen and (min-width: 601px) {
   /*Imatge de fons nomes per mig tamany------------------------------------------------------------------------------------------*/
+
   .imageFons{
     background-image: url("../img/IMG_9268.jpg");
     background-size: cover;
@@ -3703,6 +3706,13 @@ input[type=range] + .thumb {
     color: white;
   }
 
+  .mtextColor{
+    color: white;!important;
+  }
+
+  .med-min-height{
+    min-height: 200px;
+  }
 
   /*Materialize*/
 
