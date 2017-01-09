@@ -15,9 +15,8 @@ include_once "init.php";
 <div class="container" style="min-height: 600px" >
     <div class="row">
         <div class="col s12 m12 center hide-on-med-and-down"><h2>Mensaje enviado con exito</h2></div>
-        <div class="col offset-s1 center s9 m5"><img src="img/tick.png" class="responsive-img"></div>
+        <div class="col center offset-m3 s9 m5"><img src="img/tick.png" class="responsive-img"></div>
         <div class="col s12 m6 center hide-on-med-and-up"><h4>Mensaje enviado con exito</h4></div>
-        <div class="col s12 m6 offset-l1"><p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p></div>
     </div>
 </div>
 
