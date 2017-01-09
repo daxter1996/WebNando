@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abc4b3f3-2c2a-4e56-bea5-dff44f724fd7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blue/blue.zip" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/header.php" afterPath="$PROJECT_DIR$/blue/header.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -453,7 +453,7 @@
       <workItem from="1483806515860" duration="7140000" />
       <workItem from="1483864700054" duration="6563000" />
       <workItem from="1483887719521" duration="9861000" />
-      <workItem from="1483951589864" duration="785000" />
+      <workItem from="1483951589864" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="Banderetes a nes header, footer i classe nova a css.">
       <created>1479801046097</created>
@@ -651,11 +651,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483952029236</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Traduccio de form1&#10;">
+      <created>1483952388035</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1483952388035</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89409000" />
+    <option name="totallyTimeSpent" value="89646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
