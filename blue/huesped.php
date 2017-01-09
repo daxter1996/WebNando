@@ -16,7 +16,7 @@ function datoshuesped($max,$textos,$lang){
             </div>
             <div class="input-field col s12 m4">
                 <input name="idCard'.$i.'" id="idCard" type="text" class="validate" required>
-                <label for="idCard">'.$textos["apellido"][$lang].'</label>
+                <label for="idCard">Identificacion</label>
             </div>
         </div>';
         echo $huesped;
