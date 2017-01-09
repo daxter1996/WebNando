@@ -152,8 +152,7 @@ function sendMail3(){
         $apellido='last_name'.$i;
         $DNI='idCard'.$i;
         if (!isset($_POST[$nombre])) break;
-        else {$message.='<p>Huesped '.($i+1).':<ul><li>Nombre: '.$_POST[$nombre].' '.$_POST[$apellido].'</li>
-        <li>DNI: '.$_POST[$DNI].'</li></ul>';
+        else {$message.='<p>Huesped '.($i+1).':  Nombre: '.$_POST[$nombre].' '.$_POST[$apellido].'  DNI: '.$_POST[$DNI].'</p>';
         $i++;}
     }
 
