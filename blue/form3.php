@@ -42,7 +42,7 @@ $datos=json_decode(($_POST['datos']),true);
             </div>
             <div class="row">
                 <div >
-                    <p><?php echo $textos["email"][$lang];?>: <?php echo $datos['email']?></p>
+                    <p><?php echo $textos["email"][$lang];?>: <?php echo $datos['email1']?></p>
                 </div>
 
 

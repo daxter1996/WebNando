@@ -44,7 +44,7 @@ $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editabl
             </div>
             <div class="row">
                 <div class="input-field col s12 m6">
-                    <input name="email" id="email" type="email" class="validate" value="<?php echo $datos['email']?>">
+                    <input name="email1" id="email" type="email" class="validate" value="<?php echo $datos['email1']?>">
                     <label for="email">Email</label>
                 </div>
 

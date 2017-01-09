@@ -19,7 +19,7 @@ function sendMail1()
 
 
     $message = '<h4>Nom: ' . $_POST["first_name"] . ' ' . $_POST["last_name"] . '</h4>';
-    $message .= '<h4>Email: ' . $_POST['email'] . '</h4>';
+    $message .= '<h4>Email: ' . $_POST['email1'] . '</h4>';
     $message .= '<h4>Telefon: ' . $_POST['telf'] . '</h4>';
     $message .= '<h4>Data entrada: ' . $_POST['entrada'] . '</h4>';
     $message .= '<h4>Data sortida: ' . $_POST['salida'] . '</h4>';
@@ -82,7 +82,7 @@ function sendMail2()
 </div>';
         $mail = Swift_Message::newInstance('Nova Reserva')
             ->setFrom('reservas@bluebeachmenorca.com')
-            ->setTo($_POST['email'])
+            ->setTo($_POST['email1'])
             ->setBody($plantilla, 'text/html');
         if ($mailer->send($mail)) {
             echo '<script>window.location = "http://bluebeachprova.ddns.net/blue/enviat.php";</script>';
@@ -120,7 +120,7 @@ function sendMail2()
 </div>';
         $mail = Swift_Message::newInstance('Nova Reserva')
             ->setFrom('reservas@bluebeachmenorca.com')
-            ->setTo($_POST['email'])
+            ->setTo($_POST['email1'])
             ->setBody($plantilla, 'text/html');
         if ($mailer->send($mail)) {
             echo '<script>window.location = "http://bluebeachprova.ddns.net/blue/enviat.php";</script>';
@@ -140,7 +140,7 @@ function sendMail3(){
     $datos=[];
     $datos=json_decode(($_POST['datos']),true);
     $message = '<h4>Nom: ' . $datos["first_name"] . ' ' . $_POST["last_name"] . '</h4>';
-    $message .= '<h4>Email: ' . $datos['email'] . '</h4>';
+    $message .= '<h4>Email: ' . $datos['email1'] . '</h4>';
     $message .= '<h4>Telefon: ' . $datos['telf'] . '</h4>';
     $message .= '<h4>Data entrada: ' . $datos['entrada'] . '</h4>';
     $message .= '<h4>Data sortida: ' . $datos['salida'] . '</h4>';
