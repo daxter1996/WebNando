@@ -11,7 +11,7 @@ if (!isset($_POST['page'])) {
 }
 function sendMail1()
 {
-    $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 465)
+    $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 25)
         ->setUsername('radiocontrolmenorca@gmail.com')
         ->setPassword('Jaumepons007');
     $mailer = Swift_Mailer::newInstance($transport);
@@ -62,7 +62,7 @@ function sendMail2()
 {
     if ($_POST['accio'] == 'Cancelar') {
 
-        $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 465)
+        $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 25)
             ->setUsername('radiocontrolmenorca@gmail.com')
             ->setPassword('Jaumepons007');
         $mailer = Swift_Mailer::newInstance($transport);
@@ -92,7 +92,7 @@ function sendMail2()
     }
     if ($_POST['accio'] == 'Aceptar') {
 
-        $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 465)
+        $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 25)
             ->setUsername('radiocontrolmenorca@gmail.com')
             ->setPassword('Jaumepons007');
         $mailer = Swift_Mailer::newInstance($transport);
@@ -130,7 +130,7 @@ function sendMail2()
 
 }
 function sendMail3(){
-    $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 465)
+    $transport = Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 25)
         ->setUsername('radiocontrolmenorca@gmail.com')
         ->setPassword('Jaumepons007');
     $mailer = Swift_Mailer::newInstance($transport);
