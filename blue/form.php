@@ -33,7 +33,7 @@ include_once "init.php";
         </div>
         <div class="row">
             <div class="input-field col s12 m6">
-                <input name="email" id="email" type="email" class="validate" required>
+                <input name="email1" id="email" type="email" class="validate" required>
                 <label for="email"> <?php echo $textos["email"][$lang];?></label>
             </div>
 
