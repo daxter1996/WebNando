@@ -27,14 +27,16 @@ function sendMail1()
     $message .= '<h4>Bebes: ' . $_POST['inf'] . '</h4>';
     $message .= '<h4>Nombre de habitacions: ' . $_POST['hab'] . '</h4>';
     $message .= '<p>Observacions: ' . $_POST['observaciones'] . '</p>';
-    $message .= '<form method="post" action="http://bluebeachprova.ddns.net/blue/form2.php">';
+    //$message .= '<form method="post" action="http://bluebeachprova.ddns.net/blue/form2.php">';
     $datos = $_POST;
     $datos['page'] = 'form2';
     $datosCod = json_encode($datos);
-    $message .= '<textarea name="datos" style="display: none">'. $datosCod .'</textarea>';
-    $message .= '<input type="submit" name="accio" value="Aceptar" style="background-color: green">';
-    $message .= '<input type="submit" name="accio" value="Cancelar" style="background-color: red">';
-    $message .= '</form>';
+    //$message .= '<textarea name="datos" style="display: none">'. $datosCod .'</textarea>';
+    $urlaceptar='http://bluebeachprova.ddns.net/blue/form2.php?datos='.$datosCod.'accio=Aceptar';
+    $urlcancelar='http://bluebeachprova.ddns.net/blue/form2.php?datos='.$datosCod.'accio=Cancelar';
+    $message .= '<input type="button" onclick="location.href='.$urlaceptar.'" value="Aceptar style="background-color: green">';
+    $message .= '<input type="button" onclick="location.href='.$urlcancelar.'" value="Cancelar" style="background-color: red">';
+
 
     $plantilla = '
     <div class="background" style="width: 90%;margin: auto;">
@@ -100,13 +102,14 @@ function sendMail2()
 
         $message = '<h4>Tu solicitud de reserva ha sido aceptada</h4>';
         $message.='<p>'.$_POST['mensaje'].'</p>';
-        $message .= '<form method="post" action="http://bluebeachprova.ddns.net/blue/form3.php">';
+        //$message .= '<form method="post" action="http://bluebeachprova.ddns.net/blue/form3.php">';
         $datos = $_POST;
         $datos['page'] = 'form3';
         $datosCod = json_encode($datos);
-        $message .= '<textarea name="datos" style="display: none">'. $datosCod .'</textarea>';
-        $message .= '<input type="submit" name="accio" value="Completar Reserva" style="background-color: green">';
-        $message .= '</form>';
+        //$message .= '<textarea name="datos" style="display: none">'. $datosCod .'</textarea>';
+        $url='http://bluebeachprova.ddns.net/blue/form3.php?datos='.$datosCod;
+        $message .= '<input type="submit" onclick="window.location='.$url.'" value="Completar Reserva" style="background-color: green">';
+
         $plantilla = '
     <div class="background" style="width: 90%;margin: auto;">
     <div class="motiu" style="margin: auto;padding: 2%;font-weight: 700;font-size: 200%;text-align: center;">
