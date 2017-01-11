@@ -34,8 +34,8 @@ function sendMail1()
     //$message .= '<textarea name="datos" style="display: none">'. $datosCod .'</textarea>';
     $urlaceptar='http://bluebeachprova.ddns.net/form2.php?datos='.$datosCod.'accio=Aceptar';
     $urlcancelar='http://bluebeachprova.ddns.net/form2.php?datos='.$datosCod.'accio=Cancelar';
-    $message .= '<input type="button" onclick="location.href='.$urlaceptar.'" value="Aceptar style="background-color: green">';
-    $message .= '<input type="button" onclick="location.href='.$urlcancelar.'" value="Cancelar" style="background-color: red">';
+    $message .= '<h3><a href="'.$urlaceptar.'">Aceptar</a></h3>';
+    $message .= '<h3><a href="'.$urlcancelar.'">Cancelar</a></h3>';
 
 
     $plantilla = '
@@ -108,7 +108,7 @@ function sendMail2()
         $datosCod = json_encode($datos);
         //$message .= '<textarea name="datos" style="display: none">'. $datosCod .'</textarea>';
         $url='http://bluebeachprova.ddns.net/form3.php?datos='.$datosCod;
-        $message .= '<input type="submit" onclick="window.location='.$url.'" value="Completar Reserva" style="background-color: green">';
+        $message .= '<h3><a href="'.$url.'">Completar Reserva</a></h3>';
 
         $plantilla = '
     <div class="background" style="width: 90%;margin: auto;">
