@@ -84,7 +84,7 @@ function sendMail2()
         ' . $message . '
     </div>
 </div>';
-        $mail = Swift_Message::newInstance('Nova Reserva')
+        $mail = Swift_Message::newInstance('Nueva Reserva')
             ->setFrom('reservas@bluebeachmenorca.com')
             ->setTo($_POST['email1'])
             ->setBody($plantilla, 'text/html');
