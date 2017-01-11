@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abc4b3f3-2c2a-4e56-bea5-dff44f724fd7" name="Default" comment="">
+    <list default="true" id="abc4b3f3-2c2a-4e56-bea5-dff44f724fd7" name="Default" comment="Traduccio de form1&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/bluebeach.php" afterPath="$PROJECT_DIR$/blue/bluebeach.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/bluebeach2.php" afterPath="$PROJECT_DIR$/blue/bluebeach2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/textos.php" afterPath="$PROJECT_DIR$/blue/textos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/process.php" afterPath="$PROJECT_DIR$/blue/process.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,55 +25,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="error.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blue/error.php">
+      <file leaf-file-name="process.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blue/process.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bluebeach2.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blue/bluebeach2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="120" column="459" selection-start-line="120" selection-start-column="459" selection-end-line="120" selection-end-column="459" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="textos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blue/textos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blue/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+            <state relative-caret-position="2655">
+              <caret line="177" column="54" selection-start-line="177" selection-start-column="54" selection-end-line="177" selection-end-column="54" />
               <folding>
-                <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bluebeach.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blue/bluebeach.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#p#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1484151705996" expanded="false" signature="1880:1904" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="1905:2364" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="1937:2014" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="2015:2060" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="2091:2116" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="2117:2239" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="2200:2227" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="2273:2320" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="2321:2357" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="3237:3261" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="3262:3687" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="3294:3371" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="3372:3383" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="3414:3439" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="3440:3562" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="3523:3550" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="3596:3643" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="3644:3680" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="5006:5030" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="5031:5456" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="5063:5140" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="5141:5152" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="5183:5208" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="5209:5331" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="5292:5319" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="5365:5412" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="5413:5449" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="7170:7194" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="7195:7647" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="7227:7304" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="7305:7343" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="7374:7399" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="7400:7522" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="7483:7510" ph="..." />
+                <marker date="1484151705996" expanded="false" signature="7556:7603" ph="..." />
+                <marker date="1484151705996" expanded="true" signature="7604:7640" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,22 +97,22 @@
         <option value="$PROJECT_DIR$/blue/galerias/galeriab1.php" />
         <option value="$PROJECT_DIR$/blue/galerias/galeriab2.php" />
         <option value="$PROJECT_DIR$/blue/mail_plantilla.html" />
+        <option value="$PROJECT_DIR$/blue/bluebeach.php" />
         <option value="$PROJECT_DIR$/blue/galeriab2-3.php" />
         <option value="$PROJECT_DIR$/blue/galeriab1.php" />
         <option value="$PROJECT_DIR$/blue/galeriab2.php" />
         <option value="$PROJECT_DIR$/blue/galeriab2-2.php" />
-        <option value="$PROJECT_DIR$/blue/form.php" />
         <option value="$PROJECT_DIR$/blue/head.php" />
-        <option value="$PROJECT_DIR$/blue/form3.php" />
+        <option value="$PROJECT_DIR$/blue/bluebeach2.php" />
+        <option value="$PROJECT_DIR$/blue/textos.php" />
         <option value="$PROJECT_DIR$/blue/footer.php" />
         <option value="$PROJECT_DIR$/blue/css/materialize.css" />
         <option value="$PROJECT_DIR$/blue/index.php" />
         <option value="$PROJECT_DIR$/blue/header.php" />
-        <option value="$PROJECT_DIR$/blue/enviat.php" />
-        <option value="$PROJECT_DIR$/blue/error.php" />
-        <option value="$PROJECT_DIR$/blue/bluebeach.php" />
-        <option value="$PROJECT_DIR$/blue/textos.php" />
-        <option value="$PROJECT_DIR$/blue/bluebeach2.php" />
+        <option value="$PROJECT_DIR$/blue/form.php" />
+        <option value="$PROJECT_DIR$/blue/form2.php" />
+        <option value="$PROJECT_DIR$/blue/form3.php" />
+        <option value="$PROJECT_DIR$/blue/process.php" />
       </list>
     </option>
   </component>
@@ -133,10 +124,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="26" />
+    <option name="width" value="1920" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,6 +153,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,8 +189,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,18 +198,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2" />
+      <recent name="C:\xampp\htdocs\web\WebNando\blue\img" />
+      <recent name="C:\xampp\htdocs\web\WebNando\blue" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2\3hab" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2\2hab" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue\img" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue\galerias" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\web\WebNando1\blue" />
-      <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2" />
-      <recent name="C:\xampp\htdocs\web\WebNando\blue\img" />
-      <recent name="C:\xampp\htdocs\web\WebNando\blue" />
     </key>
   </component>
   <component name="RunManager">
@@ -314,11 +303,15 @@
       <workItem from="1483806515860" duration="7140000" />
       <workItem from="1483864700054" duration="6563000" />
       <workItem from="1483887719521" duration="9861000" />
-      <workItem from="1483951589864" duration="5538000" />
-      <workItem from="1484059479961" duration="368000" />
-      <workItem from="1484124916130" duration="27000" />
-      <workItem from="1484124965676" duration="18000" />
-      <workItem from="1484125280581" duration="2072000" />
+      <workItem from="1483951589864" duration="1022000" />
+      <workItem from="1483952682437" duration="4096000" />
+      <workItem from="1483981284992" duration="668000" />
+      <workItem from="1483989478800" duration="2443000" />
+      <workItem from="1483992429908" duration="795000" />
+      <workItem from="1484145998277" duration="597000" />
+      <workItem from="1484149156885" duration="409000" />
+      <workItem from="1484149573871" duration="746000" />
+      <workItem from="1484151684689" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="Banderetes a nes header, footer i classe nova a css.">
       <created>1479801046097</created>
@@ -524,55 +517,104 @@
       <updated>1483952388035</updated>
     </task>
     <task id="LOCAL-00030" summary="Traduccio de form1&#10;">
-      <created>1483952614961</created>
+      <created>1483952758416</created>
       <option name="number" value="00030" />
       <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1483952614961</updated>
+      <updated>1483952758416</updated>
     </task>
-    <task id="LOCAL-00031" summary="Misatge enviat">
-      <created>1483960939466</created>
+    <task id="LOCAL-00031" summary="Traduccio de form1&#10;">
+      <created>1483953189022</created>
       <option name="number" value="00031" />
       <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1483960939466</updated>
+      <updated>1483953189022</updated>
     </task>
-    <task id="LOCAL-00032" summary="Homepage">
-      <created>1483980538390</created>
+    <task id="LOCAL-00032" summary="Traduccio de form1&#10;">
+      <created>1483956209023</created>
       <option name="number" value="00032" />
       <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1483980538390</updated>
+      <updated>1483956209023</updated>
     </task>
-    <task id="LOCAL-00033" summary="Homepage">
-      <created>1483991135837</created>
+    <task id="LOCAL-00033" summary="Traduccio de form1&#10;">
+      <created>1483957397793</created>
       <option name="number" value="00033" />
       <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1483991135837</updated>
+      <updated>1483957397793</updated>
     </task>
-    <task id="LOCAL-00034" summary="Homepage">
-      <created>1484059562210</created>
+    <task id="LOCAL-00034" summary="Traduccio de form1&#10;">
+      <created>1483958891778</created>
       <option name="number" value="00034" />
       <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1484059562210</updated>
+      <updated>1483958891778</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Traduccio de form1&#10;">
+      <created>1483990244974</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1483990244974</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Traduccio de form1&#10;">
+      <created>1483991326599</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1483991326599</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Traduccio de form1&#10;">
+      <created>1483991799992</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1483991799992</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Traduccio de form1&#10;">
+      <created>1483992607458</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1483992607458</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Traduccio de form1&#10;">
+      <created>1484149304976</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1484149304976</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Traduccio de form1&#10;">
+      <created>1484149437266</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1484149437266</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Traduccio de form1&#10;">
+      <created>1484149709822</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1484149709822</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101024000" />
+    <option name="totallyTimeSpent" value="99422000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="26" width="1920" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20309168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18890075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3207856" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3226152" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -595,12 +637,12 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32286024" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19829424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -631,25 +673,44 @@
     <MESSAGE value="Banderetes a nes header, footer i classe nova a css." />
     <MESSAGE value="Pagines blue beach 1 i 2 amb parallax." />
     <MESSAGE value="jeje" />
+    <MESSAGE value="Homepage" />
     <MESSAGE value="Plantilla per es mail" />
     <MESSAGE value="asdfasdfas" />
     <MESSAGE value="Fotos galeria" />
     <MESSAGE value="Mes traduccions" />
     <MESSAGE value="Traduccio de form1&#10;" />
-    <MESSAGE value="Misatge enviat" />
-    <MESSAGE value="Homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Traduccio de form1&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blue/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/bluebeach.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blue/bluebeach2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="81" column="70" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,9 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#p#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,7 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
           <caret line="81" column="70" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,9 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#p#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,9 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#p#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,9 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#p#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,7 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,93 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/galeriab2-3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/galeriab1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/galeriab2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/galeriab2-2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/form2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/form3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/css/materialize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/process.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blue/mail_plantilla.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
@@ -933,71 +888,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/index.php">
+    <entry file="file://$PROJECT_DIR$/blue/galeriab2-3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/enviat.php">
+    <entry file="file://$PROJECT_DIR$/blue/galeriab1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/error.php">
+    <entry file="file://$PROJECT_DIR$/blue/galeriab2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/footer.php">
+    <entry file="file://$PROJECT_DIR$/blue/galeriab2-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
-          <folding>
-            <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/bluebeach.php">
+    <entry file="file://$PROJECT_DIR$/blue/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#p#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/bluebeach2original.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="117" column="12" selection-start-line="117" selection-start-column="12" selection-end-line="118" selection-end-column="463" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/textos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blue/bluebeach2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="120" column="459" selection-start-line="120" selection-start-column="459" selection-end-line="120" selection-end-column="459" />
+        <state relative-caret-position="328">
+          <caret line="104" column="62" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55680">
+          <caret line="3712" column="18" selection-start-line="3712" selection-start-column="18" selection-end-line="3712" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="141" selection-start-line="12" selection-start-column="141" selection-end-line="12" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/bluebeach.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="158" selection-start-line="18" selection-start-column="158" selection-end-line="18" selection-end-column="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/textos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="36" column="61" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/form2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="46" column="113" selection-start-line="46" selection-start-column="113" selection-end-line="46" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/form3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="44" column="86" selection-start-line="44" selection-start-column="86" selection-end-line="44" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="177" column="54" selection-start-line="177" selection-start-column="54" selection-end-line="177" selection-end-column="54" />
+          <folding>
+            <marker date="1484151705996" expanded="false" signature="1880:1904" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="1905:2364" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="1937:2014" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="2015:2060" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="2091:2116" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="2117:2239" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="2200:2227" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="2273:2320" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="2321:2357" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="3237:3261" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="3262:3687" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="3294:3371" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="3372:3383" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="3414:3439" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="3440:3562" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="3523:3550" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="3596:3643" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="3644:3680" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="5006:5030" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="5031:5456" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="5063:5140" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="5141:5152" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="5183:5208" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="5209:5331" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="5292:5319" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="5365:5412" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="5413:5449" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="7170:7194" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="7195:7647" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="7227:7304" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="7305:7343" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="7374:7399" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="7400:7522" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="7483:7510" ph="..." />
+            <marker date="1484151705996" expanded="false" signature="7556:7603" ph="..." />
+            <marker date="1484151705996" expanded="true" signature="7604:7640" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

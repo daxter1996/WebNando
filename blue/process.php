@@ -175,7 +175,7 @@ function sendMail3(){
         ' . $message . '
     </div>
 </div>';
-    $mail = Swift_Message::newInstance('Reserva complerta')
+    $mail = Swift_Message::newInstance('Reserva completa')
         ->setFrom('reservas@bluebeachmenorca.com')
         ->setTo('reservas@bluebeachmenorca.com')
         ->setBody($plantilla, 'text/html');
