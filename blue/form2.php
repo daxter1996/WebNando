@@ -12,7 +12,7 @@ include_once "init.php";
 ?>
 <?php $thispage="form2.php";
 $datos=[];
-$datos=json_decode(($_GET['datos']),true);
+$datos=$_GET;
 $mensajeAceptar="Aquest seria es missatge pregrabat de aceptacio que es editable";
 $mensajeRechazar="Aquest seria es missatge pregrabat de denegacio que es editable";
 ?>

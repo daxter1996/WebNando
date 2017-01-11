@@ -30,10 +30,12 @@ function sendMail1()
     //$message .= '<form method="post" action="http://bluebeachprova.ddns.net/form2.php">';
     $datos = $_POST;
     $datos['page'] = 'form2';
-    $datosCod = json_encode($datos);
+    $datosCod = http_build_query($datos);
+
     //$message .= '<textarea name="datos" style="display: none">'. $datosCod .'</textarea>';
-    $urlaceptar='http://bluebeachprova.ddns.net/form2.php?datos='.$datosCod.'accio=Aceptar';
-    $urlcancelar='http://bluebeachprova.ddns.net/form2.php?datos='.$datosCod.'accio=Cancelar';
+    $urlaceptar='http://bluebeachprova.ddns.net/form2.php?'.$datosCod.'&accio=Aceptar';
+
+    $urlcancelar='http://bluebeachprova.ddns.net/form2.php?'.($datosCod).'&accio=Cancelar';
     $message .= '<h3><a href="'.$urlaceptar.'">Aceptar</a></h3>';
     $message .= '<h3><a href="'.$urlcancelar.'">Cancelar</a></h3>';
 
@@ -55,7 +57,7 @@ function sendMail1()
         ->setTo('reservas@bluebeachmenorca.com')
         ->setBody($plantilla, 'text/html');
     if ($mailer->send($mail)) {
-        echo '<script>window.location = "http://bluebeachprova.ddns.net/enviat.php";</script>';
+      echo '<script>window.location = "http://bluebeachprova.ddns.net/enviat.php";</script>';
     } else {
         echo 'Fall de email';
     }
@@ -105,9 +107,9 @@ function sendMail2()
         //$message .= '<form method="post" action="http://bluebeachprova.ddns.net/form3.php">';
         $datos = $_POST;
         $datos['page'] = 'form3';
-        $datosCod = json_encode($datos);
+        $datosCod = http_build_query($datos);
         //$message .= '<textarea name="datos" style="display: none">'. $datosCod .'</textarea>';
-        $url='http://bluebeachprova.ddns.net/form3.php?datos='.$datosCod;
+        $url='http://bluebeachprova.ddns.net/form3.php?'.$datosCod;
         $message .= '<h3><a href="'.$url.'">Completar Reserva</a></h3>';
 
         $plantilla = '

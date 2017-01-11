@@ -12,7 +12,7 @@ include_once "init.php";
 ?>
 <?php $thispage="form3.php";
 $datos=[];
-$datos=json_decode(($_GET['datos']),true);
+$datos=$_GET;
 
 ?>
 <!DOCTYPE html>
@@ -69,7 +69,7 @@ $datos=json_decode(($_GET['datos']),true);
             </div>
             <?php datoshuesped($datos['adultos'],$textos,$lang)?>
             <input type="hidden" name="page" value="form3">
-            <textarea name="datos" style="display: none"><?php echo $_GET['datos']?></textarea>
+            <textarea name="datos" style="display: none"><?php echo json_encode($_GET);?></textarea>
             <div class="center" style="margin-bottom: 20px">
                 <button class="btn waves-effect blue" type="submit">Enviar<i class="material-icons right">send</i> </button>
             </div>
