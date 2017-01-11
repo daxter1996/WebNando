@@ -57,7 +57,7 @@ function sendMail1()
         ->setTo('reservas@bluebeachmenorca.com')
         ->setBody($plantilla, 'text/html');
     if ($mailer->send($mail)) {
-      echo '<script>window.location = "http://bluebeachprova.ddns.net/enviat.php";</script>';
+        echo '<script>window.location = "http://bluebeachprova.ddns.net/enviat.php";</script>';
     } else {
         echo 'Fall de email';
     }
@@ -84,7 +84,7 @@ function sendMail2()
         ' . $message . '
     </div>
 </div>';
-        $mail = Swift_Message::newInstance('Nova Reserva')
+        $mail = Swift_Message::newInstance('Nueva Reserva')
             ->setFrom('reservas@bluebeachmenorca.com')
             ->setTo($_POST['email1'])
             ->setBody($plantilla, 'text/html');
@@ -123,7 +123,7 @@ function sendMail2()
         ' . $message . '
     </div>
 </div>';
-        $mail = Swift_Message::newInstance('Nova Reserva')
+        $mail = Swift_Message::newInstance('Reserva Aceptada')
             ->setFrom('reservas@bluebeachmenorca.com')
             ->setTo($_POST['email1'])
             ->setBody($plantilla, 'text/html');
@@ -160,7 +160,7 @@ function sendMail3(){
         $DNI='idCard'.$i;
         if (!isset($_POST[$nombre])) break;
         else {$message.='<p>Huesped '.($i+1).':  Nombre: '.$_POST[$nombre].' '.$_POST[$apellido].'  DNI: '.$_POST[$DNI].'</p>';
-        $i++;}
+            $i++;}
     }
 
     $plantilla = '
@@ -175,7 +175,7 @@ function sendMail3(){
         ' . $message . '
     </div>
 </div>';
-    $mail = Swift_Message::newInstance('Nova Reserva')
+    $mail = Swift_Message::newInstance('Reserva complerta')
         ->setFrom('reservas@bluebeachmenorca.com')
         ->setTo('reservas@bluebeachmenorca.com')
         ->setBody($plantilla, 'text/html');
