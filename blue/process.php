@@ -57,7 +57,7 @@ function sendMail1()
         ->setTo('reservas@bluebeachmenorca.com')
         ->setBody($plantilla, 'text/html');
     if ($mailer->send($mail)) {
-      echo '<script>window.location = "http://bluebeachprova.ddns.net/enviat.php";</script>';
+        echo '<script>window.location = "http://bluebeachprova.ddns.net/enviat.php";</script>';
     } else {
         echo 'Fall de email';
     }
@@ -160,7 +160,7 @@ function sendMail3(){
         $DNI='idCard'.$i;
         if (!isset($_POST[$nombre])) break;
         else {$message.='<p>Huesped '.($i+1).':  Nombre: '.$_POST[$nombre].' '.$_POST[$apellido].'  DNI: '.$_POST[$DNI].'</p>';
-        $i++;}
+            $i++;}
     }
 
     $plantilla = '
