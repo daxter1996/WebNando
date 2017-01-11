@@ -118,7 +118,7 @@ function sendMail2()
         ' . $message . '
     </div>
 </div>';
-        $mail = Swift_Message::newInstance('Nova Reserva')
+        $mail = Swift_Message::newInstance('Reserva Aceptada')
             ->setFrom('reservas@bluebeachmenorca.com')
             ->setTo($_POST['email1'])
             ->setBody($plantilla, 'text/html');
@@ -170,7 +170,7 @@ function sendMail3(){
         ' . $message . '
     </div>
 </div>';
-    $mail = Swift_Message::newInstance('Nova Reserva')
+    $mail = Swift_Message::newInstance('Reserva complerta')
         ->setFrom('reservas@bluebeachmenorca.com')
         ->setTo('reservas@bluebeachmenorca.com')
         ->setBody($plantilla, 'text/html');
