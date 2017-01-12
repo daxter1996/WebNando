@@ -107,7 +107,7 @@ include_once "init.php";
 <div class="section white">
     <div class="row container">
         <h2 class="header"><?php echo $textos["video"][$lang];?></h2>
-        <p class="grey-text text-darken-3 lighten-3"><iframe src="https://player.vimeo.com/video/122454103" class=" offset-m1 col m10 s12" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+        <p class="grey-text text-darken-3 lighten-3"><iframe class="col m12 s12" height="450" src="https://www.youtube.com/embed/zXMYbGZB9js" frameborder="0" allowfullscreen></iframe></p>
     </div>
 </div>
 
