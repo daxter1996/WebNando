@@ -15,8 +15,9 @@ include_once "init.php";
 <div class="container" style="min-height: 600px" >
     <div class="row">
         <div class="col s12 m12 center hide-on-med-and-down"><h2>Mensaje enviado con exito</h2></div>
-        <div class="col center offset-m3 s9 m5"><img src="img/tick.png" class="responsive-img"></div>
-        <div class="col s12 m6 center hide-on-med-and-up"><h4>Mensaje enviado con exito</h4></div>
+        <div class="col center s12 m12"><img src="img/tick.png" class="responsive-img"></div>
+        <div class="col s12 m12 center hide-on-med-and-up"><h4>Mensaje enviado con exito</h4></div>
+        <div style="padding-top: 100px" class="col center s12 m12"><a href="index.php" class=" waves-effect waves-light btn blue">HOME<i class="material-icons right">home</i></a></div>
     </div>
 </div>
 

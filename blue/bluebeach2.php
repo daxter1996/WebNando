@@ -13,6 +13,12 @@ include_once "init.php";
 </header>
 <body>
 
+<div class="fixed-action-btn ">
+    <a class="btn-floating btn-large blue" href="index.php">
+        <i class="large material-icons">home</i>
+    </a>
+</div>
+
 <div class="parallax-container">
     <div class="parallax "><img src="img/blue_beach_2/parallax3.jpg"></div>
 </div>
@@ -67,7 +73,7 @@ include_once "init.php";
 </div>
 
 <div class="parallax-container">
-    <div class="parallax"><img class="ocult" src="img/blue_beach_2/parallax3.jpg"></div>
+    <div class="parallax"><img class="ocult" src="img/blue_beach_2/parallax1.jpg"></div>
 </div>
 
 <div class="section white">
