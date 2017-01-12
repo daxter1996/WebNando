@@ -20,7 +20,7 @@ include_once "init.php";
             </div>
             <a href="bluebeach.php" class="stextColor mtextColor">
                 <div class="col s12 m4 white-text-m offset-l1m flow-text" style="padding: 10px; font-weight: 800;" >
-                    <h3><strong class="blueLogo-text text-shadow">Blue Beach</strong></h3>
+                    <h2><strong class="blueLogo-text text-shadow">Blue Beach</strong></h2>
                     <strong class="blueLogo-text text-shadow flow-text" style="font-weight: 500;"><?php echo $textos["apartamentos"][$lang]; ?></strong>
                         <p class="med-min-height">
                             <?php
@@ -31,7 +31,7 @@ include_once "init.php";
                     <hr/>
                     <a href="bluebeach.php" class="white-text-m text-shadow" style="font-weight: 400"><?php echo $textos["masinfo"][$lang]; ?></a>
                     <br/>
-                    <strong><a href="https://vimeo.com/122454103" class="white-text-m text-shadow" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$lang];?></a></strong>
+                    <strong><a href="https://vimeo.com/122454103" class="white-text-m text-shadow sombraboto" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$lang];?></a></strong>
                 </div>
             </a>
             <div class="col s0 m3">
@@ -40,7 +40,7 @@ include_once "init.php";
 
             <a href="bluebeach2.php" class="stextColor mtextColor" >
                 <div class="col s12 m4 white-text-m flow-text" style="padding: 10px;font-weight: 800">
-                    <h3><strong class="blueLogo-text text-shadow">Blue Beach 2</strong></h3>
+                    <h2><strong class="blueLogo-text text-shadow">Blue Beach 2</strong></h2>
                     <strong class="blueLogo-text text-shadow flow-text" style="font-weight: 500;"><?php echo $textos["apartamentos"][$lang]; ?></strong>
                         <p class="med-min-height">
                             <?php
@@ -50,7 +50,7 @@ include_once "init.php";
                     <hr/>
                     <strong><a href="bluebeach2.php" class="white-text-m text-shadow"><?php echo $textos["masinfo"][$lang]; ?></a></strong>
                     <br/>
-                    <strong><a href="https://www.youtube.com/watch?v=zXMYbGZB9js" class="white-text-m text-shadow" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$lang];?></a></strong>
+                    <strong><a href="https://www.youtube.com/watch?v=zXMYbGZB9js" class="white-text-m text-shadow sombraboto" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$lang];?></a></strong>
                 </div>
             </a>
         </div>

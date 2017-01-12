@@ -39,7 +39,7 @@ include_once "init.php";
 
 
             <div class="input-field col s12 m6">
-                <input name="telf"  id="telf" type="tel" class="validate" value="0">
+                <input name="telf"  id="telf" type="tel" class="validate" value="">
                 <label for="telf"> <?php echo $textos["telefono"][$lang];?></label>
             </div>
         </div>

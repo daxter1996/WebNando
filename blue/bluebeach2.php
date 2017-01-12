@@ -14,7 +14,7 @@ include_once "init.php";
 <body>
 
 <div class="parallax-container">
-    <div class="parallax "><img src="img/blue_beach_2/parallax1.jpg"></div>
+    <div class="parallax "><img src="img/blue_beach_2/parallax3.jpg"></div>
 </div>
 
 <div class="section white">

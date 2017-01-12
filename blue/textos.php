@@ -9,7 +9,7 @@ $textos = array(
     "idioma" => array("es"=>"Idioma", "en" => "Idiom", "fr" => "Idiome", "it" => "Idioma", "de" => "Idiom"),
     "masinfo" => array("es"=>"Mas Informacion", "en" => "More Information", "fr" => "Plus d'informations", "it" => "Più informazioni", "de" => "Mehr Informationen"),
     "botoReserva" => array("es"=>"Reserva", "en" => "Reservation", "fr" => "Réserve", "it" => "Riserva", "de" => "Reserve"),
-    "botoGaleria" => array("es"=>"Galeria", "en" => "Gallery", "fr" => "Galerie", "it" => "Galleria", "de" => "Galerie"),
+    "botoGaleria" => array("es"=>"Fotos", "en" => "Photos", "fr" => "Photos", "it" => "Fotos", "de" => "Fotos"),
     "descripccion" => array("es"=>"Descripción", "en" => "Description", "fr" => "Description", "it" => "Descrizione", "de" => "Beschreibung"),
     "video" => array("es"=>"Video", "en" => "Video", "fr" => "Vidéo", "it" => "Video", "de" => "Video"),
     "localicacion" => array("es"=>"Localización", "en" => "Location", "fr" => "Emplacement", "it" => "Posizione", "de" => "Lage"),
