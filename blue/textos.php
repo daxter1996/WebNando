@@ -51,6 +51,8 @@ $textos = array(
     "nhab" => array("es"=>"Numero de Habitaciones", "en" => "Number of rooms", "fr" => "Nombre de chambres", "it" => "Numero di Camere", "de" => "Zahl der verfügbaren Zimmer"),
     "observaciones" => array("es"=>"Observaciones", "en" => "Observations", "fr" => "Remarques", "it" => "Osservazioni", "de" => "Bemerkungen"),
     "enviar" => array("es"=>"Enviar", "en" => "Send", "fr" => "Eenvoyer", "it" => "Inviare", "de" => "Senden"),
+    "solobb1" => array("es"=>"Solo Blue Beach", "en" => "Only Blue Beach", "fr" => "Seulement Blue Beach", "it" => "Solo Blue Beach", "de" => "Nur Blue Beach"),
+    "solobb2" => array("es"=>"Solo Blue Beach 2", "en" => "Only Blue Beach 2", "fr" => "Seulement Blue Beach 2", "it" => "Solo Blue Beach 2", "de" => "Nur Blue Beach 2"),
 );
 
 

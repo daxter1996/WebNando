@@ -34,8 +34,8 @@ function sendMail1()
 
     //$message .= '<textarea name="datos" style="display: none">'. $datosCod .'</textarea>';
     $urlaceptar='http://bluebeachprova.ddns.net/form2.php?'.$datosCod.'&accio=Aceptar';
-
     $urlcancelar='http://bluebeachprova.ddns.net/form2.php?'.($datosCod).'&accio=Cancelar';
+
     $message .= '<h3><a style="background-color: #4caf50 ; padding: 1%;  text-decoration: none;  border-radius: 3px;  color: black;  font-weight: 700;  font-size: 80%;  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" href="'.$urlaceptar.'">Aceptar</a></h3>';
     $message .= '<h3><a style="background-color: #f44336 ; padding: 1%;  text-decoration: none;  border-radius: 3px;  color: black;  font-weight: 700;  font-size: 80%;  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" href="'.$urlcancelar.'">Cancelar</a></h3>';
 

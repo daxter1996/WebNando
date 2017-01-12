@@ -9,7 +9,7 @@ include_once "init.php";
    <?php include_once "head.php";?>
 </head>
 <header>
-    <?php $thispage="form.php";?>
+    <?php $thispage="form.php?complex=" . $_GET["complex"];?>
     <?php include_once "header.php"; ?>
     <?php include_once "textos.php"; ?>
 </header>
@@ -67,9 +67,9 @@ include_once "init.php";
             <div class="input-field col s12 m4">
                 <select class="validate" name="hab" required>
                     <option value="" disabled selected> <?php echo $textos["nhab"][$lang];?></option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
+                    <option value="1" <?php if($_GET["complex"] != "bb1"){echo "disabled";}?>>1 <?php if($_GET["complex"] != "bb1"){echo $textos["solobb1"][$lang];}?> </option>
+                    <option value="2" <?php if($_GET["complex"] != "bb2"){echo "disabled";}?>>2 <?php if($_GET["complex"] != "bb2"){echo $textos["solobb2"][$lang];}?> </option>
+                    <option value="3" <?php if($_GET["complex"] != "bb2"){echo "disabled";}?>>3 <?php if($_GET["complex"] != "bb2"){echo $textos["solobb2"][$lang];}?> </option>
                 </select>
                 <label> <?php echo $textos["nhab"][$lang];?></label>
             </div>
