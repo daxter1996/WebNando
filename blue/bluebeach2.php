@@ -123,7 +123,7 @@ include_once "init.php";
 
 <div class="section white">
     <div class="row container">
-        <h2 class="header"><?php echo $textos["localicacion"][$_COOKIE["langcookie"]];?></h2>
+        <h2 class="header"><?php echo $textos["localicacion"][$lang];?></h2>
         <p class="grey-text text-darken-3 lighten-3"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d764.0118363917348!2d3.80707282925118!3d40.007389998713414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12be06b6f2b02951%3A0x93ce6005d8434d97!2sUb+Cala+Picas%2C+415%2C+07769+Cala+en+Blanes%2C+Illes+Balears!5e0!3m2!1ses!2ses!4v1479806702337" class="col s12" height="350" frameborder="0" style="border:0" allowfullscreen></iframe></p>
     </div>
 </div>

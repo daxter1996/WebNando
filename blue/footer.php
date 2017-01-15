@@ -4,7 +4,7 @@
             <div class="col l6 s12">
                 <h5 class="white-text">Blue Beach</h5>
                 <p class="grey-text text-lighten-4">
-                    <?php echo $textos["telefono"][$_COOKIE["langcookie"]];?> <strong>+34 685670969</strong> <br/>
+                    <?php echo $textos["telefono"][$lang];?> <strong>+34 685670969</strong> <br/>
                     Email: <strong>info@bluebeach.com</strong>
                     <div>
                     </div>

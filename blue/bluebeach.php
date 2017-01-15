@@ -84,7 +84,7 @@ include_once "init.php";
 </div>
 
 <div class="parallax-container">
-    <div class="parallax"><img src="img/blue_beach/parallax3.jpg"></div>
+    <div class="parallax"><img src="img/blue_beach/parallax4.jpg"></div>
 </div>
 
 <div class="section white">
