@@ -15,9 +15,6 @@ include_once "init.php";
 <div class="imageFons" style="min-height: 800px; height: 100%;">
     <div style="">
         <div class="row transparenciaFons degradatPrincipal center">
-            <div class="col s12 m0">
-                <img src="img/logo-grande.png" class="responsive-img" style="border-radius: 3px">
-            </div>
             <a href="bluebeach.php" class="stextColor mtextColor">
                 <div class="col s12 m4 white-text-m offset-l1m flow-text" style="padding: 10px; font-weight: 800;" >
                     <h2><strong class="blueLogo-text text-shadow">Blue Beach</strong></h2>
@@ -27,17 +24,14 @@ include_once "init.php";
                                 echo $textos["homebb1"][$lang];
                             ?>
                         </p>
-
-                    <hr/>
-                    <a href="bluebeach.php" class="white-text-m text-shadow" style="font-weight: 400"><?php echo $textos["masinfo"][$lang]; ?></a>
-                    <br/>
+                    <a href="bluebeach.php" class="white-text-m text-shadow sombraboto" style="font-weight: 400"><?php echo $textos["masinfo"][$lang]; ?></a>
                     <strong><a href="https://vimeo.com/122454103" class="white-text-m text-shadow sombraboto" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$lang];?></a></strong>
                 </div>
             </a>
             <div class="col s0 m3">
                 <img src="img/logo-grande-sense-clau.png" class="responsive-img" style="border-radius: 3px">
             </div>
-
+            <div class="col m0 s12"><hr/></div>
             <a href="bluebeach2.php" class="stextColor mtextColor" >
                 <div class="col s12 m4 white-text-m flow-text" style="padding: 10px;font-weight: 800">
                     <h2><strong class="blueLogo-text text-shadow">Blue Beach 2</strong></h2>
@@ -47,9 +41,7 @@ include_once "init.php";
                                 echo $textos["homebb2"][$lang];
                             ?>
                         </p>
-                    <hr/>
-                    <strong><a href="bluebeach2.php" class="white-text-m text-shadow"><?php echo $textos["masinfo"][$lang]; ?></a></strong>
-                    <br/>
+                    <strong><a href="bluebeach2.php" class="white-text-m text-shadow sombraboto"><?php echo $textos["masinfo"][$lang]; ?></a></strong>
                     <strong><a href="https://www.youtube.com/watch?v=zXMYbGZB9js" class="white-text-m text-shadow sombraboto" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$lang];?></a></strong>
                 </div>
             </a>

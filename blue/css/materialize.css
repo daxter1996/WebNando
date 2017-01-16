@@ -4,6 +4,14 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
+.sombraboto{
+  background: rgba(55, 71, 79, 0.6); !important;
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  color: white;
+  margin: 10px;
+}
+
 .img-navegacio{
   height: 30px;
   border-radius: 5px;
@@ -3688,11 +3696,7 @@ input[type=range] + .thumb {
   /*Imatge de fons nomes per mig tamany----------------------------------------------------------------------------------------------------------------------------------*/
   /*Imatge de fons nomes per mig tamany----------------------------------------------------------------------------------------------------------------------------------*/
 
-  .sombraboto{
-    background: rgba(55, 71, 79, 0.6); !important;
-    padding: 5px 30px 5px 30px;
-    border-radius: 5px;
-  }
+
 
   .imageFons{
     background-image: url("../img/IMG_9268.jpg");
