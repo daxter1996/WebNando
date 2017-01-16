@@ -18,6 +18,9 @@
                     <br/>
                     <a href="https://www.facebook.com/profile.php?id=100009458311409&fref=ts" target="_blank"><img src="img/icon-facebook.png" style="height: 70px"></a>
                     <a href="https://www.facebook.com/profile.php?id=100009458311409&fref=ts" target="_blank"><img src="img/icon-booking.png" style="height: 71px"></a>
+                    <a href="http://es.rentalia.com/" target="_blank"><img src="img/logo_rentalia.png" style="height: 71px; border-radius: 8px"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100009458311409&fref=ts" target="_blank"><img src="img/airbnb.jpg" style="height: 71px; border-radius: 8px"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100009458311409&fref=ts" target="_blank"><img src="img/tripadvisor.jpeg" style="height: 71px; border-radius: 8px"></a>
                 </ul>
             </div>
         </div>

@@ -13,6 +13,11 @@
 </header>
 <body>
 <div class="container" style="min-height: 600px" >
+    <div class="fixed-action-btn ">
+        <a class="btn-floating btn-large blue" href="index.php">
+            <i class="large material-icons">home</i>
+        </a>
+    </div>
     <div class="row">
         <div class="col s12 center">
             <h1>Condiciones generales y politica de privacidad</h1>
