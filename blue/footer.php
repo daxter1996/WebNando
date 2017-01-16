@@ -7,8 +7,6 @@
                     <?php echo $textos["telefono"][$lang];?> <strong>+34 685670969</strong> <br/>
                     Email: <strong>info@bluebeach.com</strong>
 
-                    <div>
-                    </div>
                 </p>
             </div>
             <div class="col l4 offset-l2 s12">
