@@ -24,8 +24,8 @@ include_once "init.php";
                                 echo $textos["homebb1"][$lang];
                             ?>
                         </p>
-                    <a href="bluebeach.php" class="white-text-m text-shadow sombraboto" style="font-weight: 400"><?php echo $textos["masinfo"][$lang]; ?></a>
-                    <strong><a href="https://vimeo.com/122454103" class="white-text-m text-shadow sombraboto" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$lang];?></a></strong>
+                    <a href="bluebeach.php" class=" sombrabotoMobil sombrabotoPc" style="font-weight: 400"><?php echo $textos["masinfo"][$lang]; ?></a>
+                    <a href="https://vimeo.com/122454103" class="w sombrabotoMobil sombrabotoPc" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$lang];?></a>
                 </div>
             </a>
             <div class="col s0 m3">
@@ -41,8 +41,8 @@ include_once "init.php";
                                 echo $textos["homebb2"][$lang];
                             ?>
                         </p>
-                    <strong><a href="bluebeach2.php" class="white-text-m text-shadow sombraboto"><?php echo $textos["masinfo"][$lang]; ?></a></strong>
-                    <strong><a href="https://www.youtube.com/watch?v=zXMYbGZB9js" class="white-text-m text-shadow sombraboto" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$lang];?></a></strong>
+                    <a href="bluebeach2.php" class=" sombrabotoMobil sombrabotoPc" style="font-weight: 400"><?php echo $textos["masinfo"][$lang]; ?></a>
+                    <a href="https://www.youtube.com/watch?v=zXMYbGZB9js" class=" sombrabotoMobil sombrabotoPc" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$lang];?></a>
                 </div>
             </a>
             <div class="col m0 s12" style="height: 100px">
