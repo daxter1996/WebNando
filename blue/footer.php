@@ -25,7 +25,7 @@
             </div>
         </div>
     </div>
-    <div class="footer-copyright ">
+    <div class="footer-copyright">
         <div class="container">
             © Apartamentos Blue Beach · <a class="white-text" href="legal.php">Condiciones generales y politica de privacidad</a>
         </div>

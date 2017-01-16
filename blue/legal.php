@@ -22,7 +22,7 @@
         <div class="col s12 center">
             <h1>Condiciones generales y politica de privacidad</h1>
         </div>
-        <div class="col">
+            <div class="col">
             <h4>1. DATOS IDENTIFICATIVOS</h4>
             <p>
                 En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, a continuación se reflejan los siguientes datos: la empresa titular de dominio web es Apartamentos Calan Forcat C.B. con domicilio a estos efectos en C/San Bernardo N4 número de C.I.F.:E57897886   Correo electrónico de contacto: info@bluebeachmenorca.es

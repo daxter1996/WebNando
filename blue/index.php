@@ -53,6 +53,9 @@ include_once "init.php";
                     <strong><a href="https://www.youtube.com/watch?v=zXMYbGZB9js" class="white-text-m text-shadow sombraboto" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$lang];?></a></strong>
                 </div>
             </a>
+            <div class="col m0 s12" style="height: 100px">
+
+            </div>
         </div>
     </div>
 </div>
