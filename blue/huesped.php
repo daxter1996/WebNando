@@ -1,6 +1,6 @@
 <?php
 function datoshuesped($max,$textos,$lang){
-    include_once "textos.php";
+    include_once "textos2.php";
     for($i=0;$i<$max;$i++){
         $huesped='<div class="row">
                 <h4>Huesped '.($i+1).'</h4>

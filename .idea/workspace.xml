@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abc4b3f3-2c2a-4e56-bea5-dff44f724fd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blue/Material/1.docx" />
+    <list default="true" id="abc4b3f3-2c2a-4e56-bea5-dff44f724fd7" name="Default" comment="Homepage">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blue/textos.php" afterPath="$PROJECT_DIR$/blue/textos2.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/footer.php" afterPath="$PROJECT_DIR$/blue/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/form.php" afterPath="$PROJECT_DIR$/blue/form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/header.php" afterPath="$PROJECT_DIR$/blue/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/huesped.php" afterPath="$PROJECT_DIR$/blue/huesped.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +30,40 @@
     <favorites_list name="webnando" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="textos2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blue/textos2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="112" selection-start-line="11" selection-start-column="112" selection-end-line="11" selection-end-column="112" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blue/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+              <folding>
+                <marker date="1484562022715" expanded="true" signature="578:612" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blue/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,16 +95,17 @@
         <option value="$PROJECT_DIR$/blue/form3.php" />
         <option value="$PROJECT_DIR$/blue/css/materialize.css" />
         <option value="$PROJECT_DIR$/blue/index.php" />
-        <option value="$PROJECT_DIR$/blue/header.php" />
-        <option value="$PROJECT_DIR$/blue/textos.php" />
         <option value="$PROJECT_DIR$/blue/error.php" />
         <option value="$PROJECT_DIR$/blue/mail_plantilla.html" />
         <option value="$PROJECT_DIR$/blue/process.php" />
         <option value="$PROJECT_DIR$/blue/enviat.php" />
         <option value="$PROJECT_DIR$/blue/bluebeach.php" />
-        <option value="$PROJECT_DIR$/blue/footer.php" />
         <option value="$PROJECT_DIR$/blue/bluebeach2.php" />
         <option value="$PROJECT_DIR$/blue/galeriab1.php" />
+        <option value="$PROJECT_DIR$/blue/textos.php" />
+        <option value="$PROJECT_DIR$/blue/header.php" />
+        <option value="$PROJECT_DIR$/blue/textos2.php" />
+        <option value="$PROJECT_DIR$/blue/footer.php" />
       </list>
     </option>
   </component>
@@ -77,10 +117,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1288" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -107,8 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -141,26 +179,10 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebNando1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebNando1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blue" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Material" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,18 +192,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\web\WebNando1\blue" />
+      <recent name="C:\xampp\htdocs\web\WebNando1\blue\Material" />
+      <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2" />
+      <recent name="C:\xampp\htdocs\web\WebNando\blue\img" />
+      <recent name="C:\xampp\htdocs\web\WebNando\blue" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2\3hab" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2\2hab" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue\img" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue\galerias" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\web\WebNando1\blue\Material" />
-      <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2" />
-      <recent name="C:\xampp\htdocs\web\WebNando\blue\img" />
-      <recent name="C:\xampp\htdocs\web\WebNando\blue" />
     </key>
   </component>
   <component name="RunManager">
@@ -286,7 +309,8 @@
       <workItem from="1484238124120" duration="909000" />
       <workItem from="1484386219516" duration="1444000" />
       <workItem from="1484509435637" duration="1025000" />
-      <workItem from="1484560900882" duration="153000" />
+      <workItem from="1484560900882" duration="186000" />
+      <workItem from="1484561286183" duration="1054000" />
     </task>
     <task id="LOCAL-00001" summary="Banderetes a nes header, footer i classe nova a css.">
       <created>1479801046097</created>
@@ -554,17 +578,24 @@
       <option name="project" value="LOCAL" />
       <updated>1484509859567</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Homepage">
+      <created>1484561057044</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1484561057044</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106171000" />
+    <option name="totallyTimeSpent" value="107258000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1288" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22334754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -641,22 +672,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blue/bluebeach.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/bluebeach2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="81" column="70" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blue/header.html" />
     <entry file="file://$PROJECT_DIR$/blue/css/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -811,14 +826,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/proves.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blue/css/materialize.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -889,14 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blue/mail_plantilla.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -933,16 +932,6 @@
         <state relative-caret-position="119">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          <folding>
-            <marker date="1484509680204" expanded="true" signature="576:610" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,9 +1008,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blue/textos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="72" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="72" />
+        <state relative-caret-position="663">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/textos.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/proves.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/textos2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="112" selection-start-line="11" selection-start-column="112" selection-end-line="11" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <marker date="1484562022715" expanded="true" signature="578:612" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

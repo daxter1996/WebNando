@@ -11,7 +11,7 @@ include_once "init.php";
 <header>
     <?php $thispage="form.php?complex=" . $_GET["complex"];?>
     <?php include_once "header.php"; ?>
-    <?php include_once "textos.php"; ?>
+    <?php include_once "textos2.php"; ?>
 </header>
 <body>
 <br/>

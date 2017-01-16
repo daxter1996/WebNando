@@ -1,6 +1,6 @@
 <nav>
     <?php
-        include_once("textos.php");
+        include_once("textos2.php");
     ?>
     <div class="nav-wrapper blue" style="box-shadow: 0px 15px 37px -2px rgba(0,0,0,0.3);">
         <a href="index.php" class="brand-logo left"><img src="img/logoh.jpg" style="height: 70px;"></a>
