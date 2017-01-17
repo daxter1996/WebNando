@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col m6 s12 white-text">
                 <h5>Blue Beach</h5>
-                <p><?php echo $textos["telefono"][$lang] ?>: <strong style="color: white;">685670969</strong></p>
-                <p><strong style="color: white;">Prefijo internacional 0034</strong></p>
+                <p><?php echo $textos["telefono"][$lang] ?>: <strong style="color: white;"><a href="tel:+0034685670969"> 685 670 969</a></strong></p>
+<!--                <p><strong style="color: white;">Prefijo internacional 0034</strong></p>-->
                 <p> Email: <strong>info@bluebeach.com</strong></p>
             </div>
             <div class="col m4 offset-l2 s12">
