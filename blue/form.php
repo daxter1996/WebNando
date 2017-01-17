@@ -81,11 +81,13 @@ include_once "init.php";
             </div>
         </div>
         <input type="hidden" name="page" value="form1">
-        <div class="center">
-            <p>
+        <div class="row">
+            <div class="input-field col s12 center">
                 <input type="checkbox" id="terminos" required class="validate"/>
                 <label for="terminos"> <a href="legal.php"><?php echo $textos["terminos"][$lang];?></a> </label>
-            </p>
+            </div>
+        </div>
+        <div class="center">
             <button class="btn waves-effect blue" type="submit"><?php echo $textos["enviar"][$lang];?><i class="material-icons right">send</i> </button>
         </div>
     </form>
