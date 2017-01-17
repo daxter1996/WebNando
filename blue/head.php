@@ -5,6 +5,8 @@
 <!--Import materialize.css-->
 <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 <link rel="stylesheet" href="css/footer.css">
+<meta name="description" content="Blue Beach Menorca apartamentos en Cala en Blanes">
+<meta name="keywords" content="Blue Beach Menorca,Menorca,Sol,Apartamentos,vacaciones,villas,alquiler,verano,Cala Blanes,Playa,Ciutadella">
 <script type="text/javascript">
     var cookies=document.cookie;
     if (cookies.length==0)document.cookie = "langcookie=es";
