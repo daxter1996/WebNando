@@ -1,12 +1,10 @@
 <footer class="page-footer blue" style="margin-top: 0;">
     <div class="container">
         <div class="row">
-            <div class="col m6 s12">
-                <h5 class="white-text">Blue Beach</h5>
-                <p class="white-text text-lighten-4">
-                    <?php echo $textos["telefono"][$lang];?> <strong>+34 685670969</strong> <br/>
-                    Email: <strong>info@bluebeach.com</strong>
-                </p>
+            <div class="col m6 s12 white-text">
+                <h5>Blue Beach</h5>
+                <p><?php echo $textos["telefono"][$lang] ?>:<strong class="white-text"> 685670969</strong></p>
+                <p> Email: <strong>info@bluebeach.com</strong></p>
             </div>
             <div class="col m4 offset-l2 s12">
                 <ul>
@@ -28,4 +26,3 @@
         </div>
     </div>
 </footer>
-
