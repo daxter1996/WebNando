@@ -87,7 +87,7 @@ include_once "init.php";
                 <label for="terminos"> <a href="legal.php"><?php echo $textos["terminos"][$lang];?></a> </label>
             </div>
         </div>
-        <div class="center">
+        <div class="center" style="margin: 30px">
             <button class="btn waves-effect blue" type="submit"><?php echo $textos["enviar"][$lang];?><i class="material-icons right">send</i> </button>
         </div>
     </form>
