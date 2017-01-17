@@ -12,7 +12,7 @@ include_once "init.php";
    <?php include_once "header.php"; ?>
 </header>
 <body>
-<div class="imageFons" style="min-height: 800px; height: 100%;">
+<div class="imageFons" style="min-height:700px; height: 100%;">
     <div style="">
         <div class="row transparenciaFons degradatPrincipal center">
             <a href="bluebeach.php" class="stextColor mtextColor">
@@ -45,9 +45,6 @@ include_once "init.php";
                     <a href="https://www.youtube.com/watch?v=zXMYbGZB9js" class=" sombrabotoMobil sombrabotoPc" target="_blank" style="font-weight: 400"><?php echo $textos["video"][$lang];?></a>
                 </div>
             </a>
-            <div class="col m0 s12" style="height: 100px">
-
-            </div>
         </div>
     </div>
 </div>
