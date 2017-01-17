@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col m6 s12 white-text">
                 <h5>Blue Beach</h5>
-                <p><?php echo $textos["telefono"][$lang] ?>:<strong class="white-text"> 685670969</strong></p>
+                <p><?php echo $textos["telefono"][$lang] ?>:<strong class="white-text"> 0039 685670969</strong></p>
                 <p> Email: <strong>info@bluebeach.com</strong></p>
             </div>
             <div class="col m4 offset-l2 s12">
