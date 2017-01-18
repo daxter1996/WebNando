@@ -69,6 +69,7 @@ include_once "init.php";
                 </p>
             </div>
         </div>
+        <p><a href="galeriab2-2.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$lang];?> <i class="material-icons right">insert_photo</i></a></p>
     </div>
 </div>
 
@@ -103,6 +104,7 @@ include_once "init.php";
                 </p>
             </div>
         </div>
+        <p><a href="galeriab2-3.php" class="waves-effect waves-light btn blue"><?php echo $textos["botoGaleria"][$lang];?> <i class="material-icons right">insert_photo</i></a></p>
     </div>
 </div>
 

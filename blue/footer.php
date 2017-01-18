@@ -1,13 +1,17 @@
 <footer class="page-footer blue" style="margin-top: 0;">
     <div class="container">
         <div class="row">
-            <div class="col m6 s12 white-text">
+            <div class="col m4 s12 white-text">
                 <h5>Blue Beach</h5>
                 <p><?php echo $textos["telefono"][$lang] ?>: <strong ><a style="color: white;" href="tel:0034685670969">0034 685 670 969</a></strong></p>
 
-                <p> Email: <strong>info@bluebeach.com</strong></p>
+                <p> Email: <strong>info@bluebeachmenorca.com</strong></p>
             </div>
-            <div class="col m4 offset-l2 s12">
+            <div class="col m4 s12">
+                <img class="responsive-img" src="img/premi.jpg">
+            </div>
+            <div class="col m4 s12">
+                <h5 style="color: white;;">Links</h5>
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="bluebeach.php">Blue Beach</a></li>
                     <li><a class="grey-text text-lighten-3" href="bluebeach2.php">Blue Beach 2</a></li>
