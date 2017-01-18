@@ -14,7 +14,7 @@ include_once "init.php";
 </header>
 <body>
 <div class="fixed-action-btn ">
-    <a class="btn-floating btn-large blue" href="index.php">
+    <a class="btn-floating btn-large blue" href="bluebeach2.php">
         <i class="large material-icons">undo</i>
     </a>
 </div>

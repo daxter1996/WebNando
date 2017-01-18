@@ -41,18 +41,38 @@
       <file leaf-file-name="galeriab2-2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blue/galeriab2-2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="272">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="galeriab2-3.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="galeriab2-3.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blue/galeriab2-3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="272">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="galeriab2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blue/galeriab2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="galeriab1.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blue/galeriab1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -99,9 +119,9 @@
         <option value="$PROJECT_DIR$/blue/textos2.php" />
         <option value="$PROJECT_DIR$/blue/footer.php" />
         <option value="$PROJECT_DIR$/blue/galeriab1.php" />
-        <option value="$PROJECT_DIR$/blue/galeriab2.php" />
         <option value="$PROJECT_DIR$/blue/galeriab2-2.php" />
         <option value="$PROJECT_DIR$/blue/galeriab2-3.php" />
+        <option value="$PROJECT_DIR$/blue/galeriab2.php" />
       </list>
     </option>
   </component>
@@ -313,14 +333,7 @@
       <workItem from="1484592845399" duration="11000" />
       <workItem from="1484596574845" duration="3930000" />
       <workItem from="1484643252126" duration="5202000" />
-      <workItem from="1484754158743" duration="1749000" />
-    </task>
-    <task id="LOCAL-00006" summary="Homepage">
-      <created>1480085507619</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1480085507619</updated>
+      <workItem from="1484754158743" duration="1826000" />
     </task>
     <task id="LOCAL-00007" summary="Homepage">
       <created>1480091385029</created>
@@ -658,11 +671,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484755491244</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Partners&#10;">
+      <created>1484755915670</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1484755915670</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122646000" />
+    <option name="totallyTimeSpent" value="122723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1075,22 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/galeriab1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/galeriab2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blue/bluebeach2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1101,16 +1105,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blue/galeriab2-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="272">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blue/galeriab2-3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="272">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/galeriab2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/galeriab1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
           <folding />
         </state>
       </provider>
