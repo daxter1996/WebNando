@@ -13,6 +13,11 @@ include_once "init.php";
     <?php include_once "header.php"; ?>
 </header>
 <body>
+    <div class="fixed-action-btn ">
+        <a class="btn-floating btn-large blue" href="index.php">
+            <i class="large material-icons">undo</i>
+        </a>
+    </div>
     <div class="container center">
         <h2>Galeria Blue Beach</h2>
         <div class="row">
