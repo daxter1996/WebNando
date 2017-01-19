@@ -11,10 +11,10 @@
                 <img class="responsive-img" src="img/premi.jpg">
             </div>
             <div class="col m4 s12">
-                <h5 style="color: white;">Links</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="bluebeach.php">Blue Beach</a></li>
-                    <li><a class="grey-text text-lighten-3" href="bluebeach2.php">Blue Beach 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="bluebeach.php">- Condiciones de reserva y cancelaciones</a></li>
+                    <li><a class="grey-text text-lighten-3" href="bluebeach.php">- Blue Beach</a></li>
+                    <li><a class="grey-text text-lighten-3" href="bluebeach2.php">- Blue Beach 2</a></li>
                     <hr/>
                     <a href="https://www.facebook.com/profile.php?id=100009458311409&fref=ts" target="_blank"><img src="img/icon-facebook.png" style="height: 70px"></a>
                     <img src="img/icon-booking.png" style="height: 71px">
