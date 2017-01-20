@@ -52,6 +52,7 @@ $textos = array(
     "nhab" => array("es"=>"Número de Habitaciones", "en" => "Number of rooms", "fr" => "Nombre de chambres", "it" => "Numero di Camere", "de" => "Zahl der verfügbaren Zimmer"),
     "observaciones" => array("es"=>"Observaciones", "en" => "Observations", "fr" => "Remarques", "it" => "Osservazioni", "de" => "Bemerkungen"),
     "enviar" => array("es"=>"Enviar", "en" => "Send", "fr" => "Eenvoyer", "it" => "Inviare", "de" => "Senden"),
+    "terminos" =>array("es"=>"Acepto las condiciones generales y politica de privacidad", "en"=>"I accept the general conditions and privacy policy","fr"=>"J'accepte les conditions générales et la politique de confidentialité","it"=>"Accetto le condizioni generali e l'informativa sulla privacy","de"=>"Ich akzeptiere die Allgemeinen Geschäftsbedingungen und Datenschutzbestimmungen")
 );
 
 
