@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abc4b3f3-2c2a-4e56-bea5-dff44f724fd7" name="Default" comment="">
+    <list default="true" id="abc4b3f3-2c2a-4e56-bea5-dff44f724fd7" name="Default" comment="Partners&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/condiciones.php" afterPath="$PROJECT_DIR$/blue/condiciones.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blue/process.php" afterPath="$PROJECT_DIR$/blue/process.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="C:\xampp\htdocs\web\WebNando1" />
+    <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -25,62 +25,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blue/index.php">
+      <file leaf-file-name="process.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blue/process.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blue/css/materialize.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63172">
-              <caret line="3716" column="0" selection-start-line="3716" selection-start-column="0" selection-end-line="3716" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blue/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="textos2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blue/textos2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="111" selection-start-line="53" selection-start-column="111" selection-end-line="53" selection-end-column="111" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blue/form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="condiciones.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blue/condiciones.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="12" selection-start-line="18" selection-start-column="35" selection-end-line="19" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="-893">
+              <caret line="129" column="53" selection-start-line="129" selection-start-column="53" selection-end-line="129" selection-end-column="53" />
+              <folding>
+                <marker date="1487613845799" expanded="true" signature="1721:1903" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="1978:2160" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="2262:2286" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="2287:2746" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="2319:2396" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="2397:2442" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="2473:2498" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="2499:2621" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="2582:2609" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="2655:2702" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="2703:2739" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="3620:3644" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="3645:4067" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="3677:3754" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="3755:3766" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="3797:3822" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="3823:3942" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="3903:3930" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="3976:4023" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="4024:4060" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="5435:5459" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="5460:5882" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="5492:5569" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="5570:5581" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="5612:5637" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="5638:5757" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="5718:5745" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="5791:5838" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="5839:5875" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="7647:7671" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="7672:8121" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="7704:7781" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="7782:7820" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="7851:7876" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="7877:7996" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="7957:7984" ph="..." />
+                <marker date="1487613845799" expanded="false" signature="8030:8077" ph="..." />
+                <marker date="1487613845799" expanded="true" signature="8078:8114" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,11 +101,10 @@
         <option value="$PROJECT_DIR$/blue/galeriab2-3.php" />
         <option value="$PROJECT_DIR$/blue/galeriab2.php" />
         <option value="$PROJECT_DIR$/blue/galeriab2-2.php" />
-        <option value="$PROJECT_DIR$/blue/head.php" />
         <option value="$PROJECT_DIR$/blue/form3.php" />
+        <option value="$PROJECT_DIR$/blue/css/materialize.css" />
         <option value="$PROJECT_DIR$/blue/error.php" />
         <option value="$PROJECT_DIR$/blue/mail_plantilla.html" />
-        <option value="$PROJECT_DIR$/blue/process.php" />
         <option value="$PROJECT_DIR$/blue/enviat.php" />
         <option value="$PROJECT_DIR$/blue/bluebeach.php" />
         <option value="$PROJECT_DIR$/blue/bluebeach2.php" />
@@ -124,12 +112,12 @@
         <option value="$PROJECT_DIR$/blue/textos.php" />
         <option value="$PROJECT_DIR$/blue/header.php" />
         <option value="$PROJECT_DIR$/blue/legal.php" />
-        <option value="$PROJECT_DIR$/blue/css/materialize.css" />
         <option value="$PROJECT_DIR$/blue/index.php" />
-        <option value="$PROJECT_DIR$/blue/form.php" />
         <option value="$PROJECT_DIR$/blue/footer.php" />
+        <option value="$PROJECT_DIR$/blue/form.php" />
         <option value="$PROJECT_DIR$/blue/textos2.php" />
-        <option value="$PROJECT_DIR$/blue/condiciones.php" />
+        <option value="$PROJECT_DIR$/blue/head.php" />
+        <option value="$PROJECT_DIR$/blue/process.php" />
       </list>
     </option>
   </component>
@@ -141,10 +129,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="26" />
+    <option name="width" value="1920" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -175,27 +162,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebNando1" />
+              <option name="myItemId" value="WebNando" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebNando1" />
+              <option name="myItemId" value="WebNando" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebNando1" />
+              <option name="myItemId" value="WebNando" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebNando1" />
+              <option name="myItemId" value="WebNando" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebNando1" />
+              <option name="myItemId" value="WebNando" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -214,21 +201,22 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="reop&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\web\WebNando1\blue" />
-      <recent name="C:\xampp\htdocs\web\WebNando1\blue\img" />
-      <recent name="C:\xampp\htdocs\web\WebNando1\blue\Material" />
-      <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2" />
-      <recent name="C:\xampp\htdocs\web\WebNando\blue\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2\3hab" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2\2hab" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue\img" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue" />
       <recent name="C:\xampp\htdocs\web\WebNando\blue\galerias" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\web\WebNando1\blue\img" />
+      <recent name="C:\xampp\htdocs\web\WebNando1\blue" />
+      <recent name="C:\xampp\htdocs\web\WebNando1\blue\Material" />
+      <recent name="C:\xampp\htdocs\web\WebNando\blue\img\blue_beach_2" />
+      <recent name="C:\xampp\htdocs\web\WebNando\blue\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -281,6 +269,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -338,16 +329,20 @@
       <workItem from="1484574657410" duration="1667000" />
       <workItem from="1484577017713" duration="618000" />
       <workItem from="1484584480428" duration="25000" />
-      <workItem from="1484592845399" duration="11000" />
-      <workItem from="1484596574845" duration="3930000" />
-      <workItem from="1484643252126" duration="6429000" />
-      <workItem from="1484818466035" duration="2239000" />
-      <workItem from="1484902090550" duration="1074000" />
-      <workItem from="1484986795091" duration="57000" />
-      <workItem from="1484993073732" duration="27000" />
-      <workItem from="1485001038656" duration="25000" />
-      <workItem from="1485161706695" duration="1247000" />
-      <workItem from="1485184511117" duration="1000" />
+      <workItem from="1484592845399" duration="1000" />
+      <workItem from="1484594850241" duration="3017000" />
+      <workItem from="1484669939223" duration="5646000" />
+      <workItem from="1484837053169" duration="21000" />
+      <workItem from="1485978411525" duration="37000" />
+      <workItem from="1485978510693" duration="722000" />
+      <workItem from="1487613675750" duration="168000" />
+    </task>
+    <task id="LOCAL-00006" summary="Homepage">
+      <created>1480085507619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1480085507619</updated>
     </task>
     <task id="LOCAL-00007" summary="Homepage">
       <created>1480091385029</created>
@@ -602,116 +597,109 @@
       <updated>1484575398832</updated>
     </task>
     <task id="LOCAL-00043" summary="Partners&#10;">
-      <created>1484592850107</created>
+      <created>1484595917037</created>
       <option name="number" value="00043" />
       <option name="presentableId" value="LOCAL-00043" />
       <option name="project" value="LOCAL" />
-      <updated>1484592850107</updated>
+      <updated>1484595917037</updated>
     </task>
     <task id="LOCAL-00044" summary="Partners&#10;">
-      <created>1484597720779</created>
+      <created>1484670219650</created>
       <option name="number" value="00044" />
       <option name="presentableId" value="LOCAL-00044" />
       <option name="project" value="LOCAL" />
-      <updated>1484597720779</updated>
+      <updated>1484670219650</updated>
     </task>
     <task id="LOCAL-00045" summary="Partners&#10;">
-      <created>1484598776597</created>
+      <created>1484670355081</created>
       <option name="number" value="00045" />
       <option name="presentableId" value="LOCAL-00045" />
       <option name="project" value="LOCAL" />
-      <updated>1484598776597</updated>
+      <updated>1484670355081</updated>
     </task>
     <task id="LOCAL-00046" summary="Partners&#10;">
-      <created>1484599175946</created>
+      <created>1484670626218</created>
       <option name="number" value="00046" />
       <option name="presentableId" value="LOCAL-00046" />
       <option name="project" value="LOCAL" />
-      <updated>1484599175946</updated>
+      <updated>1484670626218</updated>
     </task>
     <task id="LOCAL-00047" summary="Partners&#10;">
-      <created>1484643269892</created>
+      <created>1484670818680</created>
       <option name="number" value="00047" />
       <option name="presentableId" value="LOCAL-00047" />
       <option name="project" value="LOCAL" />
-      <updated>1484643269892</updated>
+      <updated>1484670818680</updated>
     </task>
     <task id="LOCAL-00048" summary="Partners&#10;">
-      <created>1484643361272</created>
+      <created>1484670899993</created>
       <option name="number" value="00048" />
       <option name="presentableId" value="LOCAL-00048" />
       <option name="project" value="LOCAL" />
-      <updated>1484643361272</updated>
+      <updated>1484670899993</updated>
     </task>
     <task id="LOCAL-00049" summary="Partners&#10;">
-      <created>1484669291136</created>
+      <created>1484672454794</created>
       <option name="number" value="00049" />
       <option name="presentableId" value="LOCAL-00049" />
       <option name="project" value="LOCAL" />
-      <updated>1484669291136</updated>
+      <updated>1484672454794</updated>
     </task>
     <task id="LOCAL-00050" summary="Partners&#10;">
-      <created>1484670135424</created>
+      <created>1484674259673</created>
       <option name="number" value="00050" />
       <option name="presentableId" value="LOCAL-00050" />
       <option name="project" value="LOCAL" />
-      <updated>1484670135425</updated>
+      <updated>1484674259674</updated>
     </task>
     <task id="LOCAL-00051" summary="Partners&#10;">
-      <created>1484672653881</created>
+      <created>1484675087529</created>
       <option name="number" value="00051" />
       <option name="presentableId" value="LOCAL-00051" />
       <option name="project" value="LOCAL" />
-      <updated>1484672653881</updated>
+      <updated>1484675087529</updated>
     </task>
     <task id="LOCAL-00052" summary="Partners&#10;">
-      <created>1484672798023</created>
+      <created>1484675153704</created>
       <option name="number" value="00052" />
       <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1484672798023</updated>
+      <updated>1484675153704</updated>
     </task>
     <task id="LOCAL-00053" summary="Partners&#10;">
-      <created>1484672875423</created>
+      <created>1484675215308</created>
       <option name="number" value="00053" />
       <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1484672875423</updated>
+      <updated>1484675215308</updated>
     </task>
     <task id="LOCAL-00054" summary="Partners&#10;">
-      <created>1484823772263</created>
+      <created>1485978623519</created>
       <option name="number" value="00054" />
       <option name="presentableId" value="LOCAL-00054" />
       <option name="project" value="LOCAL" />
-      <updated>1484823772264</updated>
+      <updated>1485978623520</updated>
     </task>
-    <task id="LOCAL-00055" summary="Partners&#10;">
-      <created>1484902265952</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1484902265952</updated>
-    </task>
-    <option name="localTasksCounter" value="56" />
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126794000" />
+    <option name="totallyTimeSpent" value="121366000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="26" width="1920" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1444563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24866596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206459" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32047158" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -777,12 +765,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Partners&#10;" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blue/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87975">
+          <caret line="5175" column="18" selection-start-line="5175" selection-start-column="13" selection-end-line="5175" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blue/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -959,24 +952,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/form2.php">
+    <entry file="file://$PROJECT_DIR$/blue/css/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/form3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -987,24 +966,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/bluebeach2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1943">
-          <caret line="125" column="67" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blue/galeriab1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/process.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1052,51 +1017,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/css/materialize.css">
+    <entry file="file://$PROJECT_DIR$/blue/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63172">
-          <caret line="3716" column="0" selection-start-line="3716" selection-start-column="0" selection-end-line="3716" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/form2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/form3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blue/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="489">
+          <caret line="102" column="7" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blue/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
+        <state relative-caret-position="15">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blue/textos2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="111" selection-start-line="53" selection-start-column="111" selection-end-line="53" selection-end-column="111" />
+        <state relative-caret-position="266">
+          <caret line="164" column="12" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue/condiciones.php">
+    <entry file="file://$PROJECT_DIR$/blue/bluebeach2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" selection-start-line="18" selection-start-column="35" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="206">
+          <caret line="129" column="67" selection-start-line="129" selection-start-column="67" selection-end-line="129" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue/process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893">
+          <caret line="129" column="53" selection-start-line="129" selection-start-column="53" selection-end-line="129" selection-end-column="53" />
+          <folding>
+            <marker date="1487613845799" expanded="true" signature="1721:1903" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="1978:2160" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="2262:2286" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="2287:2746" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="2319:2396" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="2397:2442" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="2473:2498" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="2499:2621" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="2582:2609" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="2655:2702" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="2703:2739" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="3620:3644" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="3645:4067" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="3677:3754" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="3755:3766" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="3797:3822" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="3823:3942" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="3903:3930" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="3976:4023" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="4024:4060" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="5435:5459" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="5460:5882" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="5492:5569" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="5570:5581" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="5612:5637" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="5638:5757" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="5718:5745" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="5791:5838" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="5839:5875" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="7647:7671" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="7672:8121" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="7704:7781" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="7782:7820" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="7851:7876" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="7877:7996" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="7957:7984" ph="..." />
+            <marker date="1487613845799" expanded="false" signature="8030:8077" ph="..." />
+            <marker date="1487613845799" expanded="true" signature="8078:8114" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

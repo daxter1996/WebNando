@@ -87,6 +87,7 @@ function sendMail2()
         $mail = Swift_Message::newInstance('Reserva Rechazada')
             ->setFrom('reservas@bluebeachmenorca.com')
             ->setTo($_POST['email1'])
+            ->setBcc("reservas@bluebeachmenorca.com")
             ->setBody($plantilla, 'text/html');
         if ($mailer->send($mail)) {
             echo '<script>window.location = "http://bluebeachmenorca.com/enviat.php";</script>';
@@ -126,6 +127,7 @@ function sendMail2()
         $mail = Swift_Message::newInstance('Reserva Aceptada')
             ->setFrom('reservas@bluebeachmenorca.com')
             ->setTo($_POST['email1'])
+            ->setBcc("reservas@bluebeachmenorca.com")
             ->setBody($plantilla, 'text/html');
         if ($mailer->send($mail)) {
             echo '<script>window.location = "http://bluebeachmenorca.com/enviat.php";</script>';
