@@ -9,7 +9,7 @@ if (!isset($_POST['page'])) {
     if ($_POST['page'] == 'form3') sendMail3();
 
 }
-$GLOBALS['DIRE']='http://bluebeachprova.ddns.net';
+$GLOBALS['DIRE']='http://bluebeachmenorca.com';
 function sendMail1()
 {
     $transport = Swift_SmtpTransport::newInstance('ssl://authsmtp.securemail.pro', 465)
@@ -27,14 +27,14 @@ function sendMail1()
     $message .= '<h4>Bebes: ' . $_POST['inf'] . '</h4>';
     $message .= '<h4>Nombre de habitacions: ' . $_POST['hab'] . '</h4>';
     $message .= '<p>Observacions: ' . $_POST['observaciones'] . '</p>';
-    //$message .= '<form method="post" action="http://bluebeachprova.ddns.net/form2.php">';
+    //$message .= '<form method="post" action="http://bluebeachmenorca.com/form2.php">';
     $datos = $_POST;
     $datos['page'] = 'form2';
     $datosCod = http_build_query($datos);
 
     //$message .= '<textarea name="datos" style="display: none">'. $datosCod .'</textarea>';
-    $urlaceptar='http://bluebeachprova.ddns.net/form2.php?'.$datosCod.'&accio=Aceptar';
-    $urlcancelar='http://bluebeachprova.ddns.net/form2.php?'.($datosCod).'&accio=Cancelar';
+    $urlaceptar='http://bluebeachmenorca.com/form2.php?'.$datosCod.'&accio=Aceptar';
+    $urlcancelar='http://bluebeachmenorca.com/form2.php?'.($datosCod).'&accio=Cancelar';
 
     $message .= '<h3><a style="background-color: #4caf50 ; padding: 1%;  text-decoration: none;  border-radius: 3px;  color: black;  font-weight: 700;  font-size: 80%;  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" href="'.$urlaceptar.'">Aceptar</a></h3>';
     $message .= '<h3><a style="background-color: #f44336 ; padding: 1%;  text-decoration: none;  border-radius: 3px;  color: black;  font-weight: 700;  font-size: 80%;  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" href="'.$urlcancelar.'">Cancelar</a></h3>';
@@ -46,7 +46,7 @@ function sendMail1()
         Nova Solicitud de Reserva
     </div>
     <div class="logo" style="margin: auto;padding: 2%;">
-        <img src="http://bluebeachprova.ddns.net/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
+        <img src="http://bluebeachmenorca.com/img/logo-grande-low.png" style="width: 50%;margin-left: 25%">
     </div>
     <div class="content" style="font-size: 150%;padding: 2%;text-align: center;">
         ' . $message . '
@@ -57,7 +57,7 @@ function sendMail1()
         ->setTo('reservas@bluebeachmenorca.com')
         ->setBody($plantilla, 'text/html');
     if ($mailer->send($mail)) {
-        echo '<script>window.location = "http://bluebeachprova.ddns.net/enviat.php";</script>';
+        echo '<script>window.location = "http://bluebeachmenorca.com/enviat.php";</script>';
     } else {
         echo 'Fall de email';
     }
